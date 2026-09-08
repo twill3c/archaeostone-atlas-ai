@@ -1,0 +1,469 @@
+/* ArchaeoStone Atlas AI — 基本スタイル
+ *
+ * 色は「根拠の階段」(SPEC §7 / 構想書 §31)を表す軸と、地質を表す軸を分ける。
+ * **色だけに依存しない**(構想書 §9.3): 線種・記号・ラベルを必ず併せて変える。
+ */
+
+:root {
+  color-scheme: light;
+
+  --bg: #faf8f5;
+  --bg-panel: #ffffff;
+  --bg-sunken: #f2efe9;
+  --ink: #1c1a17;
+  --ink-muted: #5d5852;
+  --ink-faint: #8a837a;
+  --rule: #ddd6cb;
+  --rule-strong: #c3b9a9;
+
+  --accent: #7a4b2a;
+  --accent-soft: #b98a5f;
+
+  /* 根拠の階段 */
+  --ev-a: #1f5c3d; /* Level A 実測 */
+  --ev-b: #2b6a8f; /* Level B 記述 */
+  --ev-c: #8a6d1f; /* Level C 整理 */
+  --ev-d: #8c4a86; /* Level D AI 推定 */
+  --ev-e: #6b6b6b; /* Level E 仮説 */
+
+  --font-sans: "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, system-ui, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  --measure: 42rem;
+  --radius: 6px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #171614;
+    --bg-panel: #201e1b;
+    --bg-sunken: #2a2724;
+    --ink: #ece7df;
+    --ink-muted: #b0a89d;
+    --ink-faint: #837c73;
+    --rule: #3a3631;
+    --rule-strong: #524c44;
+    --accent: #d9a273;
+    --ev-a: #6fbf92;
+    --ev-b: #79b8dc;
+    --ev-c: #d6b352;
+    --ev-d: #d093c9;
+    --ev-e: #a8a29a;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 0.2em;
+}
+
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+code,
+.mono {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+/* 横に溢れうるものは、自分の中でだけ横スクロールする(G-14) */
+.scroll-x {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92em;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem 0.7rem;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+
+th {
+  font-weight: 600;
+  color: var(--ink-muted);
+  white-space: nowrap;
+}
+
+/* ── 骨格 ───────────────────────────────────────────── */
+
+.skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--bg-panel);
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--rule-strong);
+}
+
+.skip:focus {
+  left: 0.5rem;
+  top: 0.5rem;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg-panel);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.site-header__inner {
+  max-width: 78rem;
+  margin: 0 auto;
+  padding: 0.6rem 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1.4rem;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.02rem;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.95rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.87rem;
+}
+
+.site-nav a {
+  color: var(--ink-muted);
+  text-decoration: none;
+  padding: 0.15rem 0;
+  border-bottom: 1px solid transparent;
+}
+
+.site-nav a:hover {
+  color: var(--ink);
+  border-bottom-color: var(--rule-strong);
+}
+
+main {
+  max-width: 78rem;
+  margin: 0 auto;
+  padding: 1.6rem 1.1rem 2.4rem;
+}
+
+.prose {
+  max-width: var(--measure);
+}
+
+.prose p,
+.prose ul,
+.prose ol {
+  margin: 0.75rem 0;
+}
+
+.lede {
+  font-size: 1.06rem;
+  color: var(--ink-muted);
+}
+
+/* ── 出典パネルとフッタ ───────────────────────────── */
+
+.attribution {
+  border-top: 1px solid var(--rule);
+  background: var(--bg-sunken);
+  padding: 1.1rem;
+}
+
+.attribution__heading {
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  color: var(--ink-faint);
+  margin: 0 0 0.5rem;
+  text-transform: none;
+}
+
+.attribution__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1.2rem;
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+}
+
+.attribution__note {
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+  margin: 0.6rem 0 0;
+  max-width: var(--measure);
+}
+
+.fleet-footer {
+  border-top: 1px solid var(--rule);
+  padding: 0.9rem 1.1rem;
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── 部品 ───────────────────────────────────────────── */
+
+.panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.2rem;
+}
+
+.notice {
+  border-left: 3px solid var(--accent);
+  background: var(--bg-sunken);
+  padding: 0.85rem 1rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 0.92rem;
+}
+
+.notice strong {
+  color: var(--ink);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  font-size: 0.74rem;
+  font-weight: 600;
+  padding: 0.1em 0.5em;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  white-space: nowrap;
+}
+
+.badge--yes {
+  color: var(--ev-a);
+}
+
+.badge--no {
+  color: var(--accent);
+}
+
+/* ── ホーム ─────────────────────────────────────────── */
+
+.home > section {
+  margin-bottom: 2.4rem;
+}
+
+.home__hero h1 {
+  font-size: clamp(1.5rem, 4vw, 2.1rem);
+  margin: 0 0 0.6rem;
+}
+
+.home__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0.9rem;
+}
+
+.card {
+  display: block;
+  text-decoration: none;
+  background: var(--bg-panel);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.95rem 1.05rem;
+  transition: border-color 0.15s ease;
+}
+
+.card:hover {
+  border-color: var(--rule-strong);
+}
+
+.card h2 {
+  margin: 0 0 0.3rem;
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--ink-muted);
+}
+
+.ev-chip {
+  font-weight: 600;
+  font-size: 0.78rem;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  padding: 0.05em 0.4em;
+  white-space: nowrap;
+}
+
+/* ── 記事幅の頁 ─────────────────────────────────────── */
+
+.prose-wide {
+  max-width: 60rem;
+}
+
+.prose-wide h1 {
+  font-size: clamp(1.4rem, 3.5vw, 1.85rem);
+  margin: 0 0 0.6rem;
+}
+
+.prose-wide h2 {
+  font-size: 1.1rem;
+  margin: 2rem 0 0.6rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.prose-wide h3 {
+  font-size: 0.98rem;
+  margin: 0;
+}
+
+.prose-wide p,
+.prose-wide ul,
+.prose-wide ol {
+  max-width: var(--measure);
+}
+
+.prose-wide li {
+  margin: 0.35rem 0;
+}
+
+.prose-wide pre {
+  background: var(--bg-sunken);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.8rem 0.95rem;
+  font-size: 0.84rem;
+  line-height: 1.6;
+  margin: 0.8rem 0;
+}
+
+.prose-wide code {
+  background: var(--bg-sunken);
+  padding: 0.08em 0.32em;
+  border-radius: 3px;
+}
+
+.prose-wide pre code {
+  background: none;
+  padding: 0;
+}
+
+.count {
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: var(--ink-faint);
+}
+
+/* ── ライセンス札 ───────────────────────────────────── */
+
+.license-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 0.9rem;
+  margin-top: 0.9rem;
+}
+
+.license-card {
+  background: var(--bg-panel);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.95rem 1.05rem;
+  min-width: 0;
+}
+
+.license-card__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-bottom: 0.7rem;
+}
+
+.license-card__meta {
+  display: grid;
+  grid-template-columns: minmax(6rem, auto) 1fr;
+  gap: 0.15rem 0.7rem;
+  margin: 0 0 0.7rem;
+  font-size: 0.84rem;
+}
+
+.license-card__meta dt {
+  color: var(--ink-faint);
+}
+
+.license-card__meta dd {
+  margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.license-card__quote {
+  margin: 0;
+  padding: 0.6rem 0.8rem;
+  background: var(--bg-sunken);
+  border-left: 2px solid var(--rule-strong);
+  font-size: 0.8rem;
+  line-height: 1.7;
+  color: var(--ink-muted);
+}
+
+.license-card__reason {
+  margin: 0.7rem 0 0;
+  font-size: 0.84rem;
+}

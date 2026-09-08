@@ -1,0 +1,35 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev]"
+      - name: pytest
+        run: python -m pytest
+      - name: 文字種・制御文字の検査(G-11)
+        run: python harness/text_hygiene.py
+      - name: ループログの検証
+        run: python harness/looplog.py validate
+
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm ci
+      - name: 型検査
+        run: npm run typecheck
+      # 出荷物を実際に作る(G-13)。テストが緑でもビルドは別物である。
+      - name: ビルド
+        run: npm run build

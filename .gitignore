@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+tsconfig.tsbuildinfo
+.DS_Store
+
+# 再配布不可の源(SPEC §2.1 / §6.2)。取得器で手元に作る。
+data/raw/itoigawa/
+data/raw/meiji/
+# 収穫した OAI の生応答(巨大・再取得可能)
+data/raw/nabunken/

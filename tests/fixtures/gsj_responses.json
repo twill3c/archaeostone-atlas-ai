@@ -1,0 +1,44 @@
+{
+  "land": {
+    "http_status": 200,
+    "body": "{\"title\":\"新生代 第四紀 完新世,玄武岩 溶岩・火砕岩\",\"symbol\":\"H_vbs_al\",\"value\":\"70658f\",\"r\":112,\"g\":101,\"b\":143,\"formationAge_ja\":\"新生代 第四紀 完新世\",\"formationAge_en\":\"Cenozoic Quaternary Holocene\",\"group_ja\":\"火成岩\",\"group_en\":\"Igneous rocks\",\"lithology_ja\":\"玄武岩 溶岩・火砕岩\",\"lithology_en\":\"basalt lava & pyroclastic rocks\"}",
+    "_point": "35.3606,138.7274",
+    "_note": "富士山頂付近(陸域・ポリゴンあり)",
+    "_observed_at": "2026-09-08"
+  },
+  "lake_suwa": {
+    "http_status": 200,
+    "body": "{\"title\":\",\",\"symbol\":null,\"value\":\"000000\",\"r\":null,\"g\":null,\"b\":null,\"formationAge_ja\":null,\"formationAge_en\":null,\"group_ja\":null,\"group_en\":null,\"lithology_ja\":null,\"lithology_en\":null}",
+    "_point": "36.0450,138.0830",
+    "_note": "諏訪湖上(図郭内・ポリゴン無し)",
+    "_observed_at": "2026-09-08"
+  },
+  "lake_biwa": {
+    "http_status": 500,
+    "body": "",
+    "_point": "35.2500,136.0800",
+    "_note": "琵琶湖上(被覆外)",
+    "_observed_at": "2026-09-08"
+  },
+  "offshore": {
+    "http_status": 500,
+    "body": "",
+    "_point": "34.5000,140.0000",
+    "_note": "太平洋沖(被覆外)",
+    "_observed_at": "2026-09-08"
+  },
+  "thailand": {
+    "http_status": 500,
+    "body": "",
+    "_point": "12.0000,100.0000",
+    "_note": "国外(被覆外)",
+    "_observed_at": "2026-09-08"
+  },
+  "swapped": {
+    "http_status": 400,
+    "body": "{\"code\":\"102\",\"message\":{\"en\":\"Parameter error,  lat in 'point=lat,lng' has to be a number of-90-90.\",\"ja\":\"パラメータエラー．'point=lat,lng'のlatは-90～90の数値でなければなりません\"}}",
+    "_point": "138.1100,36.0500",
+    "_note": "lng,lat の順で渡した場合",
+    "_observed_at": "2026-09-08"
+  }
+}

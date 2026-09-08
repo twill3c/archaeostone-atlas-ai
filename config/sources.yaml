@@ -1,0 +1,122 @@
+# 源の登録簿(SPEC §3)
+#
+# `redistribution` は「配ってよいか」であって「取れるか」ではない。
+# 二つは別の検査である(HC-238)。`verified_at` はその権利表示を実際に読んだ日。
+#
+# ここが公開ビルドの門になる: `redistribution: false` の源に由来するレコードは
+# public/ へ書き出せない(G-01・fail-closed)。
+
+SRC-GSJ:
+  title: 20万分の1日本シームレス地質図V2
+  source_url: https://gbank.gsj.jp/seamless/
+  license_url: https://gbank.gsj.jp/seamless/agreement.html
+  license_name: 政府標準利用規約(第2.0版)準拠
+  license_quote: >-
+    20万分の1日本シームレス地質図(V1,V2)のライセンスは,地質調査総合センターの他の
+    ウェブサイトと同様に,「政府標準利用規約(第2.0版)」準拠となります.ウェブページ,
+    ダウンロードファイル,Web APIの利用は,出典を記載していただくことで改変を含む
+    自由な二次利用が可能です(利用申請手続き不要).
+  redistribution: true
+  modification: true
+  attribution_required: true
+  attribution_text: 20万分の1日本シームレス地質図V2(©産総研地質調査総合センター)
+  verified_at: "2026-09-08"
+
+SRC-GSI:
+  title: 国土地理院 地理院タイル・地名検索
+  source_url: https://maps.gsi.go.jp/development/
+  license_url: https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html
+  license_name: 公共データ利用規約(第1.0版)(PDL1.0)
+  license_quote: >-
+    本サイトのコンテンツには特段の記載が無い限り公共データ利用規約(第1.0版)(PDL1.0)が
+    適用されています。コンテンツを利用する際は、出典を記載してください。
+    コンテンツを編集・加工等して利用する場合は、上記出典とは別に、編集・加工等を
+    行ったことを記載してください。
+  redistribution: true
+  modification: true
+  attribution_required: true
+  attribution_text: 出典:国土地理院ウェブサイト(https://www.gsi.go.jp/)
+  # 構想書 §3.5.2 は政府標準利用規約を前提に書かれているが、当該ページは
+  # 令和7年11月20日改正で PDL1.0 に変わっている(SPEC §2.6)。
+  verified_at: "2026-09-08"
+
+SRC-NABUNKEN:
+  title: 全国遺跡報告総覧(全国文化財総覧)
+  source_url: https://sitereports.nabunken.go.jp/ja
+  oai_base_url: https://sitereports.nabunken.go.jp/api/oai/request
+  license_url: https://sitereports.nabunken.go.jp/ja/abouts/guide
+  license_name: 索引メタデータは自由利用 / 報告書本文は発行自治体の著作権
+  license_quote: >-
+    いずれも無償で公開していますので自由にご利用ください。/ 当サイトで公開されている
+    報告書データの著作権は、発行元である各自治体等にあります。著作権法を遵守の上、
+    ご利用ください。引用の範囲を超えての利用を希望する場合は、発行主体である
+    各自治体等に個別に問い合わせの上、許諾をとってください。
+  redistribution: true      # 索引メタデータについて。本文 PDF は扱わない(SPEC §9)
+  modification: true
+  attribution_required: true
+  attribution_text: 全国遺跡報告総覧(奈良文化財研究所)
+  verified_at: "2026-09-08"
+
+SRC-SOURCEAREA:
+  title: 黒曜石原産地辞書(本プロジェクト作成)
+  source_url: https://github.com/  # 本リポジトリ
+  license_url: LICENSE
+  license_name: MIT(本リポジトリ)
+  license_quote: 本プロジェクトが典拠つきで編纂したもの。各項目の典拠は citations に持つ。
+  redistribution: true
+  modification: true
+  attribution_required: false
+  verified_at: "2026-09-08"
+
+SRC-ITOIGAWA:
+  title: 糸魚川市 ヒスイ出土情報集成表
+  source_url: https://www.city.itoigawa.lg.jp/site/koukokan/2181.html
+  license_url: https://www.city.itoigawa.lg.jp/site/userguide/8571.html
+  license_name: 全権利留保(オープンライセンスではない)
+  license_quote: >-
+    糸魚川市公式ウェブサイトに掲載されている文字、写真、イラスト、画像などの個々の
+    情報に関する著作権は、原則として糸魚川市に帰属します。よって糸魚川市公式
+    ウェブサイトの内容等については、「私的利用」または「引用」など著作権法上
+    認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変など
+    利用をすることはできません。
+  redistribution: false
+  redistribution_reason: >-
+    権利表示が明示的に無断転載・複製・改変を禁じている。取得は可能だが配布はできない。
+    取得器と解析器はリポジトリに置き、公開するのは集計統計のみとする(SPEC §6.3)。
+  modification: false
+  attribution_required: true
+  attribution_text: ヒスイ出土情報集成表(糸魚川市)
+  verified_at: "2026-09-08"
+
+SRC-MEIJI-COLS:
+  title: 明治大学 黒耀石研究センター
+  source_url: https://www.meiji.ac.jp/cols/map01.html
+  license_url: https://www.meiji.ac.jp/cols/map01.html
+  license_name: 明示ライセンス無し
+  license_quote: >-
+    ライセンス表示が存在しない。構想書 §3.7.2 自身が「Webページの図表・画像・数値
+    データを自動的にオープンデータ扱いしない」と定めている。
+  redistribution: false
+  redistribution_reason: >-
+    明示ライセンスが無い。分析リスト PDF(座標・点数・原産地判定を含む)は良質だが、
+    抽出した表を配らない。参照リンクと方法論の引用に限る。
+  modification: false
+  attribution_required: true
+  attribution_text: 明治大学 黒耀石研究センター
+  verified_at: "2026-09-08"
+
+SRC-JPSEARCH:
+  title: ジャパンサーチ
+  source_url: https://jpsearch.go.jp/
+  license_url: https://jpsearch.go.jp/robots.txt
+  license_name: 検索 API は robots.txt が拒否
+  license_quote: >-
+    Disallow: /api/item/search/jps-cross / Disallow: /api/item/search-so/jps-cross
+    / Disallow: /data/ / Disallow: /rdf/ / Disallow: /entity/ / Disallow: /term/
+  redistribution: false
+  redistribution_reason: >-
+    構想書 §3.6.1・§41 が名指しする当の API URL を robots.txt が明示的に拒否している。
+    迂回路は取らず V1.0 スコープ外とする(SPEC §2.2)。
+  modification: false
+  attribution_required: false
+  verified_at: "2026-09-08"

@@ -1,0 +1,119 @@
+# 時代の正規化辞書(SPEC §4 / 構想書 §6)
+#
+# 年代域は **採用編年を明示した参考値**であり、確定値ではない。
+# 編年は研究者・地域によって異なるので、`authority` を差し替えられる形にしてある。
+# 正規化した値で `period_original` を上書きしてはならない(構想書 §6.2)。
+#
+# 単位は BP(1950 年を起点とする較正前後の別は authority に従う)。
+# `year_start_bp > year_end_bp`(古い方が大きい)であること(T-014)。
+
+authority:
+  name: 概略年代(一般的な概説の範囲)
+  note: >-
+    本アトラスは時代を「並べる」ためだけに年代域を使う。年代そのものを主張しない。
+    細分の境界には研究者間で幅があり、ここでの値は表示順とスライダーの目盛りを
+    決めるための概略である。
+
+periods:
+  PALEOLITHIC:
+    label_ja: 旧石器時代
+    label_en: Palaeolithic
+    year_start_bp: 38000
+    year_end_bp: 16000
+    certainty: reference_range
+
+  JOMON:
+    label_ja: 縄文時代
+    label_en: Jomon
+    year_start_bp: 16000
+    year_end_bp: 2400
+    certainty: reference_range
+    phases:
+      INCIPIENT:
+        label_ja: 草創期
+        year_start_bp: 16000
+        year_end_bp: 11500
+      EARLY:
+        label_ja: 早期
+        year_start_bp: 11500
+        year_end_bp: 7000
+      EARLY_MIDDLE:
+        label_ja: 前期
+        year_start_bp: 7000
+        year_end_bp: 5500
+      MIDDLE:
+        label_ja: 中期
+        year_start_bp: 5500
+        year_end_bp: 4400
+      LATE:
+        label_ja: 後期
+        year_start_bp: 4400
+        year_end_bp: 3200
+      FINAL:
+        label_ja: 晩期
+        year_start_bp: 3200
+        year_end_bp: 2400
+
+  YAYOI:
+    label_ja: 弥生時代
+    label_en: Yayoi
+    year_start_bp: 2900
+    year_end_bp: 1700
+    certainty: reference_range
+    note: 開始年代は縄文晩期と重なる。地域差が大きい。
+
+  KOFUN:
+    label_ja: 古墳時代
+    label_en: Kofun
+    year_start_bp: 1700
+    year_end_bp: 1360
+    certainty: reference_range
+
+  ASUKA:
+    label_ja: 飛鳥時代
+    label_en: Asuka
+    year_start_bp: 1358
+    year_end_bp: 1240
+    certainty: reference_range
+
+  NARA:
+    label_ja: 奈良時代
+    label_en: Nara
+    year_start_bp: 1240
+    year_end_bp: 1156
+    certainty: reference_range
+
+  HEIAN:
+    label_ja: 平安時代
+    label_en: Heian
+    year_start_bp: 1156
+    year_end_bp: 765
+    certainty: reference_range
+
+  MEDIEVAL:
+    label_ja: 中世
+    label_en: Medieval
+    year_start_bp: 765
+    year_end_bp: 377
+    certainty: reference_range
+
+  EARLY_MODERN:
+    label_ja: 近世
+    label_en: Early modern
+    year_start_bp: 377
+    year_end_bp: 82
+    certainty: reference_range
+
+  MODERN:
+    label_ja: 近代以降
+    label_en: Modern
+    year_start_bp: 82
+    year_end_bp: 0
+    certainty: reference_range
+
+  UNKNOWN:
+    label_ja: 不明
+    label_en: Unknown
+    year_start_bp: null
+    year_end_bp: null
+    certainty: unknown

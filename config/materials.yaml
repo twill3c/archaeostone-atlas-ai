@@ -1,0 +1,71 @@
+# 考古石材の辞書(SPEC §4)
+#
+# `synonyms` は表記ゆれの吸収に使う。**どの語も 2 つの材質へ同時に属してはならない**
+# (T-013)。属していると、抽出器がどちらとも取れる語で黙って一方に倒れる。
+#
+# 「鉱物」はユーザー向けの便宜的表現で、黒曜石は厳密には鉱物ではなく火山ガラスである。
+# 内部の上位概念は Archaeological Lithic Material(考古石材)とする(構想書 序文)。
+
+obsidian:
+  material_id: MAT-OBS
+  label_ja: 黒曜石
+  label_en: Obsidian
+  material_class: volcanic_glass
+  synonyms: [黒耀石, 黒曜岩]
+  v1_scope: true
+
+jadeite:
+  material_id: MAT-JADE
+  label_ja: ヒスイ
+  label_en: Jadeite jade
+  material_class: mineral
+  synonyms: [翡翠, 硬玉, ひすい]
+  v1_scope: true
+
+sanukite:
+  material_id: MAT-SANU
+  label_ja: サヌカイト
+  label_en: Sanukite
+  material_class: igneous_rock
+  synonyms: [讃岐岩, かんかん石]
+  v1_scope: false
+
+chert:
+  material_id: MAT-CHERT
+  label_ja: チャート
+  label_en: Chert
+  material_class: sedimentary_rock
+  synonyms: []
+  v1_scope: false
+
+jasper:
+  material_id: MAT-JASP
+  label_ja: 碧玉
+  label_en: Jasper
+  material_class: mineral
+  synonyms: [ジャスパー]
+  v1_scope: false
+
+agate:
+  material_id: MAT-AGATE
+  label_ja: 瑪瑙
+  label_en: Agate
+  material_class: mineral
+  synonyms: [めのう, メノウ]
+  v1_scope: false
+
+serpentinite:
+  material_id: MAT-SERP
+  label_ja: 蛇紋岩
+  label_en: Serpentinite
+  material_class: metamorphic_rock
+  synonyms: [じゃもん岩]
+  v1_scope: false
+
+quartz:
+  material_id: MAT-QTZ
+  label_ja: 水晶
+  label_en: Quartz
+  material_class: mineral
+  synonyms: [石英, crystal quartz]
+  v1_scope: false
