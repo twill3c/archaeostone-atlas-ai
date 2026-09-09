@@ -37,6 +37,10 @@ export default function HomePage() {
           <h2>原産地</h2>
           <p>一件ずつ、座標の出所と典拠と足もとの地質を示す。</p>
         </Link>
+        <Link href="/jade" className="card">
+          <h2>ヒスイ集計</h2>
+          <p>個票は配らず、源の内部にある三つの照合の結果を示す。</p>
+        </Link>
         <Link href="/documents" className="card">
           <h2>文献の分布</h2>
           <p>報告書 33 万件の題名を全件走査し、石材の語を数えた。</p>

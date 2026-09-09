@@ -1,0 +1,605 @@
+{
+ "generated_by": "pipeline.build_jade_aggregate",
+ "source_id": "SRC-ITOIGAWA",
+ "redistribution_notice": "この集成表は糸魚川市の著作物で再配布できない。本アトラスが公開するのは**件数の集計だけ**であり、遺跡名・所在市町村・文献・所有者といった個票フィールドは一つも含まれていない。個票を見るには`python -m pipeline.acquisition.itoigawa` で手元に取得すること。",
+ "coverage": {
+  "sheets": 9,
+  "rows": 572,
+  "rows_with_count": 343,
+  "recorded_pieces": 1448.0,
+  "note": "収録は 9 県のみ。構想書 §14.1 の「北海道〜九州の出土分布」はこの表からは作れない。点数の空欄は 0 ではなく**不明**である(註 2「不明な箇所は空欄とした」)。",
+  "per_sheet": [
+   {
+    "sheet": "北海道",
+    "rows": 73,
+    "rows_with_count": 72,
+    "recorded_pieces": 651.0,
+    "columns": 12,
+    "extra_column_count": 1
+   },
+   {
+    "sheet": "青森県",
+    "rows": 149,
+    "rows_with_count": 142,
+    "recorded_pieces": 597.0,
+    "columns": 12,
+    "extra_column_count": 1
+   },
+   {
+    "sheet": "岩手県",
+    "rows": 67,
+    "rows_with_count": 67,
+    "recorded_pieces": 118.0,
+    "columns": 11,
+    "extra_column_count": 0
+   },
+   {
+    "sheet": "福島県",
+    "rows": 23,
+    "rows_with_count": 23,
+    "recorded_pieces": 23.0,
+    "columns": 11,
+    "extra_column_count": 0
+   },
+   {
+    "sheet": "埼玉県",
+    "rows": 31,
+    "rows_with_count": 0,
+    "recorded_pieces": 0.0,
+    "columns": 12,
+    "extra_column_count": 1
+   },
+   {
+    "sheet": "東京都",
+    "rows": 36,
+    "rows_with_count": 0,
+    "recorded_pieces": 0.0,
+    "columns": 12,
+    "extra_column_count": 1
+   },
+   {
+    "sheet": "千葉県",
+    "rows": 54,
+    "rows_with_count": 0,
+    "recorded_pieces": 0.0,
+    "columns": 12,
+    "extra_column_count": 1
+   },
+   {
+    "sheet": "茨城県",
+    "rows": 39,
+    "rows_with_count": 39,
+    "recorded_pieces": 59.0,
+    "columns": 13,
+    "extra_column_count": 2
+   },
+   {
+    "sheet": "新潟県（上・中越）",
+    "rows": 100,
+    "rows_with_count": 0,
+    "recorded_pieces": 0.0,
+    "columns": 11,
+    "extra_column_count": 0
+   }
+  ],
+  "count_cell_types": {
+   "数値": 343,
+   "空欄": 215,
+   "文字列": 1,
+   "書式のみ": 13
+  }
+ },
+ "internal_checks": {
+  "note_vs_sheets": {
+   "gate": "G-05",
+   "description": "註が調査担当者を挙げる県と、実際のデータシートを比べる。**どちらも 9 件なので件数だけでは食い違いが見えない。**",
+   "named_in_note": [
+    "北海道",
+    "青森県",
+    "岩手県",
+    "福島県",
+    "茨城県",
+    "栃木県",
+    "埼玉県",
+    "千葉県",
+    "東京都"
+   ],
+   "sheets": [
+    "北海道",
+    "青森県",
+    "岩手県",
+    "福島県",
+    "埼玉県",
+    "東京都",
+    "千葉県",
+    "茨城県",
+    "新潟県（上・中越）"
+   ],
+   "named_but_missing": [
+    "栃木県"
+   ],
+   "present_but_unnamed": [
+    "新潟県（上・中越）"
+   ]
+  },
+  "inline_counts_vs_count_column": {
+   "gate": "G-06",
+   "description": "種別に埋まった内訳の和と、点数の欄を突き合わせる。どちらも人が書いた別の欄なので、この照合は循環しない。",
+   "compared": 34,
+   "agreements": 29,
+   "disagreements": 5,
+   "unparsed": 1,
+   "fullwidth_only": 1,
+   "without_count": 0,
+   "disagreement_notations": [
+    {
+     "sheet": "青森県",
+     "notation": "勾玉1、垂玉1",
+     "inline_total": 2,
+     "recorded_count": 1.0
+    },
+    {
+     "sheet": "青森県",
+     "notation": "勾玉3(未成品2)",
+     "inline_total": 3,
+     "recorded_count": 1.0
+    },
+    {
+     "sheet": "青森県",
+     "notation": "垂玉2",
+     "inline_total": 2,
+     "recorded_count": 1.0
+    },
+    {
+     "sheet": "青森県",
+     "notation": "勾玉1,丸玉2",
+     "inline_total": 3,
+     "recorded_count": 1.0
+    },
+    {
+     "sheet": "青森県",
+     "notation": "勾玉3,管玉2",
+     "inline_total": 5,
+     "recorded_count": 3.0
+    }
+   ]
+  },
+  "background_colour_vs_blank_cells": {
+   "gate": "G-07",
+   "description": "背景色つきの行と、点数セルの型が BLANK(書式あり・値なし)の行が一致するかを見る。書式とセルの型は別の経路で決まるので非循環。",
+   "flagged_rows": 13,
+   "blank_count_rows": 13,
+   "match": true,
+   "sheets_with_flags": [
+    "新潟県（上・中越）"
+   ],
+   "observed_colours": [
+    [
+     255,
+     255,
+     153
+    ]
+   ],
+   "declared_colour": [
+    255,
+    255,
+    153
+   ],
+   "note": "註は「緑の欄」と書くが、実体は RGB(255,255,153) の淡い黄色である。**註と書式も食い違っている**ので、色の名前で探してはならない。"
+  }
+ },
+ "tallies": {
+  "時代": {
+   "distinct": 8,
+   "recorded": 513,
+   "explicit_unknown": 2,
+   "blank": 57,
+   "top": [
+    [
+     "縄文時代",
+     462
+    ],
+    [
+     "古墳時代",
+     25
+    ],
+    [
+     "弥生時代",
+     11
+    ],
+    [
+     "奈良時代？",
+     6
+    ],
+    [
+     "続縄文時代",
+     4
+    ],
+    [
+     "擦文時代",
+     3
+    ],
+    [
+     "古代",
+     1
+    ],
+    [
+     "古墳時代以降？",
+     1
+    ]
+   ]
+  },
+  "時期": {
+   "distinct": 85,
+   "recorded": 491,
+   "explicit_unknown": 18,
+   "blank": 63,
+   "top": [
+    [
+     "中期",
+     142
+    ],
+    [
+     "晩期",
+     70
+    ],
+    [
+     "後期",
+     29
+    ],
+    [
+     "晩期中葉",
+     24
+    ],
+    [
+     "中期？",
+     17
+    ],
+    [
+     "晩期？",
+     11
+    ],
+    [
+     "中・後期",
+     11
+    ],
+    [
+     "後・晩期",
+     10
+    ],
+    [
+     "中期中葉",
+     9
+    ],
+    [
+     "後・晩",
+     9
+    ],
+    [
+     "後期中葉",
+     8
+    ],
+    [
+     "後期前葉",
+     8
+    ],
+    [
+     "晩期前半",
+     8
+    ],
+    [
+     "縄文",
+     6
+    ],
+    [
+     "弥生中期",
+     6
+    ],
+    [
+     "奈良？",
+     6
+    ],
+    [
+     "後期～晩期",
+     6
+    ],
+    [
+     "後期・晩期",
+     6
+    ],
+    [
+     "中～晩期",
+     5
+    ],
+    [
+     "後期後半",
+     4
+    ]
+   ]
+  },
+  "種別": {
+   "distinct": 120,
+   "recorded": 545,
+   "explicit_unknown": 1,
+   "blank": 26,
+   "top": [
+    [
+     "大珠",
+     138
+    ],
+    [
+     "勾玉",
+     88
+    ],
+    [
+     "垂玉",
+     43
+    ],
+    [
+     "丸玉",
+     39
+    ],
+    [
+     "大珠・鰹節型",
+     25
+    ],
+    [
+     "小玉",
+     17
+    ],
+    [
+     "原石ほか",
+     13
+    ],
+    [
+     "不定",
+     11
+    ],
+    [
+     "垂飾",
+     9
+    ],
+    [
+     "大珠(緒締型)",
+     7
+    ],
+    [
+     "大珠未成品ほか",
+     6
+    ],
+    [
+     "楕円形玉",
+     5
+    ],
+    [
+     "管玉",
+     5
+    ],
+    [
+     "大珠ほか",
+     5
+    ],
+    [
+     "大珠(鰹節型)",
+     4
+    ],
+    [
+     "原石",
+     4
+    ],
+    [
+     "小珠",
+     4
+    ],
+    [
+     "丸玉未成品ほか",
+     4
+    ],
+    [
+     "勾玉状",
+     4
+    ],
+    [
+     "丸玉ほか",
+     4
+    ]
+   ]
+  },
+  "形状": {
+   "distinct": 21,
+   "recorded": 95,
+   "explicit_unknown": 0,
+   "blank": 477,
+   "top": [
+    [
+     "大珠・鰹節型",
+     25
+    ],
+    [
+     "不定",
+     16
+    ],
+    [
+     "鰹節型",
+     14
+    ],
+    [
+     "緒締型",
+     9
+    ],
+    [
+     "垂飾",
+     6
+    ],
+    [
+     "未成品",
+     4
+    ],
+    [
+     "縦穿",
+     4
+    ],
+    [
+     "大珠",
+     3
+    ],
+    [
+     "玉",
+     2
+    ],
+    [
+     "破損品",
+     1
+    ],
+    [
+     "緒締型、未成品",
+     1
+    ],
+    [
+     "円",
+     1
+    ],
+    [
+     "未成品2",
+     1
+    ],
+    [
+     "未成品(丸玉)",
+     1
+    ],
+    [
+     "3穿孔を含む",
+     1
+    ],
+    [
+     "欠損",
+     1
+    ],
+    [
+     "縦穿・未成品",
+     1
+    ],
+    [
+     "方形",
+     1
+    ],
+    [
+     "大珠・緒締型",
+     1
+    ],
+    [
+     "耳飾",
+     1
+    ]
+   ]
+  },
+  "出土状況": {
+   "distinct": 141,
+   "recorded": 304,
+   "explicit_unknown": 15,
+   "blank": 253,
+   "top": [
+    [
+     "包含層",
+     78
+    ],
+    [
+     "表採",
+     18
+    ],
+    [
+     "土壙墓",
+     14
+    ],
+    [
+     "採集",
+     14
+    ],
+    [
+     "包含層ほか",
+     13
+    ],
+    [
+     "遺構",
+     10
+    ],
+    [
+     "遺構・包含層ほか",
+     8
+    ],
+    [
+     "周堤墓に伴う土壙墓",
+     4
+    ],
+    [
+     "遺構外",
+     3
+    ],
+    [
+     "配石遺構",
+     2
+    ],
+    [
+     "土壙",
+     2
+    ],
+    [
+     "環状列石墓",
+     2
+    ],
+    [
+     "採集品",
+     2
+    ],
+    [
+     "軟玉",
+     2
+    ],
+    [
+     "66号土坑",
+     2
+    ],
+    [
+     "低湿地",
+     2
+    ],
+    [
+     "16号墳",
+     2
+    ],
+    [
+     "SD099土坑  人骨装着",
+     2
+    ],
+    [
+     "包含層・遺構",
+     2
+    ],
+    [
+     "土壙墓(14),包含層(2)",
+     1
+    ]
+   ]
+  },
+  "石材": {
+   "distinct": 3,
+   "recorded": 115,
+   "explicit_unknown": 0,
+   "blank": 457,
+   "top": [
+    [
+     "硬",
+     113
+    ],
+    [
+     "蛇",
+     1
+    ],
+    [
+     "硬？",
+     1
+    ]
+   ]
+  }
+ }
+}

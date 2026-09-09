@@ -913,3 +913,19 @@ main {
 .dist__list--wide li {
   grid-template-columns: 5rem 1fr 4rem;
 }
+
+/* 実測した色を、値と一緒に見せる札。 */
+.colour-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  margin-right: 0.6em;
+}
+
+.colour-chip__swatch {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 2px;
+  border: 1px solid var(--rule-strong);
+  display: inline-block;
+}

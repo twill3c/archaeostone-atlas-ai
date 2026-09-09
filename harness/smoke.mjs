@@ -17,7 +17,16 @@ const ROOT = new URL("../out/", import.meta.url).pathname.replace(/^\/([A-Za-z]:
 
 // 見るのは一つの幅ではない(HC-078)。
 const WIDTHS = [320, 390, 768, 1280];
-const PAGES = ["/", "/map/", "/sources/", "/geology/", "/documents/", "/methodology/", "/licenses/"];
+const PAGES = [
+  "/",
+  "/map/",
+  "/sources/",
+  "/geology/",
+  "/jade/",
+  "/documents/",
+  "/methodology/",
+  "/licenses/",
+];
 
 // 縦の伸びすぎは列の潰れによく出る代理指標(HC-078)。
 const MAX_PAGE_HEIGHT = 16000;
