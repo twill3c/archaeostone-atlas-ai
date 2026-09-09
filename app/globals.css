@@ -311,7 +311,7 @@ main {
 
 .home__cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
   gap: 0.9rem;
 }
 
@@ -414,7 +414,7 @@ main {
 
 .license-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
   gap: 0.9rem;
   margin-top: 0.9rem;
 }
@@ -466,4 +466,450 @@ main {
 .license-card__reason {
   margin: 0.7rem 0 0;
   font-size: 0.84rem;
+}
+
+/* ── 地図 ───────────────────────────────────────────── */
+
+.map-page__head {
+  margin-bottom: 1rem;
+}
+
+.map-page__head h1 {
+  font-size: clamp(1.4rem, 3.5vw, 1.85rem);
+  margin: 0 0 0.5rem;
+}
+
+.atlas-map {
+  display: grid;
+  grid-template-columns: minmax(14rem, 17rem) 1fr;
+  gap: 0.9rem;
+  align-items: start;
+}
+
+.atlas-map__canvas {
+  height: min(72vh, 40rem);
+  min-height: 22rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.atlas-map__controls h2 {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint);
+  margin: 0 0 0.5rem;
+}
+
+.atlas-map__controls h2:not(:first-child) {
+  margin-top: 1.1rem;
+}
+
+.control-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.87rem;
+  margin-bottom: 0.4rem;
+  cursor: pointer;
+}
+
+.control-row--stacked {
+  display: block;
+}
+
+.control-row--stacked input[type="range"] {
+  width: 100%;
+  margin-top: 0.25rem;
+}
+
+.legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.83rem;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.25rem;
+}
+
+.legend__swatch {
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  flex: 0 0 auto;
+}
+
+.legend__swatch--square {
+  border-radius: 2px;
+  background: var(--ink-faint);
+}
+
+.legend__note {
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  margin: 0.6rem 0 0;
+}
+
+.map-pin {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  cursor: pointer;
+  background: var(--pin-colour, #888);
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.45);
+}
+
+.map-pin--point {
+  border-radius: 50%;
+}
+
+/* 位置が概略の点は形も変える —— 色だけに依存させない */
+.map-pin--area {
+  border-radius: 2px;
+  width: 13px;
+  height: 13px;
+}
+
+.map-pin:hover {
+  transform: scale(1.35);
+}
+
+.atlas-map__panel {
+  grid-column: 1 / -1;
+  position: relative;
+}
+
+.atlas-map__close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.6rem;
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--ink-faint);
+  cursor: pointer;
+}
+
+@media (max-width: 52rem) {
+  .atlas-map {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Stone Passport ─────────────────────────────────── */
+
+.passport h3 {
+  margin: 0 0 0.15rem;
+  font-size: 1.05rem;
+}
+
+.passport__group {
+  margin: 0 0 0.8rem;
+  font-size: 0.82rem;
+  color: var(--ink-faint);
+}
+
+.passport dl {
+  display: grid;
+  grid-template-columns: minmax(6rem, auto) 1fr;
+  gap: 0.3rem 0.9rem;
+  margin: 0;
+  font-size: 0.86rem;
+}
+
+.passport dt {
+  color: var(--ink-faint);
+}
+
+.passport dd {
+  margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.passport__absent {
+  color: var(--ink-faint);
+  font-style: italic;
+}
+
+.passport__rule {
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+}
+
+.passport__citations {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.passport__note {
+  margin: 0.9rem 0 0;
+  padding: 0.6rem 0.8rem;
+  background: var(--bg-sunken);
+  border-radius: var(--radius);
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+}
+
+/* ── 原産地一覧 ─────────────────────────────────────── */
+
+.source-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(19rem, 100%), 1fr));
+  gap: 0.9rem;
+}
+
+.source-card {
+  background: var(--bg-panel);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  min-width: 0;
+}
+
+.source-card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.source-card__head h3 {
+  margin: 0;
+  font-size: 0.98rem;
+}
+
+.source-card__dot {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  flex: 0 0 auto;
+}
+
+.source-card__geology {
+  margin: 0.5rem 0 0.8rem;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.source-card__meta {
+  display: grid;
+  grid-template-columns: minmax(5.5rem, auto) 1fr;
+  gap: 0.2rem 0.7rem;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.source-card__meta dt {
+  color: var(--ink-faint);
+}
+
+.source-card__meta dd {
+  margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.source-card__rule {
+  color: var(--ink-muted);
+}
+
+.source-card__note {
+  margin: 0.8rem 0 0;
+  padding: 0.55rem 0.75rem;
+  background: var(--bg-sunken);
+  border-radius: var(--radius);
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
+
+/* ── 主張の札と分布 ─────────────────────────────────── */
+
+.claim {
+  background: var(--bg-panel);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--rule-strong);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 0.9rem 1.1rem;
+  margin: 0.9rem 0 1.4rem;
+}
+
+.claim--yes {
+  border-left-color: var(--ev-a);
+}
+
+.claim--no {
+  border-left-color: var(--accent);
+}
+
+.claim__head {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 0.4rem;
+}
+
+.claim__id {
+  font-weight: 700;
+  color: var(--ink-faint);
+}
+
+.claim__statement {
+  margin: 0 0 0.8rem;
+  font-size: 0.96rem;
+  max-width: var(--measure);
+}
+
+.claim__n {
+  color: var(--ink-faint);
+  font-size: 0.9em;
+}
+
+.claim__verdict-note {
+  margin: 0.7rem 0 0;
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  max-width: none;
+}
+
+.sig {
+  color: var(--ev-a);
+  font-weight: 600;
+}
+
+.nonsig {
+  color: var(--ink-faint);
+}
+
+.dist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(19rem, 100%), 1fr));
+  gap: 1.2rem;
+}
+
+.dist h3 {
+  font-size: 0.9rem;
+  margin: 0 0 0.6rem;
+}
+
+.dist__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.83rem;
+}
+
+.dist__list li {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr 6.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.25rem 0;
+}
+
+.dist__track {
+  background: var(--bg-sunken);
+  border-radius: 2px;
+  height: 0.75rem;
+  overflow: hidden;
+}
+
+.dist__fill {
+  display: block;
+  height: 100%;
+}
+
+.dist__value {
+  text-align: right;
+  font-size: 0.78rem;
+}
+
+/* 近接する原産地をまとめた標。件数を出し、押すとその群に寄る。 */
+.map-pin--cluster {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--bg-panel);
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 700;
+  font-family: var(--font-sans);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.map-pin--cluster:hover {
+  transform: scale(1.15);
+}
+
+/* ── 狭い幅 ─────────────────────────────────────────────
+ *
+ * 実測(2026-09-09)で 320px 幅の /sources/(25px)・/licenses/(18px)・
+ * /geology/(2px)が横に溢れた。原因は定義リストの二列グリッドで、
+ * 見出し列の最小幅と長い値が同じ行に載るため。狭い幅では縦に積む。
+ * **一つの幅だけを見ていると出ない型の欠陥**である(HC-078)。
+ */
+@media (max-width: 26rem) {
+  .license-card__meta,
+  .source-card__meta,
+  .passport dl {
+    grid-template-columns: 1fr;
+    gap: 0.05rem;
+  }
+
+  .license-card__meta dt,
+  .source-card__meta dt,
+  .passport dt {
+    margin-top: 0.4rem;
+    font-size: 0.76rem;
+  }
+
+  .dist__list li {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .dist__value {
+    text-align: left;
+  }
+
+  main {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+
+/* 長い URL のような分割できない文字列が、親を押し広げるのを防ぐ。
+ *
+ * 実測(2026-09-10)で /sources/ @320px の注記が 47px 溢れていた ——
+ * 出典として本文に埋めた `https://www.meiji.ac.jp/cols/map01.html` が
+ * 途中で折り返せないためである。日本語は折り返せるので気づきにくい。 */
+.prose p,
+.prose li,
+.prose-wide p,
+.prose-wide li,
+.notice p,
+.attribution__note,
+.claim__statement,
+.claim__verdict-note {
+  overflow-wrap: anywhere;
+}
+
+/* 都道府県別のように項目が多い分布は、ラベル列を広げる。 */
+.dist__list--wide li {
+  grid-template-columns: 5rem 1fr 4rem;
 }

@@ -1,0 +1,167 @@
+{
+ "generated_by": "pipeline.build_geology_stats",
+ "method": {
+  "test": "ラベル置換検定(両側)",
+  "iterations": 20000,
+  "seed": 20260909,
+  "alpha": 0.05,
+  "verdict_rule": "宣言した感度分析のすべての条件で p < 0.05 のときだけ「成立」とする。一つの切り方で有意になり別の切り方で有意でなくなる主張は「不成立」と書く。",
+  "control_group": "GSJ シームレス地質図タイル z7 を陸マスクとして、cos^2(緯度) の重みで無作為抽出した陸地点。地質は原産地と同じ点の問い合わせ API から取る(計器を揃える)。",
+  "non_circularity": "原産地の一覧は考古・岩石学の文献から編み、地質図は産総研が独立に作っている。両者は互いを前提にしていないので、突き合わせても恒等式にならない。",
+  "limitation": "20 万分の 1 の図郭は黒曜石の岩体より粗い。実測(2026-09-09)では、原産地 13 件のうち珪長質火山岩の label を持つのは 5 件で、6 件は安山岩・玄武岩質安山岩と出る。**個々の label は黒曜石そのものの岩相ではない**。だから H-03 のような細分の主張は弱い。"
+ },
+ "distributions": {
+  "source_areas": {
+   "group_ja": {
+    "火成岩": 12,
+    "堆積岩": 1
+   },
+   "lithology_ja": {
+    "安山岩・玄武岩質安山岩 溶岩・火砕岩": 6,
+    "デイサイト・流紋岩 溶岩・火砕岩": 5,
+    "玄武岩 溶岩・火砕岩": 1,
+    "段丘堆積物": 1
+   },
+   "n": 14,
+   "n_measured": 13
+  },
+  "control_points": {
+   "group_ja": {
+    "火成岩": 157,
+    "付加体": 39,
+    "堆積岩": 181,
+    "変成岩": 18,
+    "その他": 2
+   },
+   "lithology_ja": {
+    "谷底平野・山間盆地・河川・海岸平野堆積物": 56,
+    "安山岩・玄武岩質安山岩 溶岩・火砕岩": 39,
+    "デイサイト・流紋岩 大規模火砕流": 35,
+    "段丘堆積物": 32,
+    "花崗岩 塊状 島弧・大陸": 24,
+    "海成層 泥岩": 23,
+    "花崗閃緑岩・トーナル岩 塊状 島弧・大陸": 16,
+    "海成層 砂岩": 15,
+    "デイサイト・流紋岩 溶岩・火砕岩": 14,
+    "汽水成層ないし海成・非海成混合層": 11,
+    "扇状地・崖錐堆積物": 6,
+    "泥質片岩 高P/T型広域変成岩　緑泥石帯": 5,
+    "海成層 砂岩泥岩互層": 5,
+    "自然堤防堆積物": 4,
+    "風成火山灰": 4
+   },
+   "n": 400,
+   "n_measured": 397
+  }
+ },
+ "claims": [
+  {
+   "claim_id": "H-01",
+   "statement": "黒曜石原産地の足もとの地質は、無作為な陸地点と比べて火成岩に偏る",
+   "verdict": "成立",
+   "verdict_note": "宣言した 2 通りの条件すべてで p < 0.05",
+   "variants": {
+    "全件": {
+     "target": "火成岩",
+     "source_n": 13,
+     "control_n": 397,
+     "source_proportion": 0.9230769230769231,
+     "control_proportion": 0.3954659949622166,
+     "observed_difference": 0.5276109281147066,
+     "p_value": 0.0001,
+     "iterations": 20000,
+     "seed": 20260909,
+     "reason": null
+    },
+    "面積精度の点を除く": {
+     "target": "火成岩",
+     "source_n": 11,
+     "control_n": 397,
+     "source_proportion": 1.0,
+     "control_proportion": 0.3954659949622166,
+     "observed_difference": 0.6045340050377834,
+     "p_value": 5e-05,
+     "iterations": 20000,
+     "seed": 20260909,
+     "reason": null
+    }
+   }
+  },
+  {
+   "claim_id": "H-02",
+   "statement": "同じ偏りは、第四紀の火成岩に絞るとさらに強く出る",
+   "verdict": "成立",
+   "verdict_note": "宣言した 2 通りの条件すべてで p < 0.05",
+   "variants": {
+    "全件": {
+     "target": "YES",
+     "source_n": 13,
+     "control_n": 397,
+     "source_proportion": 0.6923076923076923,
+     "control_proportion": 0.11335012594458438,
+     "observed_difference": 0.5789575663631079,
+     "p_value": 0.0,
+     "iterations": 20000,
+     "seed": 20260909,
+     "reason": null
+    },
+    "面積精度の点を除く": {
+     "target": "YES",
+     "source_n": 11,
+     "control_n": 397,
+     "source_proportion": 0.8181818181818182,
+     "control_proportion": 0.11335012594458438,
+     "observed_difference": 0.7048316922372339,
+     "p_value": 0.0,
+     "iterations": 20000,
+     "seed": 20260909,
+     "reason": null
+    }
+   }
+  },
+  {
+   "claim_id": "H-03",
+   "statement": "黒曜石は流紋岩質のガラスなので、原産地は珪長質火山岩(デイサイト・流紋岩)に偏る",
+   "verdict": "不成立",
+   "verdict_note": "条件によって有意性が入れ替わる(p = 0.00020 / 0.02895 / 0.05785)。一つの切り方で有意でも、別の切り方で 0.05 を超えるなら成立とは書かない",
+   "variants": {
+    "細分(溶岩・火砕岩のみ)": {
+     "target": "デイサイト・流紋岩 溶岩・火砕岩",
+     "source_n": 13,
+     "control_n": 397,
+     "source_proportion": 0.38461538461538464,
+     "control_proportion": 0.03526448362720403,
+     "observed_difference": 0.3493509009881806,
+     "p_value": 0.0002,
+     "iterations": 20000,
+     "seed": 20260909,
+     "reason": null
+    },
+    "まとめる(大規模火砕流も含む)": {
+     "target": "FELSIC",
+     "source_n": 13,
+     "control_n": 397,
+     "source_proportion": 0.38461538461538464,
+     "control_proportion": 0.13602015113350127,
+     "observed_difference": 0.24859523348188337,
+     "p_value": 0.02895,
+     "iterations": 20000,
+     "seed": 20260909,
+     "reason": null
+    },
+    "まとめる・面積精度の点を除く": {
+     "target": "FELSIC",
+     "source_n": 11,
+     "control_n": 397,
+     "source_proportion": 0.36363636363636365,
+     "control_proportion": 0.13602015113350127,
+     "observed_difference": 0.22761621250286238,
+     "p_value": 0.05785,
+     "iterations": 20000,
+     "seed": 20260909,
+     "reason": null
+    }
+   }
+  }
+ ]
+}

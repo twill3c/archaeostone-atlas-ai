@@ -20,6 +20,10 @@ export const metadata: Metadata = {
  */
 const NAV = [
   { href: "/", label: "ホーム" },
+  { href: "/map", label: "地図" },
+  { href: "/sources", label: "原産地" },
+  { href: "/geology", label: "地質の偏り" },
+  { href: "/documents", label: "文献の分布" },
   { href: "/methodology", label: "方法" },
   { href: "/licenses", label: "出典と権利" },
 ];

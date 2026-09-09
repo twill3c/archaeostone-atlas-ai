@@ -1,0 +1,618 @@
+{
+ "generated_by": "pipeline.build_source_areas",
+ "counts": {
+  "total": 14,
+  "resolved": 14,
+  "needs_review": 0,
+  "with_geology": 13,
+  "coordinate_precision_area": 2
+ },
+ "coverage_note": "明治大学 黒耀石研究センターは国内に「80数カ所」の原産地があると述べている(https://www.meiji.ac.jp/cols/map01.html)。本辞書が典拠を確認できたのは14 件である。差は「無い」のではなく「本辞書が確認できていない」。",
+ "citations": {
+  "CIT-GSI-GAZ": {
+   "kind": "gazetteer",
+   "title": "国土地理院 地名検索(地理院地図)",
+   "url": "https://msearch.gsi.go.jp/address-search/AddressSearch",
+   "note": "名称そのものが「黒曜石原産地」「黒曜石産地」を含む地名として国土地理院の 地名情報に登録されている。名称と座標の双方がこの典拠に由来する。",
+   "source_id": "SRC-GSI"
+  },
+  "CIT-COLS-MAP02": {
+   "kind": "web_page",
+   "title": "明治大学 黒耀石研究センター「日本における黒曜石産出地」",
+   "url": "https://www.meiji.ac.jp/cols/map02.html",
+   "accessed": "2026-09-08",
+   "note": "図版キャプションに原産地名が挙げられている(神津島砂糠崎・和田東餅屋・箱根畑宿・神津島恩馳)。",
+   "source_id": "SRC-MEIJI-COLS"
+  },
+  "CIT-COLS-LIST2020": {
+   "kind": "pdf",
+   "title": "明治大学 黒耀石研究センター 2020 年度 黒曜石原産地推定 分析リスト",
+   "url": "https://www.meiji.ac.jp/cols/6t5h7p00003chjwe-att/List_gensanti_2020_2.pdf",
+   "accessed": "2026-09-08",
+   "note": "特記事項の欄に、蛍光X線分析で判定された原産地名が記されている (諏訪星ヶ台・箱根畑宿・神津島恩馳島・蓼科冷山・仙台秋保・高原山甘湯沢・ 天城柏峠・置戸所山)。本辞書は原産地の名称のみを引用しており、 同リストの表を複製・再配布していない。",
+   "source_id": "SRC-MEIJI-COLS"
+  },
+  "CIT-COLS-LIST2025": {
+   "kind": "pdf",
+   "title": "明治大学 黒耀石研究センター 2025 年度 黒曜石分析リスト",
+   "url": "https://www.meiji.ac.jp/cols/6t5h7p00003chjwe-att/2025obsidian_list.pdf",
+   "accessed": "2026-09-08",
+   "note": "掲載文献欄に「本州における白滝産(黒曜石)」が挙げられている。",
+   "source_id": "SRC-MEIJI-COLS"
+  },
+  "CIT-COLS-MAP01": {
+   "kind": "web_page",
+   "title": "明治大学 黒耀石研究センター「黒曜石原産地推定の概要と結果」",
+   "url": "https://www.meiji.ac.jp/cols/map01.html",
+   "accessed": "2026-09-08",
+   "note": "「国内に存在する80数カ所の原産地ごとの化学組成がすべて異なっている」 「2020年度末までに日本全国の500遺跡以上、45000点以上」。 判別図は Rb 分率・Sr 分率・Mn×100/Fe・Log(Fe/K) の 4 指標(望月・池谷 1994)。",
+   "source_id": "SRC-MEIJI-COLS"
+  }
+ },
+ "source_areas": [
+  {
+   "id": "OBS-HOSHIGATO",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "星ヶ塔",
+   "group_ja": "霧ヶ峰・和田峠群",
+   "prefecture_code": "20",
+   "latitude": 36.128485,
+   "longitude": 138.140434,
+   "coordinate_precision": "point",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "星ヶ塔",
+    "candidate_count": 1,
+    "candidate_index": 0,
+    "candidate_title": "星ヶ塔黒曜石原産地遺跡",
+    "rule": "title に '星ヶ塔黒曜石原産地遺跡' を含み、逆ジオコードした県コードが 20 であること",
+    "rule_kind": "contains_and_prefecture",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": "国土地理院の地名情報に「星ヶ塔黒曜石原産地遺跡」として登録されている。",
+   "citations": [
+    {
+     "citation_id": "CIT-GSI-GAZ",
+     "title": "国土地理院 地名検索(地理院地図)",
+     "url": "https://msearch.gsi.go.jp/address-search/AddressSearch",
+     "source_id": "SRC-GSI"
+    },
+    {
+     "citation_id": "CIT-COLS-LIST2020",
+     "title": "明治大学 黒耀石研究センター 2020 年度 黒曜石原産地推定 分析リスト",
+     "url": "https://www.meiji.ac.jp/cols/6t5h7p00003chjwe-att/List_gensanti_2020_2.pdf",
+     "source_id": "SRC-MEIJI-COLS"
+    }
+   ],
+   "geology_outcome": "ok",
+   "geology_symbol": "Q12_vis_al",
+   "formation_age_ja": "新生代 第四紀 更新世 カラブリアン期",
+   "formation_age_en": "Cenozoic Quaternary Pleistocene Calabrian",
+   "geology_group_ja": "火成岩",
+   "geology_group_en": "Igneous rocks",
+   "lithology_ja": "安山岩・玄武岩質安山岩 溶岩・火砕岩",
+   "lithology_en": "andesite & basaltic andesite lava & pyroclastic rocks"
+  },
+  {
+   "id": "OBS-HOSHIKUSO",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "星糞峠",
+   "group_ja": "霧ヶ峰・和田峠群",
+   "prefecture_code": "20",
+   "latitude": 36.152628,
+   "longitude": 138.20991,
+   "coordinate_precision": "point",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "星糞峠",
+    "candidate_count": 1,
+    "candidate_index": 0,
+    "candidate_title": "星糞峠黒曜石原産地遺跡",
+    "rule": "title に '星糞峠黒曜石原産地遺跡' を含み、逆ジオコードした県コードが 20 であること",
+    "rule_kind": "contains_and_prefecture",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": "国土地理院の地名情報に「星糞峠黒曜石原産地遺跡」として登録されている。",
+   "citations": [
+    {
+     "citation_id": "CIT-GSI-GAZ",
+     "title": "国土地理院 地名検索(地理院地図)",
+     "url": "https://msearch.gsi.go.jp/address-search/AddressSearch",
+     "source_id": "SRC-GSI"
+    }
+   ],
+   "geology_outcome": "ok",
+   "geology_symbol": "Q12_vis_al",
+   "formation_age_ja": "新生代 第四紀 更新世 カラブリアン期",
+   "formation_age_en": "Cenozoic Quaternary Pleistocene Calabrian",
+   "geology_group_ja": "火成岩",
+   "geology_group_en": "Igneous rocks",
+   "lithology_ja": "安山岩・玄武岩質安山岩 溶岩・火砕岩",
+   "lithology_en": "andesite & basaltic andesite lava & pyroclastic rocks"
+  },
+  {
+   "id": "OBS-HIMESHIMA",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "姫島",
+   "group_ja": "姫島",
+   "prefecture_code": null,
+   "latitude": 33.73194,
+   "longitude": 131.642758,
+   "coordinate_precision": "point",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "姫島の黒曜石産地",
+    "candidate_count": 5,
+    "candidate_index": 4,
+    "candidate_title": "姫島の黒曜石産地",
+    "rule": "title が '姫島の黒曜石産地' と完全一致し、その一致が候補中ちょうど 1 件であること",
+    "rule_kind": "exact_and_unique",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": "国土地理院の地名情報に「姫島の黒曜石産地」として登録されている。 名称そのものが対象を一意に指すので、県コードの照合ではなく一意性で確定する。 実測(2026-09-09)ではこの座標を逆ジオコードすると None(陸上でない)が返る —— 小島の海岸の露頭で、逆ジオコーダの陸域マスクが届いていない。",
+   "citations": [
+    {
+     "citation_id": "CIT-GSI-GAZ",
+     "title": "国土地理院 地名検索(地理院地図)",
+     "url": "https://msearch.gsi.go.jp/address-search/AddressSearch",
+     "source_id": "SRC-GSI"
+    }
+   ],
+   "geology_outcome": "ok",
+   "geology_symbol": "Q2_vas_al",
+   "formation_age_ja": "新生代 第四紀 チバニアン期",
+   "formation_age_en": "Cenozoic Quaternary Middle Pleistocene",
+   "geology_group_ja": "火成岩",
+   "geology_group_en": "Igneous rocks",
+   "lithology_ja": "デイサイト・流紋岩 溶岩・火砕岩",
+   "lithology_en": "dacite & rhyolite lava & pyroclastic rocks"
+  },
+  {
+   "id": "OBS-ONBASE",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "神津島 恩馳島",
+   "group_ja": "神津島",
+   "prefecture_code": "13",
+   "latitude": 34.186981,
+   "longitude": 139.076481,
+   "coordinate_precision": "point",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "恩馳島",
+    "candidate_count": 1,
+    "candidate_index": 0,
+    "candidate_title": "恩馳島",
+    "rule": "title に '恩馳島' を含み、逆ジオコードした県コードが 13 であること",
+    "rule_kind": "contains_and_prefecture",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": null,
+   "citations": [
+    {
+     "citation_id": "CIT-COLS-MAP02",
+     "title": "明治大学 黒耀石研究センター「日本における黒曜石産出地」",
+     "url": "https://www.meiji.ac.jp/cols/map02.html",
+     "source_id": "SRC-MEIJI-COLS"
+    },
+    {
+     "citation_id": "CIT-COLS-LIST2020",
+     "title": "明治大学 黒耀石研究センター 2020 年度 黒曜石原産地推定 分析リスト",
+     "url": "https://www.meiji.ac.jp/cols/6t5h7p00003chjwe-att/List_gensanti_2020_2.pdf",
+     "source_id": "SRC-MEIJI-COLS"
+    }
+   ],
+   "geology_outcome": "ok",
+   "geology_symbol": "H_vas_al",
+   "formation_age_ja": "新生代 第四紀 完新世",
+   "formation_age_en": "Cenozoic Quaternary Holocene",
+   "geology_group_ja": "火成岩",
+   "geology_group_en": "Igneous rocks",
+   "lithology_ja": "デイサイト・流紋岩 溶岩・火砕岩",
+   "lithology_en": "dacite & rhyolite lava & pyroclastic rocks"
+  },
+  {
+   "id": "OBS-SANUKAZAKI",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "神津島 砂糠崎",
+   "group_ja": "神津島",
+   "prefecture_code": "13",
+   "latitude": 34.204619,
+   "longitude": 139.175231,
+   "coordinate_precision": "point",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "砂糠崎",
+    "candidate_count": 4,
+    "candidate_index": 3,
+    "candidate_title": "砂糠崎",
+    "rule": "title に '砂糠崎' を含み、逆ジオコードした県コードが 13 であること",
+    "rule_kind": "contains_and_prefecture",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": null,
+   "citations": [
+    {
+     "citation_id": "CIT-COLS-MAP02",
+     "title": "明治大学 黒耀石研究センター「日本における黒曜石産出地」",
+     "url": "https://www.meiji.ac.jp/cols/map02.html",
+     "source_id": "SRC-MEIJI-COLS"
+    }
+   ],
+   "geology_outcome": "no_polygon",
+   "geology_symbol": null,
+   "formation_age_ja": null,
+   "formation_age_en": null,
+   "geology_group_ja": null,
+   "geology_group_en": null,
+   "lithology_ja": null,
+   "lithology_en": null
+  },
+  {
+   "id": "OBS-HATAJUKU",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "箱根 畑宿",
+   "group_ja": "箱根",
+   "prefecture_code": "14",
+   "latitude": 35.205265,
+   "longitude": 139.056259,
+   "coordinate_precision": "point",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "畑宿",
+    "candidate_count": 2,
+    "candidate_index": 0,
+    "candidate_title": "神奈川県箱根町畑宿",
+    "rule": "title に '畑宿' を含み、逆ジオコードした県コードが 14 であること",
+    "rule_kind": "contains_and_prefecture",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": null,
+   "citations": [
+    {
+     "citation_id": "CIT-COLS-MAP02",
+     "title": "明治大学 黒耀石研究センター「日本における黒曜石産出地」",
+     "url": "https://www.meiji.ac.jp/cols/map02.html",
+     "source_id": "SRC-MEIJI-COLS"
+    },
+    {
+     "citation_id": "CIT-COLS-LIST2020",
+     "title": "明治大学 黒耀石研究センター 2020 年度 黒曜石原産地推定 分析リスト",
+     "url": "https://www.meiji.ac.jp/cols/6t5h7p00003chjwe-att/List_gensanti_2020_2.pdf",
+     "source_id": "SRC-MEIJI-COLS"
+    }
+   ],
+   "geology_outcome": "ok",
+   "geology_symbol": "H_vbs_al",
+   "formation_age_ja": "新生代 第四紀 完新世",
+   "formation_age_en": "Cenozoic Quaternary Holocene",
+   "geology_group_ja": "火成岩",
+   "geology_group_en": "Igneous rocks",
+   "lithology_ja": "玄武岩 溶岩・火砕岩",
+   "lithology_en": "basalt lava & pyroclastic rocks"
+  },
+  {
+   "id": "OBS-WADATOGE",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "和田峠",
+   "group_ja": "霧ヶ峰・和田峠群",
+   "prefecture_code": "20",
+   "latitude": 36.145062,
+   "longitude": 138.14385,
+   "coordinate_precision": "point",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "和田峠",
+    "candidate_count": 69,
+    "candidate_index": 65,
+    "candidate_title": "和田峠",
+    "rule": "title に '和田峠' を含み、逆ジオコードした県コードが 20 であること",
+    "rule_kind": "contains_and_prefecture",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": "同名の峠が全国に 5 か所あり、地名検索の上位は青森県・山形県・福島県の 「和田」を返す。県コードで絞らないと別地を掴む。",
+   "citations": [
+    {
+     "citation_id": "CIT-COLS-MAP02",
+     "title": "明治大学 黒耀石研究センター「日本における黒曜石産出地」",
+     "url": "https://www.meiji.ac.jp/cols/map02.html",
+     "source_id": "SRC-MEIJI-COLS"
+    }
+   ],
+   "geology_outcome": "ok",
+   "geology_symbol": "Q12_vis_al",
+   "formation_age_ja": "新生代 第四紀 更新世 カラブリアン期",
+   "formation_age_en": "Cenozoic Quaternary Pleistocene Calabrian",
+   "geology_group_ja": "火成岩",
+   "geology_group_en": "Igneous rocks",
+   "lithology_ja": "安山岩・玄武岩質安山岩 溶岩・火砕岩",
+   "lithology_en": "andesite & basaltic andesite lava & pyroclastic rocks"
+  },
+  {
+   "id": "OBS-HIGASHIMOCHIYA",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "和田峠 東餅屋",
+   "group_ja": "霧ヶ峰・和田峠群",
+   "prefecture_code": "20",
+   "latitude": 36.15115,
+   "longitude": 138.146042,
+   "coordinate_precision": "point",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "東餅屋",
+    "candidate_count": 49,
+    "candidate_index": 48,
+    "candidate_title": "東餅屋",
+    "rule": "title に '東餅屋' を含み、逆ジオコードした県コードが 20 であること",
+    "rule_kind": "contains_and_prefecture",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": null,
+   "citations": [
+    {
+     "citation_id": "CIT-COLS-MAP02",
+     "title": "明治大学 黒耀石研究センター「日本における黒曜石産出地」",
+     "url": "https://www.meiji.ac.jp/cols/map02.html",
+     "source_id": "SRC-MEIJI-COLS"
+    }
+   ],
+   "geology_outcome": "ok",
+   "geology_symbol": "Q12_vis_al",
+   "formation_age_ja": "新生代 第四紀 更新世 カラブリアン期",
+   "formation_age_en": "Cenozoic Quaternary Pleistocene Calabrian",
+   "geology_group_ja": "火成岩",
+   "geology_group_en": "Igneous rocks",
+   "lithology_ja": "安山岩・玄武岩質安山岩 溶岩・火砕岩",
+   "lithology_en": "andesite & basaltic andesite lava & pyroclastic rocks"
+  },
+  {
+   "id": "OBS-TSUMETAYAMA",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "蓼科 冷山",
+   "group_ja": "霧ヶ峰・和田峠群",
+   "prefecture_code": "20",
+   "latitude": 36.043742,
+   "longitude": 138.329947,
+   "coordinate_precision": "point",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "冷山",
+    "candidate_count": 2,
+    "candidate_index": 1,
+    "candidate_title": "冷山",
+    "rule": "title に '冷山' を含み、逆ジオコードした県コードが 20 であること",
+    "rule_kind": "contains_and_prefecture",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": "「蓼科冷山」では地名検索が 0 件を返すので、局所名「冷山」で引く。",
+   "citations": [
+    {
+     "citation_id": "CIT-COLS-LIST2020",
+     "title": "明治大学 黒耀石研究センター 2020 年度 黒曜石原産地推定 分析リスト",
+     "url": "https://www.meiji.ac.jp/cols/6t5h7p00003chjwe-att/List_gensanti_2020_2.pdf",
+     "source_id": "SRC-MEIJI-COLS"
+    }
+   ],
+   "geology_outcome": "ok",
+   "geology_symbol": "Q3_vis_al",
+   "formation_age_ja": "新生代 第四紀 後期更新世",
+   "formation_age_en": "Cenozoic Quaternary Late Pleistocene",
+   "geology_group_ja": "火成岩",
+   "geology_group_en": "Igneous rocks",
+   "lithology_ja": "安山岩・玄武岩質安山岩 溶岩・火砕岩",
+   "lithology_en": "andesite & basaltic andesite lava & pyroclastic rocks"
+  },
+  {
+   "id": "OBS-AMAYUZAWA",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "高原山 甘湯沢",
+   "group_ja": "高原山",
+   "prefecture_code": "09",
+   "latitude": 36.965833,
+   "longitude": 139.828324,
+   "coordinate_precision": "point",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "甘湯沢",
+    "candidate_count": 2,
+    "candidate_index": 0,
+    "candidate_title": "甘湯沢",
+    "rule": "title に '甘湯沢' を含み、逆ジオコードした県コードが 09 であること",
+    "rule_kind": "contains_and_prefecture",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": null,
+   "citations": [
+    {
+     "citation_id": "CIT-COLS-LIST2020",
+     "title": "明治大学 黒耀石研究センター 2020 年度 黒曜石原産地推定 分析リスト",
+     "url": "https://www.meiji.ac.jp/cols/6t5h7p00003chjwe-att/List_gensanti_2020_2.pdf",
+     "source_id": "SRC-MEIJI-COLS"
+    }
+   ],
+   "geology_outcome": "ok",
+   "geology_symbol": "N1_vas_al",
+   "formation_age_ja": "新生代 新第三紀 中新世 バーディガリアン期〜前期ランギアン期",
+   "formation_age_en": "Cenozoic Neogene Miocene Burdigalian - early Langhian",
+   "geology_group_ja": "火成岩",
+   "geology_group_en": "Igneous rocks",
+   "lithology_ja": "デイサイト・流紋岩 溶岩・火砕岩",
+   "lithology_en": "dacite & rhyolite lava & pyroclastic rocks"
+  },
+  {
+   "id": "OBS-KASHIWATOGE",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "天城 柏峠",
+   "group_ja": "伊豆",
+   "prefecture_code": "22",
+   "latitude": 34.964057,
+   "longitude": 139.053689,
+   "coordinate_precision": "point",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "柏峠",
+    "candidate_count": 8,
+    "candidate_index": 7,
+    "candidate_title": "柏峠",
+    "rule": "title に '柏峠' を含み、逆ジオコードした県コードが 22 であること",
+    "rule_kind": "contains_and_prefecture",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": "同名の峠が和歌山県にもある。県コードで絞る。",
+   "citations": [
+    {
+     "citation_id": "CIT-COLS-LIST2020",
+     "title": "明治大学 黒耀石研究センター 2020 年度 黒曜石原産地推定 分析リスト",
+     "url": "https://www.meiji.ac.jp/cols/6t5h7p00003chjwe-att/List_gensanti_2020_2.pdf",
+     "source_id": "SRC-MEIJI-COLS"
+    }
+   ],
+   "geology_outcome": "ok",
+   "geology_symbol": "Q12_vis_al",
+   "formation_age_ja": "新生代 第四紀 更新世 カラブリアン期",
+   "formation_age_en": "Cenozoic Quaternary Pleistocene Calabrian",
+   "geology_group_ja": "火成岩",
+   "geology_group_en": "Igneous rocks",
+   "lithology_ja": "安山岩・玄武岩質安山岩 溶岩・火砕岩",
+   "lithology_en": "andesite & basaltic andesite lava & pyroclastic rocks"
+  },
+  {
+   "id": "OBS-OKETO",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "置戸 所山",
+   "group_ja": "白滝・置戸",
+   "prefecture_code": "01",
+   "latitude": 43.697675,
+   "longitude": 143.555231,
+   "coordinate_precision": "point",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "置戸山",
+    "candidate_count": 4,
+    "candidate_index": 3,
+    "candidate_title": "置戸山",
+    "rule": "title に '置戸山' を含み、逆ジオコードした県コードが 01 であること",
+    "rule_kind": "contains_and_prefecture",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": "COLS の記載は「置戸所山産」「北海道置戸山産」。地名検索が持つのは 「置戸山」なのでそれで引く。所山との対応は本辞書では確認できていない。",
+   "citations": [
+    {
+     "citation_id": "CIT-COLS-LIST2020",
+     "title": "明治大学 黒耀石研究センター 2020 年度 黒曜石原産地推定 分析リスト",
+     "url": "https://www.meiji.ac.jp/cols/6t5h7p00003chjwe-att/List_gensanti_2020_2.pdf",
+     "source_id": "SRC-MEIJI-COLS"
+    }
+   ],
+   "geology_outcome": "ok",
+   "geology_symbol": "N3_vas_al",
+   "formation_age_ja": "新生代 新第三紀 中新世 メッシニアン期〜鮮新世",
+   "formation_age_en": "Cenozoic Neogene Miocene Messinian - Pliocene",
+   "geology_group_ja": "火成岩",
+   "geology_group_en": "Igneous rocks",
+   "lithology_ja": "デイサイト・流紋岩 溶岩・火砕岩",
+   "lithology_en": "dacite & rhyolite lava & pyroclastic rocks"
+  },
+  {
+   "id": "OBS-SHIRATAKI",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "白滝",
+   "group_ja": "白滝・置戸",
+   "prefecture_code": "01",
+   "latitude": 43.880165,
+   "longitude": 143.177521,
+   "coordinate_precision": "area",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "白滝",
+    "candidate_count": 117,
+    "candidate_index": 0,
+    "candidate_title": "北海道遠軽町白滝",
+    "rule": "title に '白滝' を含み、逆ジオコードした県コードが 01 であること",
+    "rule_kind": "contains_and_prefecture",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": "同名地が全国に多数(地名検索 117 件)。県コードで絞る。 地名検索が返すのは集落の地点であって、黒曜石の露頭(赤石山ほか)ではない。 実測(2026-09-09)ではこの点の地質は「段丘堆積物(堆積岩)」と出る —— 集落は河成段丘の上にあるので、原産地の地質を測れていない。 統計では area 精度の点を除いた場合も併せて報告する。",
+   "citations": [
+    {
+     "citation_id": "CIT-COLS-LIST2025",
+     "title": "明治大学 黒耀石研究センター 2025 年度 黒曜石分析リスト",
+     "url": "https://www.meiji.ac.jp/cols/6t5h7p00003chjwe-att/2025obsidian_list.pdf",
+     "source_id": "SRC-MEIJI-COLS"
+    }
+   ],
+   "geology_outcome": "ok",
+   "geology_symbol": "Q32-33_std",
+   "formation_age_ja": "新生代 第四紀 後期更新世中期〜後期更新世後期",
+   "formation_age_en": "Cenozoic Quaternary middle Late Pleistocene - late Late Pleistocene",
+   "geology_group_ja": "堆積岩",
+   "geology_group_en": "Sedimentary rocks",
+   "lithology_ja": "段丘堆積物",
+   "lithology_en": "terrace deposits"
+  },
+  {
+   "id": "OBS-AKIU",
+   "source_id": "SRC-SOURCEAREA",
+   "material_id": "MAT-OBS",
+   "name_ja": "仙台 秋保",
+   "group_ja": "仙台",
+   "prefecture_code": "04",
+   "latitude": 38.230324,
+   "longitude": 140.696152,
+   "coordinate_precision": "area",
+   "coordinate_provenance": {
+    "method": "gsi_address_search",
+    "query": "秋保町湯元",
+    "candidate_count": 2,
+    "candidate_index": 0,
+    "candidate_title": "宮城県仙台市太白区秋保町湯元",
+    "rule": "title に '秋保' を含み、逆ジオコードした県コードが 04 であること",
+    "rule_kind": "contains_and_prefecture",
+    "outcome": "resolved"
+   },
+   "evidence_status": "curated",
+   "note": "「秋保」に対応する自然地名が地名検索に無く、行政区域名(秋保町湯元)で引く。 露頭そのものの位置ではないので、点の精度は area とする。",
+   "citations": [
+    {
+     "citation_id": "CIT-COLS-LIST2020",
+     "title": "明治大学 黒耀石研究センター 2020 年度 黒曜石原産地推定 分析リスト",
+     "url": "https://www.meiji.ac.jp/cols/6t5h7p00003chjwe-att/List_gensanti_2020_2.pdf",
+     "source_id": "SRC-MEIJI-COLS"
+    }
+   ],
+   "geology_outcome": "ok",
+   "geology_symbol": "N2_vas_al",
+   "formation_age_ja": "新生代 新第三紀 中新世 後期ランギアン期〜トートニアン期",
+   "formation_age_en": "Cenozoic Neogene Miocene late Langhian - Tortonian",
+   "geology_group_ja": "火成岩",
+   "geology_group_en": "Igneous rocks",
+   "lithology_ja": "デイサイト・流紋岩 溶岩・火砕岩",
+   "lithology_en": "dacite & rhyolite lava & pyroclastic rocks"
+  }
+ ]
+}

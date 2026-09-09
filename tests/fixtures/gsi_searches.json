@@ -1,0 +1,1829 @@
+{
+ "冷山": {
+  "query": "冷山",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "清冷山",
+    "lat": 33.9362237709422,
+    "lon": 135.393158,
+    "dataSource": "4",
+    "pref_code": "30"
+   },
+   {
+    "title": "冷山",
+    "lat": 36.0437424957218,
+    "lon": 138.329946608242,
+    "dataSource": "4",
+    "pref_code": "20"
+   }
+  ]
+ },
+ "和田峠": {
+  "query": "和田峠",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "青森県七戸町和田",
+    "lat": 40.685638,
+    "lon": 141.131821,
+    "dataSource": null
+   },
+   {
+    "title": "山形県南陽市和田",
+    "lat": 38.063866,
+    "lon": 140.105255,
+    "dataSource": null
+   },
+   {
+    "title": "福島県会津若松市和田",
+    "lat": 37.498707,
+    "lon": 139.949219,
+    "dataSource": null
+   },
+   {
+    "title": "福島県須賀川市和田",
+    "lat": 37.277302,
+    "lon": 140.400467,
+    "dataSource": null
+   },
+   {
+    "title": "福島県相馬市和田",
+    "lat": 37.813374,
+    "lon": 140.953705,
+    "dataSource": null
+   },
+   {
+    "title": "福島県本宮市和田",
+    "lat": 37.530113,
+    "lon": 140.443512,
+    "dataSource": null
+   },
+   {
+    "title": "茨城県取手市和田",
+    "lat": 35.928169,
+    "lon": 140.062469,
+    "dataSource": null
+   },
+   {
+    "title": "埼玉県行田市和田",
+    "lat": 36.160625,
+    "lon": 139.452713,
+    "dataSource": null
+   },
+   {
+    "title": "千葉県栄町和田",
+    "lat": 35.84763,
+    "lon": 140.232269,
+    "dataSource": null
+   },
+   {
+    "title": "千葉県山武市和田",
+    "lat": 35.613201,
+    "lon": 140.401855,
+    "dataSource": null
+   },
+   {
+    "title": "千葉県四街道市和田",
+    "lat": 35.664902,
+    "lon": 140.191895,
+    "dataSource": null
+   },
+   {
+    "title": "千葉県成田市和田",
+    "lat": 35.798618,
+    "lon": 140.330948,
+    "dataSource": null
+   },
+   {
+    "title": "東京都杉並区和田",
+    "lat": 35.69141,
+    "lon": 139.66333,
+    "dataSource": null
+   },
+   {
+    "title": "東京都多摩市和田",
+    "lat": 35.635723,
+    "lon": 139.433426,
+    "dataSource": null
+   },
+   {
+    "title": "神奈川県横浜市保土ケ谷区和田",
+    "lat": 35.463814,
+    "lon": 139.589249,
+    "dataSource": null
+   },
+   {
+    "title": "新潟県魚沼市和田",
+    "lat": 37.277298,
+    "lon": 138.981003,
+    "dataSource": null
+   },
+   {
+    "title": "新潟県新潟市江南区和田",
+    "lat": 37.845097,
+    "lon": 139.053558,
+    "dataSource": null
+   },
+   {
+    "title": "富山県高岡市和田",
+    "lat": 36.732876,
+    "lon": 136.98439,
+    "dataSource": null
+   },
+   {
+    "title": "富山県富山市和田",
+    "lat": 36.563915,
+    "lon": 137.37764,
+    "dataSource": null
+   },
+   {
+    "title": "石川県志賀町和田",
+    "lat": 37.167126,
+    "lon": 136.76384,
+    "dataSource": null
+   },
+   {
+    "title": "福井県美浜町和田",
+    "lat": 35.61797,
+    "lon": 135.944565,
+    "dataSource": null
+   },
+   {
+    "title": "福井県高浜町和田",
+    "lat": 35.491711,
+    "lon": 135.577911,
+    "dataSource": null
+   },
+   {
+    "title": "福井県福井市和田",
+    "lat": 36.050728,
+    "lon": 136.240936,
+    "dataSource": null
+   },
+   {
+    "title": "山梨県身延町和田",
+    "lat": 35.348892,
+    "lon": 138.452972,
+    "dataSource": null
+   },
+   {
+    "title": "長野県長和町和田",
+    "lat": 36.207729,
+    "lon": 138.212097,
+    "dataSource": null
+   },
+   {
+    "title": "長野県小諸市和田",
+    "lat": 36.290627,
+    "lon": 138.458115,
+    "dataSource": null
+   },
+   {
+    "title": "長野県松本市大字和田",
+    "lat": 36.18985,
+    "lon": 137.892349,
+    "dataSource": null
+   },
+   {
+    "title": "岐阜県揖斐川町和田",
+    "lat": 35.475777,
+    "lon": 136.564331,
+    "dataSource": null
+   },
+   {
+    "title": "静岡県伊東市和田",
+    "lat": 34.970264,
+    "lon": 139.101318,
+    "dataSource": null
+   },
+   {
+    "title": "静岡県掛川市和田",
+    "lat": 34.746498,
+    "lon": 138.032043,
+    "dataSource": null
+   },
+   {
+    "title": "静岡県菊川市和田",
+    "lat": 34.764332,
+    "lon": 138.105087,
+    "dataSource": null
+   },
+   {
+    "title": "静岡県牧之原市和田",
+    "lat": 34.721855,
+    "lon": 138.166748,
+    "dataSource": null
+   },
+   {
+    "title": "京都府京丹波町和田",
+    "lat": 35.184067,
+    "lon": 135.370911,
+    "dataSource": null
+   },
+   {
+    "title": "京都府舞鶴市和田",
+    "lat": 35.473034,
+    "lon": 135.348938,
+    "dataSource": null
+   },
+   {
+    "title": "大阪府堺市南区和田",
+    "lat": 34.506954,
+    "lon": 135.492538,
+    "dataSource": null
+   },
+   {
+    "title": "大阪府熊取町和田",
+    "lat": 34.392391,
+    "lon": 135.355286,
+    "dataSource": null
+   },
+   {
+    "title": "兵庫県稲美町和田",
+    "lat": 34.738277,
+    "lon": 134.889603,
+    "dataSource": null
+   },
+   {
+    "title": "兵庫県丹波篠山市和田",
+    "lat": 35.076176,
+    "lon": 135.253754,
+    "dataSource": null
+   },
+   {
+    "title": "兵庫県新温泉町和田",
+    "lat": 35.636391,
+    "lon": 134.506287,
+    "dataSource": null
+   },
+   {
+    "title": "奈良県天川村和田",
+    "lat": 34.207935,
+    "lon": 135.813751,
+    "dataSource": null
+   },
+   {
+    "title": "奈良県桜井市和田",
+    "lat": 34.551212,
+    "lon": 135.909973,
+    "dataSource": null
+   },
+   {
+    "title": "和歌山県田辺市和田",
+    "lat": 33.782379,
+    "lon": 135.632782,
+    "dataSource": null
+   },
+   {
+    "title": "和歌山県美浜町和田",
+    "lat": 33.902935,
+    "lon": 135.134369,
+    "dataSource": null
+   },
+   {
+    "title": "和歌山県広川町和田",
+    "lat": 34.026272,
+    "lon": 135.163605,
+    "dataSource": null
+   },
+   {
+    "title": "和歌山県和歌山市和田",
+    "lat": 34.202705,
+    "lon": 135.209885,
+    "dataSource": null
+   },
+   {
+    "title": "鳥取県倉吉市和田",
+    "lat": 35.446133,
+    "lon": 133.811096,
+    "dataSource": null
+   },
+   {
+    "title": "島根県邑南町和田",
+    "lat": 34.8764,
+    "lon": 132.570572,
+    "dataSource": null
+   },
+   {
+    "title": "岡山県吉備中央町和田",
+    "lat": 34.890438,
+    "lon": 133.738846,
+    "dataSource": null
+   },
+   {
+    "title": "岡山県玉野市和田",
+    "lat": 34.473007,
+    "lon": 133.924271,
+    "dataSource": null
+   },
+   {
+    "title": "岡山県赤磐市和田",
+    "lat": 34.745308,
+    "lon": 133.988739,
+    "dataSource": null
+   },
+   {
+    "title": "岡山県鏡野町和田",
+    "lat": 35.118275,
+    "lon": 133.945206,
+    "dataSource": null
+   },
+   {
+    "title": "岡山県美作市和田",
+    "lat": 35.044254,
+    "lon": 134.180603,
+    "dataSource": null
+   },
+   {
+    "title": "広島県三原市和田",
+    "lat": 34.386974,
+    "lon": 133.070328,
+    "dataSource": null
+   },
+   {
+    "title": "山口県周防大島町和田",
+    "lat": 33.935322,
+    "lon": 132.411697,
+    "dataSource": null
+   },
+   {
+    "title": "愛媛県松山市和田",
+    "lat": 33.932365,
+    "lon": 132.772217,
+    "dataSource": null
+   },
+   {
+    "title": "高知県北川村和田",
+    "lat": 33.495361,
+    "lon": 134.083267,
+    "dataSource": null
+   },
+   {
+    "title": "高知県宿毛市和田",
+    "lat": 32.947514,
+    "lon": 132.744583,
+    "dataSource": null
+   },
+   {
+    "title": "高知県大豊町和田",
+    "lat": 33.774029,
+    "lon": 133.710815,
+    "dataSource": null
+   },
+   {
+    "title": "高知県土佐町和田",
+    "lat": 33.746613,
+    "lon": 133.49585,
+    "dataSource": null
+   },
+   {
+    "title": "福岡県篠栗町和田",
+    "lat": 33.632542,
+    "lon": 130.506851,
+    "dataSource": null
+   },
+   {
+    "title": "福岡県福岡市南区和田",
+    "lat": 33.545441,
+    "lon": 130.425903,
+    "dataSource": null
+   },
+   {
+    "title": "鹿児島県鹿児島市和田",
+    "lat": 31.512924,
+    "lon": 130.511322,
+    "dataSource": null
+   },
+   {
+    "title": "桧和田峠",
+    "lat": 37.3386720257448,
+    "lon": 139.832052687656,
+    "dataSource": "4",
+    "pref_code": "07"
+   },
+   {
+    "title": "和田峠",
+    "lat": 35.6577316948753,
+    "lon": 139.168466532942,
+    "dataSource": "4",
+    "pref_code": "13"
+   },
+   {
+    "title": "和田峠",
+    "lat": 35.7022875927858,
+    "lon": 138.558609621113,
+    "dataSource": "4",
+    "pref_code": "19"
+   },
+   {
+    "title": "和田峠",
+    "lat": 36.1450623996879,
+    "lon": 138.143849713374,
+    "dataSource": "4",
+    "pref_code": "20"
+   },
+   {
+    "title": "和田峠",
+    "lat": 33.7750797715651,
+    "lon": 135.603317,
+    "dataSource": "4",
+    "pref_code": "30"
+   },
+   {
+    "title": "和田峠",
+    "lat": 32.4771957765273,
+    "lon": 131.434067,
+    "dataSource": "4",
+    "pref_code": "45"
+   },
+   {
+    "title": "和田峠トンネル",
+    "lat": 36.1457257544444,
+    "lon": 138.144531433333,
+    "dataSource": "1",
+    "pref_code": "20"
+   }
+  ]
+ },
+ "姫島の黒曜石産地": {
+  "query": "姫島の黒曜石産地",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "千葉県山武市姫島",
+    "lat": 35.591251,
+    "lon": 140.391449,
+    "dataSource": null
+   },
+   {
+    "title": "大阪府大阪市西淀川区姫島",
+    "lat": 34.701027,
+    "lon": 135.458008,
+    "dataSource": null
+   },
+   {
+    "title": "大分県東国東郡姫島村",
+    "lat": 33.724514,
+    "lon": 131.645157,
+    "dataSource": null
+   },
+   {
+    "title": "大分県姫島",
+    "lat": 33.724514,
+    "lon": 131.645157,
+    "dataSource": null
+   },
+   {
+    "title": "姫島の黒曜石産地",
+    "lat": 33.7319400402778,
+    "lon": 131.642758284722,
+    "dataSource": "1",
+    "pref_code": null
+   }
+  ]
+ },
+ "恩馳島": {
+  "query": "恩馳島",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "恩馳島",
+    "lat": 34.186981,
+    "lon": 139.076481,
+    "dataSource": "4",
+    "pref_code": "13"
+   }
+  ]
+ },
+ "星ヶ塔": {
+  "query": "星ヶ塔",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "星ヶ塔黒曜石原産地遺跡",
+    "lat": 36.1284849733333,
+    "lon": 138.140434146944,
+    "dataSource": "1",
+    "pref_code": "20"
+   }
+  ]
+ },
+ "星糞峠": {
+  "query": "星糞峠",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "星糞峠黒曜石原産地遺跡",
+    "lat": 36.1526281341667,
+    "lon": 138.209909728056,
+    "dataSource": "1",
+    "pref_code": "20"
+   }
+  ]
+ },
+ "東餅屋": {
+  "query": "東餅屋",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "北海道札幌市東区",
+    "lat": 43.076111,
+    "lon": 141.363617,
+    "dataSource": null
+   },
+   {
+    "title": "北海道東神楽町東",
+    "lat": 43.681801,
+    "lon": 142.432129,
+    "dataSource": null
+   },
+   {
+    "title": "北海道佐呂間町東",
+    "lat": 43.999634,
+    "lon": 143.788956,
+    "dataSource": null
+   },
+   {
+    "title": "北海道湧別町東",
+    "lat": 44.20536,
+    "lon": 143.65062,
+    "dataSource": null
+   },
+   {
+    "title": "北海道長沼町東",
+    "lat": 42.987072,
+    "lon": 141.742905,
+    "dataSource": null
+   },
+   {
+    "title": "岩手県花巻市東",
+    "lat": 39.366413,
+    "lon": 141.147751,
+    "dataSource": null
+   },
+   {
+    "title": "宮城県大河原町東",
+    "lat": 38.059513,
+    "lon": 140.733246,
+    "dataSource": null
+   },
+   {
+    "title": "秋田県大館市東",
+    "lat": 40.277309,
+    "lon": 140.599869,
+    "dataSource": null
+   },
+   {
+    "title": "秋田県大潟村東",
+    "lat": 40.014755,
+    "lon": 139.963943,
+    "dataSource": null
+   },
+   {
+    "title": "山形県米沢市東",
+    "lat": 37.902912,
+    "lon": 140.127655,
+    "dataSource": null
+   },
+   {
+    "title": "福島県南会津町東",
+    "lat": 37.210133,
+    "lon": 139.55574,
+    "dataSource": null
+   },
+   {
+    "title": "茨城県つくば市東",
+    "lat": 36.061123,
+    "lon": 140.13031,
+    "dataSource": null
+   },
+   {
+    "title": "茨城県古河市東",
+    "lat": 36.196213,
+    "lon": 139.7117,
+    "dataSource": null
+   },
+   {
+    "title": "茨城県取手市東",
+    "lat": 35.889046,
+    "lon": 140.067261,
+    "dataSource": null
+   },
+   {
+    "title": "群馬県桐生市東",
+    "lat": 36.414379,
+    "lon": 139.34668,
+    "dataSource": null
+   },
+   {
+    "title": "埼玉県羽生市東",
+    "lat": 36.172943,
+    "lon": 139.544525,
+    "dataSource": null
+   },
+   {
+    "title": "埼玉県桶川市東",
+    "lat": 36.000023,
+    "lon": 139.568832,
+    "dataSource": null
+   },
+   {
+    "title": "埼玉県幸手市東",
+    "lat": 36.068676,
+    "lon": 139.722061,
+    "dataSource": null
+   },
+   {
+    "title": "埼玉県鴻巣市東",
+    "lat": 36.063168,
+    "lon": 139.515594,
+    "dataSource": null
+   },
+   {
+    "title": "埼玉県新座市東",
+    "lat": 35.809963,
+    "lon": 139.570267,
+    "dataSource": null
+   },
+   {
+    "title": "埼玉県宮代町東",
+    "lat": 36.002327,
+    "lon": 139.731552,
+    "dataSource": null
+   },
+   {
+    "title": "埼玉県蓮田市東",
+    "lat": 35.983562,
+    "lon": 139.655289,
+    "dataSource": null
+   },
+   {
+    "title": "千葉県鴨川市東",
+    "lat": 35.100498,
+    "lon": 140.037018,
+    "dataSource": null
+   },
+   {
+    "title": "千葉県柏市東",
+    "lat": 35.857388,
+    "lon": 139.97847,
+    "dataSource": null
+   },
+   {
+    "title": "東京都国立市東",
+    "lat": 35.697777,
+    "lon": 139.449249,
+    "dataSource": null
+   },
+   {
+    "title": "東京都渋谷区東",
+    "lat": 35.655392,
+    "lon": 139.708405,
+    "dataSource": null
+   },
+   {
+    "title": "新潟県新潟市東区",
+    "lat": 37.924778,
+    "lon": 139.092606,
+    "dataSource": null
+   },
+   {
+    "title": "富山県砺波市東",
+    "lat": 36.659134,
+    "lon": 137.028915,
+    "dataSource": null
+   },
+   {
+    "title": "山梨県山梨市東",
+    "lat": 35.714169,
+    "lon": 138.696899,
+    "dataSource": null
+   },
+   {
+    "title": "長野県王滝村東",
+    "lat": 35.811264,
+    "lon": 137.55545,
+    "dataSource": null
+   },
+   {
+    "title": "静岡県静岡市葵区東",
+    "lat": 35.028336,
+    "lon": 138.400177,
+    "dataSource": null
+   },
+   {
+    "title": "愛知県小牧市東",
+    "lat": 35.284931,
+    "lon": 136.94046,
+    "dataSource": null
+   },
+   {
+    "title": "愛知県名古屋市東区",
+    "lat": 35.179325,
+    "lon": 136.926056,
+    "dataSource": null
+   },
+   {
+    "title": "大阪府貝塚市東",
+    "lat": 34.444427,
+    "lon": 135.362961,
+    "dataSource": null
+   },
+   {
+    "title": "大阪府堺市東区",
+    "lat": 34.538174,
+    "lon": 135.536514,
+    "dataSource": null
+   },
+   {
+    "title": "鳥取県八頭町東",
+    "lat": 35.360226,
+    "lon": 134.328415,
+    "dataSource": null
+   },
+   {
+    "title": "岡山県岡山市東区",
+    "lat": 34.651375,
+    "lon": 134.029465,
+    "dataSource": null
+   },
+   {
+    "title": "広島県海田町東",
+    "lat": 34.365276,
+    "lon": 132.555328,
+    "dataSource": null
+   },
+   {
+    "title": "広島県広島市東区",
+    "lat": 34.395329,
+    "lon": 132.482483,
+    "dataSource": null
+   },
+   {
+    "title": "福岡県糸島市東",
+    "lat": 33.532417,
+    "lon": 130.186295,
+    "dataSource": null
+   },
+   {
+    "title": "福岡県福岡市東区",
+    "lat": 33.617779,
+    "lon": 130.417496,
+    "dataSource": null
+   },
+   {
+    "title": "熊本県熊本市東区",
+    "lat": 32.780514,
+    "lon": 130.768082,
+    "dataSource": null
+   },
+   {
+    "title": "沖縄県沖縄市東",
+    "lat": 26.342495,
+    "lon": 127.820938,
+    "dataSource": null
+   },
+   {
+    "title": "沖縄県国頭郡東村",
+    "lat": 26.633383,
+    "lon": 128.15683,
+    "dataSource": null
+   },
+   {
+    "title": "沖縄県本部町東",
+    "lat": 26.657301,
+    "lon": 127.900856,
+    "dataSource": null
+   },
+   {
+    "title": "沖縄県粟国村東",
+    "lat": 26.589865,
+    "lon": 127.231392,
+    "dataSource": null
+   },
+   {
+    "title": "沖縄県渡名喜村東",
+    "lat": 26.370394,
+    "lon": 127.146133,
+    "dataSource": null
+   },
+   {
+    "title": "沖縄県東",
+    "lat": 26.633383,
+    "lon": 128.15683,
+    "dataSource": null
+   },
+   {
+    "title": "東餅屋",
+    "lat": 36.15115,
+    "lon": 138.1460417,
+    "dataSource": "5",
+    "pref_code": "20"
+   }
+  ]
+ },
+ "柏峠": {
+  "query": "柏峠",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "北海道遠軽町柏",
+    "lat": 43.991478,
+    "lon": 143.390579,
+    "dataSource": null
+   },
+   {
+    "title": "埼玉県本庄市柏",
+    "lat": 36.235767,
+    "lon": 139.176178,
+    "dataSource": null
+   },
+   {
+    "title": "千葉県柏市",
+    "lat": 35.867508,
+    "lon": 139.975937,
+    "dataSource": null
+   },
+   {
+    "title": "千葉県柏市柏",
+    "lat": 35.864445,
+    "lon": 139.986511,
+    "dataSource": null
+   },
+   {
+    "title": "愛媛県愛南町柏",
+    "lat": 33.02375,
+    "lon": 132.502533,
+    "dataSource": null
+   },
+   {
+    "title": "熊本県山都町柏",
+    "lat": 32.741085,
+    "lon": 131.171707,
+    "dataSource": null
+   },
+   {
+    "title": "柏峠",
+    "lat": 33.940162770927,
+    "lon": 135.098442,
+    "dataSource": "4",
+    "pref_code": "30"
+   },
+   {
+    "title": "柏峠",
+    "lat": 34.9640567669372,
+    "lon": 139.053689,
+    "dataSource": "4",
+    "pref_code": "22"
+   }
+  ]
+ },
+ "甘湯沢": {
+  "query": "甘湯沢",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "甘湯沢",
+    "lat": 36.9658329979187,
+    "lon": 139.828324008581,
+    "dataSource": "4",
+    "pref_code": "09"
+   },
+   {
+    "title": "甘湯沢",
+    "lat": 36.9517270575,
+    "lon": 139.817347342778,
+    "dataSource": "1",
+    "pref_code": "09"
+   }
+  ]
+ },
+ "畑宿": {
+  "query": "畑宿",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "神奈川県箱根町畑宿",
+    "lat": 35.205265,
+    "lon": 139.056259,
+    "dataSource": null,
+    "pref_code": "14"
+   },
+   {
+    "title": "畑宿",
+    "lat": 35.2052646027153,
+    "lon": 139.056263333174,
+    "dataSource": "5",
+    "pref_code": "14"
+   }
+  ]
+ },
+ "白滝": {
+  "query": "白滝",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "北海道遠軽町白滝",
+    "lat": 43.880165,
+    "lon": 143.177521,
+    "dataSource": null,
+    "pref_code": "01"
+   },
+   {
+    "title": "京都府舞鶴市白滝",
+    "lat": 35.416695,
+    "lon": 135.390488,
+    "dataSource": null,
+    "pref_code": "26"
+   },
+   {
+    "title": "愛媛県大洲市白滝",
+    "lat": 33.584721,
+    "lon": 132.52301,
+    "dataSource": null,
+    "pref_code": "38"
+   },
+   {
+    "title": "白滝谷",
+    "lat": 35.0656,
+    "lon": 136.406226,
+    "dataSource": "4",
+    "pref_code": "25"
+   },
+   {
+    "title": "母ノ白滝",
+    "lat": 35.535457981926,
+    "lon": 138.782645178859,
+    "dataSource": "4",
+    "pref_code": "19"
+   },
+   {
+    "title": "白滝",
+    "lat": 33.873086,
+    "lon": 139.577911,
+    "dataSource": "4",
+    "pref_code": "13"
+   },
+   {
+    "title": "白滝",
+    "lat": 34.180486,
+    "lon": 136.001792,
+    "dataSource": "4",
+    "pref_code": "29"
+   },
+   {
+    "title": "鼻白滝",
+    "lat": 33.785808,
+    "lon": 135.886003,
+    "dataSource": "4",
+    "pref_code": "30"
+   },
+   {
+    "title": "白滝",
+    "lat": 33.582122,
+    "lon": 132.530575,
+    "dataSource": "4",
+    "pref_code": "38"
+   },
+   {
+    "title": "白滝",
+    "lat": 31.407406,
+    "lon": 130.772853,
+    "dataSource": "4",
+    "pref_code": "46"
+   },
+   {
+    "title": "白滝温泉",
+    "lat": 32.744981,
+    "lon": 131.42075,
+    "dataSource": "4",
+    "pref_code": "45"
+   },
+   {
+    "title": "白滝鼻",
+    "lat": 35.584011,
+    "lon": 133.069533,
+    "dataSource": "4",
+    "pref_code": "32"
+   },
+   {
+    "title": "白滝川",
+    "lat": 33.262083,
+    "lon": 131.359034,
+    "dataSource": "4",
+    "pref_code": "44"
+   },
+   {
+    "title": "白滝",
+    "lat": 37.0380958516256,
+    "lon": 138.04581267983,
+    "dataSource": "4",
+    "pref_code": "15"
+   },
+   {
+    "title": "白滝沢",
+    "lat": 37.7826960047008,
+    "lon": 139.567541355623,
+    "dataSource": "4",
+    "pref_code": "15"
+   },
+   {
+    "title": "白滝沢",
+    "lat": 37.186854737097,
+    "lon": 139.241222001802,
+    "dataSource": "4",
+    "pref_code": "15"
+   },
+   {
+    "title": "白滝沢",
+    "lat": 36.9852852240329,
+    "lon": 139.598955982549,
+    "dataSource": "4",
+    "pref_code": "09"
+   },
+   {
+    "title": "白滝沢",
+    "lat": 37.0746600139487,
+    "lon": 139.781199455937,
+    "dataSource": "4",
+    "pref_code": "09"
+   },
+   {
+    "title": "白滝沢",
+    "lat": 38.2673609932218,
+    "lon": 140.006616649964,
+    "dataSource": "4",
+    "pref_code": "06"
+   },
+   {
+    "title": "白滝川",
+    "lat": 40.3388753821516,
+    "lon": 140.026137020084,
+    "dataSource": "4",
+    "pref_code": "05"
+   },
+   {
+    "title": "白滝の沢",
+    "lat": 43.564547,
+    "lon": 143.326749,
+    "dataSource": "4",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝沢川",
+    "lat": 41.799459,
+    "lon": 140.908159,
+    "dataSource": "4",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝沢川",
+    "lat": 41.887952,
+    "lon": 140.853576,
+    "dataSource": "4",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝",
+    "lat": 43.592114,
+    "lon": 143.242322,
+    "dataSource": "4",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝山",
+    "lat": 35.2319797658844,
+    "lon": 135.881289,
+    "dataSource": "4",
+    "pref_code": "25"
+   },
+   {
+    "title": "白滝山",
+    "lat": 34.9888907668398,
+    "lon": 133.192833,
+    "dataSource": "4",
+    "pref_code": "34"
+   },
+   {
+    "title": "白滝山",
+    "lat": 33.9469017709009,
+    "lon": 133.977356,
+    "dataSource": "4",
+    "pref_code": "36"
+   },
+   {
+    "title": "白滝山",
+    "lat": 34.3446707693573,
+    "lon": 133.158025,
+    "dataSource": "4",
+    "pref_code": "34"
+   },
+   {
+    "title": "白滝山",
+    "lat": 34.2508677697221,
+    "lon": 132.139125,
+    "dataSource": "4",
+    "pref_code": "35"
+   },
+   {
+    "title": "白滝山",
+    "lat": 34.303112769519,
+    "lon": 131.023106,
+    "dataSource": "4",
+    "pref_code": "35"
+   },
+   {
+    "title": "白滝山",
+    "lat": 32.7560177754697,
+    "lon": 132.996447,
+    "dataSource": "4",
+    "pref_code": "39"
+   },
+   {
+    "title": "白滝山",
+    "lat": 34.3544177693194,
+    "lon": 132.996081,
+    "dataSource": "4",
+    "pref_code": "34"
+   },
+   {
+    "title": "白滝",
+    "lat": 43.940025,
+    "lon": 143.268631,
+    "dataSource": "4",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝",
+    "lat": 32.277939,
+    "lon": 131.443044,
+    "dataSource": "4",
+    "pref_code": "45"
+   },
+   {
+    "title": "白滝",
+    "lat": 39.6918029014387,
+    "lon": 141.190473235498,
+    "dataSource": "4",
+    "pref_code": "03"
+   },
+   {
+    "title": "白滝",
+    "lat": 39.7414339436403,
+    "lon": 140.774009236204,
+    "dataSource": "4",
+    "pref_code": "05"
+   },
+   {
+    "title": "白滝",
+    "lat": 38.27601084037,
+    "lon": 139.598917602588,
+    "dataSource": "4",
+    "pref_code": "15"
+   },
+   {
+    "title": "白滝",
+    "lat": 38.0099552095139,
+    "lon": 138.530951392124,
+    "dataSource": "4",
+    "pref_code": "15"
+   },
+   {
+    "title": "白滝",
+    "lat": 37.9692784015077,
+    "lon": 139.773168789783,
+    "dataSource": "4",
+    "pref_code": "06"
+   },
+   {
+    "title": "白滝",
+    "lat": 38.2667459989412,
+    "lon": 140.005076631253,
+    "dataSource": "4",
+    "pref_code": "06"
+   },
+   {
+    "title": "白滝",
+    "lat": 37.6011483705987,
+    "lon": 139.164026406926,
+    "dataSource": "4",
+    "pref_code": "15"
+   },
+   {
+    "title": "白滝",
+    "lat": 37.4596815233927,
+    "lon": 139.219441298766,
+    "dataSource": "4",
+    "pref_code": "15"
+   },
+   {
+    "title": "白滝",
+    "lat": 36.8809796968849,
+    "lon": 138.138887468092,
+    "dataSource": "4",
+    "pref_code": "15"
+   },
+   {
+    "title": "白滝",
+    "lat": 34.371011,
+    "lon": 136.726733,
+    "dataSource": "4",
+    "pref_code": "24"
+   },
+   {
+    "title": "白滝谷",
+    "lat": 35.242431,
+    "lon": 135.881889,
+    "dataSource": "4",
+    "pref_code": "25"
+   },
+   {
+    "title": "白滝天狗平",
+    "lat": 43.8601896249666,
+    "lon": 143.096383196193,
+    "dataSource": "5",
+    "pref_code": "01"
+   },
+   {
+    "title": "東白滝",
+    "lat": 43.8563401292594,
+    "lon": 143.130333076806,
+    "dataSource": "5",
+    "pref_code": "01"
+   },
+   {
+    "title": "若山町白滝",
+    "lat": 37.4353275450282,
+    "lon": 137.164336057626,
+    "dataSource": "5",
+    "pref_code": "17"
+   },
+   {
+    "title": "白滝町",
+    "lat": 36.037678780647,
+    "lon": 136.07508841687,
+    "dataSource": "5",
+    "pref_code": "18"
+   },
+   {
+    "title": "字白滝",
+    "lat": 35.4166939923,
+    "lon": 135.390487784602,
+    "dataSource": "5",
+    "pref_code": "26"
+   },
+   {
+    "title": "白滝",
+    "lat": 33.5847200122754,
+    "lon": 132.523013299257,
+    "dataSource": "5",
+    "pref_code": "38"
+   },
+   {
+    "title": "白滝",
+    "lat": 33.68895278,
+    "lon": 135.4500778,
+    "dataSource": "5",
+    "pref_code": "30"
+   },
+   {
+    "title": "白滝",
+    "lat": 35.21985,
+    "lon": 132.7334722,
+    "dataSource": "5",
+    "pref_code": "32"
+   },
+   {
+    "title": "白滝",
+    "lat": 34.12307778,
+    "lon": 130.9303361,
+    "dataSource": "5",
+    "pref_code": "35"
+   },
+   {
+    "title": "白滝",
+    "lat": 31.90875833,
+    "lon": 130.2282194,
+    "dataSource": "5",
+    "pref_code": "46"
+   },
+   {
+    "title": "白滝支湧別",
+    "lat": 43.8449929166333,
+    "lon": 143.145694709116,
+    "dataSource": "5",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝北支湧別",
+    "lat": 43.8643633735018,
+    "lon": 143.162916282932,
+    "dataSource": "5",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝上支湧別",
+    "lat": 43.8154820520907,
+    "lon": 143.132505196897,
+    "dataSource": "5",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝",
+    "lat": 43.8801652111076,
+    "lon": 143.177523365456,
+    "dataSource": "5",
+    "pref_code": "01"
+   },
+   {
+    "title": "下白滝",
+    "lat": 43.9420721032279,
+    "lon": 143.272455771013,
+    "dataSource": "5",
+    "pref_code": "01"
+   },
+   {
+    "title": "旧白滝",
+    "lat": 43.9108871416903,
+    "lon": 143.224985903543,
+    "dataSource": "5",
+    "pref_code": "01"
+   },
+   {
+    "title": "上白滝",
+    "lat": 43.8782819583,
+    "lon": 143.128608842306,
+    "dataSource": "5",
+    "pref_code": "01"
+   },
+   {
+    "title": "奥白滝",
+    "lat": 43.8727670808178,
+    "lon": 143.079797415689,
+    "dataSource": "5",
+    "pref_code": "01"
+   },
+   {
+    "title": "特別養護老人ホーム「白滝荘」",
+    "lat": 34.27139219,
+    "lon": 130.98897425,
+    "dataSource": "3",
+    "pref_code": "35"
+   },
+   {
+    "title": "遠軽地区広域組合消防署白滝出張所",
+    "lat": 43.88633333,
+    "lon": 143.1844444,
+    "dataSource": "3",
+    "pref_code": "01"
+   },
+   {
+    "title": "町立白滝中学校",
+    "lat": 43.87869444,
+    "lon": 143.1752778,
+    "dataSource": "3",
+    "pref_code": "01"
+   },
+   {
+    "title": "町立白滝小学校",
+    "lat": 43.88015425,
+    "lon": 143.1756142,
+    "dataSource": "3",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝郵便局",
+    "lat": 43.88240261,
+    "lon": 143.1791091,
+    "dataSource": "3",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝郵便局",
+    "lat": 33.57794444,
+    "lon": 132.5291944,
+    "dataSource": "3",
+    "pref_code": "38"
+   },
+   {
+    "title": "特別養護老人ホーム「白滝園」",
+    "lat": 34.37182389,
+    "lon": 132.98933662,
+    "dataSource": "3",
+    "pref_code": "34"
+   },
+   {
+    "title": "養護老人ホーム「白滝園」",
+    "lat": 34.37182389,
+    "lon": 132.98933662,
+    "dataSource": "3",
+    "pref_code": "34"
+   },
+   {
+    "title": "遠軽警察署白滝駐在所",
+    "lat": 43.88610842,
+    "lon": 143.1839429,
+    "dataSource": "3",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝大橋",
+    "lat": 33.5776695691667,
+    "lon": 132.52168714,
+    "dataSource": "1",
+    "pref_code": "38"
+   },
+   {
+    "title": "白滝川",
+    "lat": 33.2804550830556,
+    "lon": 131.352435574722,
+    "dataSource": "1",
+    "pref_code": "44"
+   },
+   {
+    "title": "白滝川橋",
+    "lat": 33.2875111133333,
+    "lon": 131.349401121944,
+    "dataSource": "1",
+    "pref_code": "44"
+   },
+   {
+    "title": "白滝",
+    "lat": 37.4595792777778,
+    "lon": 139.219302722222,
+    "dataSource": "1",
+    "pref_code": "15"
+   },
+   {
+    "title": "白滝",
+    "lat": 32.2779274166667,
+    "lon": 131.443257861111,
+    "dataSource": "1",
+    "pref_code": "45"
+   },
+   {
+    "title": "白滝橋",
+    "lat": 33.1625526813889,
+    "lon": 131.648051719444,
+    "dataSource": "1",
+    "pref_code": "44"
+   },
+   {
+    "title": "白滝",
+    "lat": 31.4072312425,
+    "lon": 130.772830986944,
+    "dataSource": "1",
+    "pref_code": "46"
+   },
+   {
+    "title": "白滝",
+    "lat": 33.5821120555556,
+    "lon": 132.529034756389,
+    "dataSource": "1",
+    "pref_code": "38"
+   },
+   {
+    "title": "白滝",
+    "lat": 38.2666532222222,
+    "lon": 140.005081,
+    "dataSource": "1",
+    "pref_code": "06"
+   },
+   {
+    "title": "白滝橋",
+    "lat": 43.574389,
+    "lon": 142.555210666667,
+    "dataSource": "1",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝",
+    "lat": 37.9693845833333,
+    "lon": 139.771552166667,
+    "dataSource": "1",
+    "pref_code": "06"
+   },
+   {
+    "title": "白滝沢",
+    "lat": 38.2676069166667,
+    "lon": 140.002455805556,
+    "dataSource": "1",
+    "pref_code": "06"
+   },
+   {
+    "title": "白滝川",
+    "lat": 40.3503401111111,
+    "lon": 140.051353416667,
+    "dataSource": "1",
+    "pref_code": "05"
+   },
+   {
+    "title": "白滝",
+    "lat": 39.74280247,
+    "lon": 140.773611065833,
+    "dataSource": "1",
+    "pref_code": "05"
+   },
+   {
+    "title": "白滝沢川",
+    "lat": 41.8039873888889,
+    "lon": 140.918001916667,
+    "dataSource": "1",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝沢川",
+    "lat": 41.8868512222222,
+    "lon": 140.845663388889,
+    "dataSource": "1",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝",
+    "lat": 39.6929282455556,
+    "lon": 141.190467321944,
+    "dataSource": "1",
+    "pref_code": "03"
+   },
+   {
+    "title": "白滝",
+    "lat": 43.5921253611111,
+    "lon": 143.242551611111,
+    "dataSource": "1",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝沢",
+    "lat": 37.0719545277778,
+    "lon": 139.79334625,
+    "dataSource": "1",
+    "pref_code": "09"
+   },
+   {
+    "title": "奥白滝ＩＣ",
+    "lat": 43.8714641666667,
+    "lon": 143.074941694444,
+    "dataSource": "1",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝",
+    "lat": 43.9399541388889,
+    "lon": 143.268672888889,
+    "dataSource": "1",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝トンネル",
+    "lat": 43.9398171055556,
+    "lon": 143.258830260833,
+    "dataSource": "1",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝の沢",
+    "lat": 43.5565929444444,
+    "lon": 143.312508944444,
+    "dataSource": "1",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝ＩＣ",
+    "lat": 43.8862722302778,
+    "lon": 143.198014564722,
+    "dataSource": "1",
+    "pref_code": "01"
+   },
+   {
+    "title": "新白滝橋",
+    "lat": 43.8842720833333,
+    "lon": 143.18363575,
+    "dataSource": "1",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝駅",
+    "lat": 43.8845562777778,
+    "lon": 143.178811555556,
+    "dataSource": "1",
+    "pref_code": "01"
+   },
+   {
+    "title": "東白滝牧場",
+    "lat": 43.8679739444444,
+    "lon": 143.139128444444,
+    "dataSource": "1",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝",
+    "lat": 37.0392375102778,
+    "lon": 138.045910597778,
+    "dataSource": "1",
+    "pref_code": "15"
+   },
+   {
+    "title": "伊予白滝駅",
+    "lat": 33.5785278727778,
+    "lon": 132.5264399375,
+    "dataSource": "1",
+    "pref_code": "38"
+   },
+   {
+    "title": "白滝フラワーライン",
+    "lat": 34.3525431944444,
+    "lon": 133.163849055556,
+    "dataSource": "1",
+    "pref_code": "34"
+   },
+   {
+    "title": "鼻白滝",
+    "lat": 33.7875317125,
+    "lon": 135.886030813611,
+    "dataSource": "1",
+    "pref_code": "30"
+   },
+   {
+    "title": "白滝谷",
+    "lat": 35.23296875,
+    "lon": 135.886343972222,
+    "dataSource": "1",
+    "pref_code": "25"
+   },
+   {
+    "title": "白滝",
+    "lat": 34.1802401255556,
+    "lon": 136.001722509167,
+    "dataSource": "1",
+    "pref_code": "29"
+   },
+   {
+    "title": "白滝",
+    "lat": 34.3707843455556,
+    "lon": 136.726856350278,
+    "dataSource": "1",
+    "pref_code": "24"
+   },
+   {
+    "title": "白滝谷",
+    "lat": 35.0601310061111,
+    "lon": 136.416964436944,
+    "dataSource": "1",
+    "pref_code": "25"
+   },
+   {
+    "title": "白滝",
+    "lat": 36.8822351261111,
+    "lon": 138.138831515556,
+    "dataSource": "1",
+    "pref_code": "15"
+   },
+   {
+    "title": "白滝遺跡群",
+    "lat": 43.8742598761111,
+    "lon": 143.133231456944,
+    "dataSource": "1",
+    "pref_code": "01"
+   },
+   {
+    "title": "白滝",
+    "lat": 38.0098490555556,
+    "lon": 138.530882472222,
+    "dataSource": "1",
+    "pref_code": "15"
+   },
+   {
+    "title": "母ノ白滝",
+    "lat": 35.53539225,
+    "lon": 138.782796027778,
+    "dataSource": "1",
+    "pref_code": "19"
+   },
+   {
+    "title": "白滝",
+    "lat": 37.6010087816667,
+    "lon": 139.164025453056,
+    "dataSource": "1",
+    "pref_code": "15"
+   },
+   {
+    "title": "白滝沢",
+    "lat": 37.1912834444445,
+    "lon": 139.250741416667,
+    "dataSource": "1",
+    "pref_code": "07"
+   },
+   {
+    "title": "白滝",
+    "lat": 33.8729105238889,
+    "lon": 139.577844288611,
+    "dataSource": "1",
+    "pref_code": "13"
+   },
+   {
+    "title": "白滝沢",
+    "lat": 36.9886930833333,
+    "lon": 139.584456388889,
+    "dataSource": "1",
+    "pref_code": "09"
+   },
+   {
+    "title": "白滝沢",
+    "lat": 37.7906049722222,
+    "lon": 139.581445722222,
+    "dataSource": "1",
+    "pref_code": "15"
+   },
+   {
+    "title": "白滝",
+    "lat": 38.2758071138889,
+    "lon": 139.598925036389,
+    "dataSource": "1",
+    "pref_code": "15"
+   }
+  ]
+ },
+ "砂糠崎": {
+  "query": "砂糠崎",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "埼玉県川越市砂",
+    "lat": 35.89465,
+    "lon": 139.497635,
+    "dataSource": null
+   },
+   {
+    "title": "千葉県八街市砂",
+    "lat": 35.612289,
+    "lon": 140.291443,
+    "dataSource": null
+   },
+   {
+    "title": "大阪府四條畷市砂",
+    "lat": 34.744736,
+    "lon": 135.634811,
+    "dataSource": null
+   },
+   {
+    "title": "砂糠崎",
+    "lat": 34.204619,
+    "lon": 139.175231,
+    "dataSource": "4",
+    "pref_code": "13"
+   }
+  ]
+ },
+ "秋保町湯元": {
+  "query": "秋保町湯元",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "宮城県仙台市太白区秋保町湯元",
+    "lat": 38.230324,
+    "lon": 140.696152,
+    "dataSource": null,
+    "pref_code": "04"
+   },
+   {
+    "title": "秋保町湯元",
+    "lat": 38.2303220958659,
+    "lon": 140.696145817886,
+    "dataSource": "5",
+    "pref_code": "04"
+   }
+  ]
+ },
+ "置戸山": {
+  "query": "置戸山",
+  "observed_at": "2026-09-09",
+  "results": [
+   {
+    "title": "北海道常呂郡置戸町",
+    "lat": 43.676388,
+    "lon": 143.586395,
+    "dataSource": null
+   },
+   {
+    "title": "北海道置戸町置戸",
+    "lat": 43.680531,
+    "lon": 143.60408,
+    "dataSource": null
+   },
+   {
+    "title": "北海道置戸",
+    "lat": 43.676388,
+    "lon": 143.586395,
+    "dataSource": null
+   },
+   {
+    "title": "置戸山",
+    "lat": 43.697675,
+    "lon": 143.555231,
+    "dataSource": "4",
+    "pref_code": "01"
+   }
+  ]
+ }
+}

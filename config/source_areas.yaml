@@ -1,0 +1,214 @@
+# 黒曜石原産地辞書(SPEC §4.1 / F-01)
+#
+# **ここに座標は書かない。** 座標は国土地理院の地名検索から引き、
+# どの問い合わせの何番目の候補を、どの規則で選んだかを出荷レコードに残す。
+# 手で書いた座標は「実測」ではなく「誰かの記憶」なので、この辞書には置かない。
+#
+# 各エントリが宣言するのは次の三つだけである。
+#
+#   query              … 国土地理院 地名検索へ投げる語
+#   title_must_contain … 候補の表示名に必ず含まれる文字列(同名別地の排除)
+#   expect_pref_code   … 期待する都道府県コード(候補を逆ジオコードして確認する)
+#
+# 候補が一つも条件を満たさなければ、**推測で埋めずに needs_review で出荷する**。
+#
+# ------------------------------------------------------------------
+# 収録の範囲について(実測 2026-09-08)
+#
+# 明治大学 黒耀石研究センターは「国内に存在する80数カ所の原産地」と述べている
+# (https://www.meiji.ac.jp/cols/map01.html)。本辞書が典拠を確認できたのは
+# 下記のみである。差は「無い」のではなく「本辞書が確認できていない」。
+# 典拠を確認できていない地名は、記憶から書き足さない。
+# ------------------------------------------------------------------
+
+# 典拠の定義。各原産地の citations がここを参照する。
+citations:
+  CIT-GSI-GAZ:
+    kind: gazetteer
+    title: 国土地理院 地名検索(地理院地図)
+    url: https://msearch.gsi.go.jp/address-search/AddressSearch
+    note: >-
+      名称そのものが「黒曜石原産地」「黒曜石産地」を含む地名として国土地理院の
+      地名情報に登録されている。名称と座標の双方がこの典拠に由来する。
+    source_id: SRC-GSI
+
+  CIT-COLS-MAP02:
+    kind: web_page
+    title: 明治大学 黒耀石研究センター「日本における黒曜石産出地」
+    url: https://www.meiji.ac.jp/cols/map02.html
+    accessed: "2026-09-08"
+    note: 図版キャプションに原産地名が挙げられている(神津島砂糠崎・和田東餅屋・箱根畑宿・神津島恩馳)。
+    source_id: SRC-MEIJI-COLS
+
+  CIT-COLS-LIST2020:
+    kind: pdf
+    title: 明治大学 黒耀石研究センター 2020 年度 黒曜石原産地推定 分析リスト
+    url: https://www.meiji.ac.jp/cols/6t5h7p00003chjwe-att/List_gensanti_2020_2.pdf
+    accessed: "2026-09-08"
+    note: >-
+      特記事項の欄に、蛍光X線分析で判定された原産地名が記されている
+      (諏訪星ヶ台・箱根畑宿・神津島恩馳島・蓼科冷山・仙台秋保・高原山甘湯沢・
+      天城柏峠・置戸所山)。本辞書は原産地の名称のみを引用しており、
+      同リストの表を複製・再配布していない。
+    source_id: SRC-MEIJI-COLS
+
+  CIT-COLS-LIST2025:
+    kind: pdf
+    title: 明治大学 黒耀石研究センター 2025 年度 黒曜石分析リスト
+    url: https://www.meiji.ac.jp/cols/6t5h7p00003chjwe-att/2025obsidian_list.pdf
+    accessed: "2026-09-08"
+    note: 掲載文献欄に「本州における白滝産(黒曜石)」が挙げられている。
+    source_id: SRC-MEIJI-COLS
+
+  CIT-COLS-MAP01:
+    kind: web_page
+    title: 明治大学 黒耀石研究センター「黒曜石原産地推定の概要と結果」
+    url: https://www.meiji.ac.jp/cols/map01.html
+    accessed: "2026-09-08"
+    note: >-
+      「国内に存在する80数カ所の原産地ごとの化学組成がすべて異なっている」
+      「2020年度末までに日本全国の500遺跡以上、45000点以上」。
+      判別図は Rb 分率・Sr 分率・Mn×100/Fe・Log(Fe/K) の 4 指標(望月・池谷 1994)。
+    source_id: SRC-MEIJI-COLS
+
+source_areas:
+  # ── 名称そのものが国土地理院の地名情報に登録されているもの ──
+  OBS-HOSHIGATO:
+    name_ja: 星ヶ塔
+    group_ja: 霧ヶ峰・和田峠群
+    query: 星ヶ塔
+    title_must_contain: 星ヶ塔黒曜石原産地遺跡
+    expect_pref_code: "20"
+    citations: [CIT-GSI-GAZ, CIT-COLS-LIST2020]
+    note: 国土地理院の地名情報に「星ヶ塔黒曜石原産地遺跡」として登録されている。
+
+  OBS-HOSHIKUSO:
+    name_ja: 星糞峠
+    group_ja: 霧ヶ峰・和田峠群
+    query: 星糞峠
+    title_must_contain: 星糞峠黒曜石原産地遺跡
+    expect_pref_code: "20"
+    citations: [CIT-GSI-GAZ]
+    note: 国土地理院の地名情報に「星糞峠黒曜石原産地遺跡」として登録されている。
+
+  OBS-HIMESHIMA:
+    name_ja: 姫島
+    group_ja: 姫島
+    query: 姫島の黒曜石産地
+    title_must_contain: 姫島の黒曜石産地
+    title_is_exact: true
+    expect_pref_code: "44"
+    citations: [CIT-GSI-GAZ]
+    note: >-
+      国土地理院の地名情報に「姫島の黒曜石産地」として登録されている。
+      名称そのものが対象を一意に指すので、県コードの照合ではなく一意性で確定する。
+      実測(2026-09-09)ではこの座標を逆ジオコードすると None(陸上でない)が返る ——
+      小島の海岸の露頭で、逆ジオコーダの陸域マスクが届いていない。
+
+  # ── 明治大 COLS の文書で名称が挙げられているもの ──
+  OBS-ONBASE:
+    name_ja: 神津島 恩馳島
+    group_ja: 神津島
+    query: 恩馳島
+    title_must_contain: 恩馳島
+    expect_pref_code: "13"
+    citations: [CIT-COLS-MAP02, CIT-COLS-LIST2020]
+
+  OBS-SANUKAZAKI:
+    name_ja: 神津島 砂糠崎
+    group_ja: 神津島
+    query: 砂糠崎
+    title_must_contain: 砂糠崎
+    expect_pref_code: "13"
+    citations: [CIT-COLS-MAP02]
+
+  OBS-HATAJUKU:
+    name_ja: 箱根 畑宿
+    group_ja: 箱根
+    query: 畑宿
+    title_must_contain: 畑宿
+    expect_pref_code: "14"
+    citations: [CIT-COLS-MAP02, CIT-COLS-LIST2020]
+
+  OBS-WADATOGE:
+    name_ja: 和田峠
+    group_ja: 霧ヶ峰・和田峠群
+    query: 和田峠
+    title_must_contain: 和田峠
+    expect_pref_code: "20"
+    citations: [CIT-COLS-MAP02]
+    note: >-
+      同名の峠が全国に 5 か所あり、地名検索の上位は青森県・山形県・福島県の
+      「和田」を返す。県コードで絞らないと別地を掴む。
+
+  OBS-HIGASHIMOCHIYA:
+    name_ja: 和田峠 東餅屋
+    group_ja: 霧ヶ峰・和田峠群
+    query: 東餅屋
+    title_must_contain: 東餅屋
+    expect_pref_code: "20"
+    citations: [CIT-COLS-MAP02]
+
+  OBS-TSUMETAYAMA:
+    name_ja: 蓼科 冷山
+    group_ja: 霧ヶ峰・和田峠群
+    query: 冷山
+    title_must_contain: 冷山
+    expect_pref_code: "20"
+    citations: [CIT-COLS-LIST2020]
+    note: 「蓼科冷山」では地名検索が 0 件を返すので、局所名「冷山」で引く。
+
+  OBS-AMAYUZAWA:
+    name_ja: 高原山 甘湯沢
+    group_ja: 高原山
+    query: 甘湯沢
+    title_must_contain: 甘湯沢
+    expect_pref_code: "09"
+    citations: [CIT-COLS-LIST2020]
+
+  OBS-KASHIWATOGE:
+    name_ja: 天城 柏峠
+    group_ja: 伊豆
+    query: 柏峠
+    title_must_contain: 柏峠
+    expect_pref_code: "22"
+    citations: [CIT-COLS-LIST2020]
+    note: 同名の峠が和歌山県にもある。県コードで絞る。
+
+  OBS-OKETO:
+    name_ja: 置戸 所山
+    group_ja: 白滝・置戸
+    query: 置戸山
+    title_must_contain: 置戸山
+    expect_pref_code: "01"
+    citations: [CIT-COLS-LIST2020]
+    note: >-
+      COLS の記載は「置戸所山産」「北海道置戸山産」。地名検索が持つのは
+      「置戸山」なのでそれで引く。所山との対応は本辞書では確認できていない。
+
+  OBS-SHIRATAKI:
+    name_ja: 白滝
+    group_ja: 白滝・置戸
+    query: 白滝
+    title_must_contain: 白滝
+    expect_pref_code: "01"
+    citations: [CIT-COLS-LIST2025]
+    coordinate_precision: area
+    note: >-
+      同名地が全国に多数(地名検索 117 件)。県コードで絞る。
+      地名検索が返すのは集落の地点であって、黒曜石の露頭(赤石山ほか)ではない。
+      実測(2026-09-09)ではこの点の地質は「段丘堆積物(堆積岩)」と出る ——
+      集落は河成段丘の上にあるので、原産地の地質を測れていない。
+      統計では area 精度の点を除いた場合も併せて報告する。
+
+  OBS-AKIU:
+    name_ja: 仙台 秋保
+    group_ja: 仙台
+    query: 秋保町湯元
+    title_must_contain: 秋保
+    expect_pref_code: "04"
+    citations: [CIT-COLS-LIST2020]
+    note: >-
+      「秋保」に対応する自然地名が地名検索に無く、行政区域名(秋保町湯元)で引く。
+      露頭そのものの位置ではないので、点の精度は area とする。
+    coordinate_precision: area

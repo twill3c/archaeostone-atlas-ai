@@ -1,0 +1,846 @@
+{
+ "generated_by": "pipeline.build_documents",
+ "source_id": "SRC-NABUNKEN",
+ "corpus": {
+  "pages_parsed": 3128,
+  "records": 331562,
+  "records_with_metadata": 318093,
+  "record_shapes": {
+   "junii2": 18768,
+   "oai_dc": 299325,
+   "no_metadata": 13469
+  },
+  "records_without_set_spec": 0,
+  "set_spec_kinds": {
+   "prefecture": 274966,
+   "non_numeric": 158255,
+   "municipality": 165037,
+   "other_numeric": 8270
+  }
+ },
+ "material_mentions": {
+  "scope": "報告書の題名(dc:title / junii2:title / jtitle)のみ。本文は扱わない",
+  "denominator": 318093,
+  "counts": {
+   "agate": {
+    "hits": 6,
+    "rate": 1.8862408163650255e-05,
+    "terms": [
+     "瑪瑙",
+     "めのう",
+     "メノウ"
+    ],
+    "examples": [
+     {
+      "title": "千葉市米之内遺跡 / chibashikomenouchiiseki",
+      "url": "https://sitereports.nabunken.go.jp/22586",
+      "prefecture_codes": [
+       "12"
+      ]
+     },
+     {
+      "title": "千葉県松戸市溜ノ上遺跡 / chibakemmatsudoshitamenoueiseki",
+      "url": "https://sitereports.nabunken.go.jp/56418",
+      "prefecture_codes": [
+       "12"
+      ]
+     },
+     {
+      "title": "出雲地方における玉髄・瑪瑙製石器の研究 / izumo chihou niokeru gyokuzui menousei sekki no kenkyuu",
+      "url": "https://sitereports.nabunken.go.jp/69205",
+      "prefecture_codes": [
+       "32"
+      ]
+     },
+     {
+      "title": "古墳時代の玉文化 瑪瑙製玉類の展開 島根県の様相を中心に",
+      "url": "https://sitereports.nabunken.go.jp/article/39283",
+      "prefecture_codes": [
+       "13"
+      ]
+     },
+     {
+      "title": "群馬県南西部における瑪瑙と碧玉の原産地及び河川転石調査",
+      "url": "https://sitereports.nabunken.go.jp/article/67854",
+      "prefecture_codes": [
+       "10"
+      ]
+     },
+     {
+      "title": "千葉県八千代市島田込の内遺跡ｄ・ｅ地点発掘調査報告書 / chibakenyachiyoshishimadakomenouchiisekid・echitenhakkutsuchousahoukokusho",
+      "url": "https://sitereports.nabunken.go.jp/131759",
+      "prefecture_codes": [
+       "12"
+      ]
+     }
+    ]
+   },
+   "chert": {
+    "hits": 21,
+    "rate": 6.601842857277589e-05,
+    "terms": [
+     "チャート"
+    ],
+    "examples": [
+     {
+      "title": "下野原遺跡  / shimonohara iseki",
+      "url": "https://sitereports.nabunken.go.jp/82205",
+      "prefecture_codes": [
+       "13"
+      ]
+     },
+     {
+      "title": "チャートを主体とした石器群の比較検討",
+      "url": "https://sitereports.nabunken.go.jp/article/7222",
+      "prefecture_codes": [
+       "27"
+      ]
+     },
+     {
+      "title": "チャートをめぐる石材環境 赤城山南麓地域のチャート露頭",
+      "url": "https://sitereports.nabunken.go.jp/article/20228",
+      "prefecture_codes": [
+       "10"
+      ]
+     },
+     {
+      "title": "ウルップ島東岸産チャート礫および含まれる放散虫化石について",
+      "url": "https://sitereports.nabunken.go.jp/article/25049",
+      "prefecture_codes": [
+       "01"
+      ]
+     },
+     {
+      "title": "サハリン島トニノ・アニヴァ半島の先第三紀チャートの放散虫化石",
+      "url": "https://sitereports.nabunken.go.jp/article/25050",
+      "prefecture_codes": [
+       "01"
+      ]
+     },
+     {
+      "title": "大阪平野周辺における石器石材の利用行動 チャート石材から見た石材運用論の再検討",
+      "url": "https://sitereports.nabunken.go.jp/article/43614",
+      "prefecture_codes": [
+       "26"
+      ]
+     },
+     {
+      "title": "丹波チャート地帯とその周辺地域における研究の現状",
+      "url": "https://sitereports.nabunken.go.jp/article/43643",
+      "prefecture_codes": [
+       "26"
+      ]
+     },
+     {
+      "title": "チャート",
+      "url": "https://sitereports.nabunken.go.jp/article/43655",
+      "prefecture_codes": [
+       "26"
+      ]
+     }
+    ]
+   },
+   "jadeite": {
+    "hits": 218,
+    "rate": 0.0006853341632792925,
+    "terms": [
+     "ヒスイ",
+     "翡翠",
+     "硬玉",
+     "ひすい"
+    ],
+    "examples": [
+     {
+      "title": "寺地硬玉生産遺跡第1次調査概要 / teraji hisui seisan iseki : dai1ji chousa gaiyou",
+      "url": "https://sitereports.nabunken.go.jp/64437",
+      "prefecture_codes": []
+     },
+     {
+      "title": "寺地硬玉遺跡第2次調査概要 / teraji hisui  iseki : dai2ji chousa gaiyou",
+      "url": "https://sitereports.nabunken.go.jp/64438",
+      "prefecture_codes": []
+     },
+     {
+      "title": "寺地硬玉生産遺跡 / teraji hisui seisan iseki",
+      "url": "https://sitereports.nabunken.go.jp/64439",
+      "prefecture_codes": []
+     },
+     {
+      "title": "寺地硬玉遺跡 / teraji hisui iseki",
+      "url": "https://sitereports.nabunken.go.jp/64440",
+      "prefecture_codes": []
+     },
+     {
+      "title": "寺地硬玉遺跡 / teraji hisui iseki",
+      "url": "https://sitereports.nabunken.go.jp/64441",
+      "prefecture_codes": []
+     },
+     {
+      "title": "大角地遺跡 / ogakuchi iseki",
+      "url": "https://sitereports.nabunken.go.jp/64442",
+      "prefecture_codes": []
+     },
+     {
+      "title": "種子島「現和巣」で採集された翡翠大珠 / tanegashima「gennasu」desaishuusaretahisuitaishu",
+      "url": "https://sitereports.nabunken.go.jp/91138",
+      "prefecture_codes": []
+     },
+     {
+      "title": "大屋町産の硬玉と機内における弥生時代硬玉製勾玉",
+      "url": "https://sitereports.nabunken.go.jp/article/186",
+      "prefecture_codes": []
+     }
+    ]
+   },
+   "jasper": {
+    "hits": 19,
+    "rate": 5.973095918489247e-05,
+    "terms": [
+     "碧玉",
+     "ジャスパー"
+    ],
+    "examples": [
+     {
+      "title": "志高遺跡の碧玉製管玉生産について",
+      "url": "https://sitereports.nabunken.go.jp/article/381",
+      "prefecture_codes": [
+       "26"
+      ]
+     },
+     {
+      "title": "女代南B群碧玉製管玉に関する認識",
+      "url": "https://sitereports.nabunken.go.jp/article/8468",
+      "prefecture_codes": [
+       "41"
+      ]
+     },
+     {
+      "title": "古墳時代の玉文化 碧玉製品の生産と流通",
+      "url": "https://sitereports.nabunken.go.jp/article/39287",
+      "prefecture_codes": [
+       "13"
+      ]
+     },
+     {
+      "title": "弥生時代の玉文化 「碧玉」製玉類の生産と流通",
+      "url": "https://sitereports.nabunken.go.jp/article/39288",
+      "prefecture_codes": [
+       "13"
+      ]
+     },
+     {
+      "title": "碧玉製玉類の科学的分析最新成果",
+      "url": "https://sitereports.nabunken.go.jp/article/39302",
+      "prefecture_codes": [
+       "13"
+      ]
+     },
+     {
+      "title": "芝ケ本遺跡出土の碧玉製石釧について",
+      "url": "https://sitereports.nabunken.go.jp/article/43993",
+      "prefecture_codes": [
+       "26"
+      ]
+     },
+     {
+      "title": "碧玉製玉類の産地分析",
+      "url": "https://sitereports.nabunken.go.jp/article/45573",
+      "prefecture_codes": [
+       "02"
+      ]
+     },
+     {
+      "title": "碧玉製石製品の生産 片山津玉造遺跡を中心に",
+      "url": "https://sitereports.nabunken.go.jp/article/45610",
+      "prefecture_codes": [
+       "02"
+      ]
+     }
+    ]
+   },
+   "obsidian": {
+    "hits": 299,
+    "rate": 0.0009399766734885709,
+    "terms": [
+     "黒曜石",
+     "黒耀石",
+     "黒曜岩"
+    ],
+    "examples": [
+     {
+      "title": "鷹山遺跡群 / takayamaisekigun",
+      "url": "https://sitereports.nabunken.go.jp/7624",
+      "prefecture_codes": [
+       "20"
+      ]
+     },
+     {
+      "title": "鷹山遺跡群 / takayamaisekigun",
+      "url": "https://sitereports.nabunken.go.jp/7337",
+      "prefecture_codes": [
+       "20"
+      ]
+     },
+     {
+      "title": "長野県黒耀石原産地遺跡分布調査報告書 / naganokenkokuyousekigensanchiisekibumpuchousahoukokusho",
+      "url": "https://sitereports.nabunken.go.jp/8243",
+      "prefecture_codes": [
+       "20"
+      ]
+     },
+     {
+      "title": "鷹山遺跡群 / takayamaisekigun",
+      "url": "https://sitereports.nabunken.go.jp/7428",
+      "prefecture_codes": [
+       "20"
+      ]
+     },
+     {
+      "title": "黒曜石原産地遺跡分布調査報告書 / kokuyousekigensanchiisekibumpuchousahoukokusho",
+      "url": "https://sitereports.nabunken.go.jp/8506",
+      "prefecture_codes": [
+       "20"
+      ]
+     },
+     {
+      "title": "ジャコッパラ / jakoppara",
+      "url": "https://sitereports.nabunken.go.jp/9063",
+      "prefecture_codes": [
+       "20"
+      ]
+     },
+     {
+      "title": "ジャコッパラ / jakoppara",
+      "url": "https://sitereports.nabunken.go.jp/9134",
+      "prefecture_codes": [
+       "20"
+      ]
+     },
+     {
+      "title": "ジャコッパラ / jakoppara",
+      "url": "https://sitereports.nabunken.go.jp/8804",
+      "prefecture_codes": [
+       "20"
+      ]
+     }
+    ]
+   },
+   "quartz": {
+    "hits": 42,
+    "rate": 0.00013203685714555178,
+    "terms": [
+     "水晶",
+     "石英",
+     "crystal quartz"
+    ],
+    "examples": [
+     {
+      "title": "水晶勾玉について",
+      "url": "https://sitereports.nabunken.go.jp/article/4114",
+      "prefecture_codes": [
+       "12"
+      ]
+     },
+     {
+      "title": "香坂山遺跡堆積物の石英によるルミネッセンス年代測定の予察的検討",
+      "url": "https://sitereports.nabunken.go.jp/article/15222",
+      "prefecture_codes": [
+       "12"
+      ]
+     },
+     {
+      "title": "水晶製勾玉の製作とその工程",
+      "url": "https://sitereports.nabunken.go.jp/article/18148",
+      "prefecture_codes": [
+       "11"
+      ]
+     },
+     {
+      "title": "茨城県南部における弥生時代の石英片出土について",
+      "url": "https://sitereports.nabunken.go.jp/article/18873",
+      "prefecture_codes": [
+       "08"
+      ]
+     },
+     {
+      "title": "鉄石英製管玉",
+      "url": "https://sitereports.nabunken.go.jp/article/18976",
+      "prefecture_codes": [
+       "08"
+      ]
+     },
+     {
+      "title": "弥生時代水晶製玉作りの展開をめぐって",
+      "url": "https://sitereports.nabunken.go.jp/article/23082",
+      "prefecture_codes": [
+       "26"
+      ]
+     },
+     {
+      "title": "弥生期の玉生産・特に水晶玉生産について",
+      "url": "https://sitereports.nabunken.go.jp/article/28374",
+      "prefecture_codes": [
+       "29"
+      ]
+     },
+     {
+      "title": "大和と丹後の水晶玉について",
+      "url": "https://sitereports.nabunken.go.jp/article/28381",
+      "prefecture_codes": [
+       "29"
+      ]
+     }
+    ]
+   },
+   "sanukite": {
+    "hits": 33,
+    "rate": 0.00010374324490007639,
+    "terms": [
+     "サヌカイト",
+     "讃岐岩",
+     "かんかん石"
+    ],
+    "examples": [
+     {
+      "title": "平地山遺跡・サカイ遺跡 / hirachiyamaiseki　sakaiiseki",
+      "url": "https://sitereports.nabunken.go.jp/53576",
+      "prefecture_codes": []
+     },
+     {
+      "title": "鶴峯荘第1地点遺跡 / tsuruminesou dai1chiten iseki",
+      "url": "https://sitereports.nabunken.go.jp/74251",
+      "prefecture_codes": [
+       "29"
+      ]
+     },
+     {
+      "title": "皆木神田遺跡出土の黒曜石・サヌカイト製遺物の原材産地分析",
+      "url": "https://sitereports.nabunken.go.jp/article/1149",
+      "prefecture_codes": []
+     },
+     {
+      "title": "朝日遺跡出土のサヌカイトと畿内式打製尖頭器についての覚え書き",
+      "url": "https://sitereports.nabunken.go.jp/article/6637",
+      "prefecture_codes": [
+       "23"
+      ]
+     },
+     {
+      "title": "伊勢湾地方のサヌカイト製打製大形尖頭器についての覚書",
+      "url": "https://sitereports.nabunken.go.jp/article/6656",
+      "prefecture_codes": []
+     },
+     {
+      "title": "近畿地方における金山産サヌカイトの利用について",
+      "url": "https://sitereports.nabunken.go.jp/article/7224",
+      "prefecture_codes": [
+       "27"
+      ]
+     },
+     {
+      "title": "両極打法を用いたサヌカイト剥片の特性",
+      "url": "https://sitereports.nabunken.go.jp/article/7271",
+      "prefecture_codes": [
+       "27"
+      ]
+     },
+     {
+      "title": "縄文後期のサヌカイト製石器群にみられる剥離面構成と技術",
+      "url": "https://sitereports.nabunken.go.jp/article/7780",
+      "prefecture_codes": [
+       "33"
+      ]
+     }
+    ]
+   },
+   "serpentinite": {
+    "hits": 7,
+    "rate": 2.2006142857591963e-05,
+    "terms": [
+     "蛇紋岩",
+     "じゃもん岩"
+    ],
+    "examples": [
+     {
+      "title": "新潟県の蛇紋岩製磨製石斧について－縄文時代前半期の生産遺跡と消費遺跡を中心に－",
+      "url": "https://sitereports.nabunken.go.jp/article/5358",
+      "prefecture_codes": [
+       "15"
+      ]
+     },
+     {
+      "title": "蛇紋岩製磨製石斧の生産と流通－磨製石斧の生産地の形態と消費遺跡の形態－",
+      "url": "https://sitereports.nabunken.go.jp/article/5359",
+      "prefecture_codes": [
+       "15"
+      ]
+     },
+     {
+      "title": "縄文時代における蛇紋岩製石斧について",
+      "url": "https://sitereports.nabunken.go.jp/article/8795",
+      "prefecture_codes": [
+       "46"
+      ]
+     },
+     {
+      "title": "比婆郡東城町持丸川西たたら跡付近に露頭している蛇紋岩について",
+      "url": "https://sitereports.nabunken.go.jp/article/23445",
+      "prefecture_codes": [
+       "34"
+      ]
+     },
+     {
+      "title": "石器の製作と流通 蛇紋岩製磨製石斧の製作と流通",
+      "url": "https://sitereports.nabunken.go.jp/article/37407",
+      "prefecture_codes": [
+       "13"
+      ]
+     },
+     {
+      "title": "神奈川県大磯町西小磯海岸の三浦層群大磯層から蛇紋岩礫の産出 環伊豆地塊蛇紋岩帯構成要素の可能性",
+      "url": "https://sitereports.nabunken.go.jp/article/60258",
+      "prefecture_codes": [
+       "14"
+      ]
+     },
+     {
+      "title": "宮崎県域における蛇紋岩製石斧",
+      "url": "https://sitereports.nabunken.go.jp/article/79703",
+      "prefecture_codes": [
+       "43"
+      ]
+     }
+    ]
+   }
+  },
+  "method_terms": {
+   "蛍光X線": 98,
+   "蛍光Ｘ線": 4,
+   "原産地": 162,
+   "産地推定": 112,
+   "中性子放射化": 4,
+   "ICP-MS": 0
+  },
+  "note": "この数は「石材が出土した遺跡の数」ではない。**報告書の題名にその語が現れた件数**である。題名は遺跡名と叢書名が主なので、石材はほとんど現れない。"
+ },
+ "by_prefecture": [
+  {
+   "code": "01",
+   "name": "北海道",
+   "documents": 7315
+  },
+  {
+   "code": "02",
+   "name": "青森県",
+   "documents": 3700
+  },
+  {
+   "code": "03",
+   "name": "岩手県",
+   "documents": 4811
+  },
+  {
+   "code": "04",
+   "name": "宮城県",
+   "documents": 3142
+  },
+  {
+   "code": "05",
+   "name": "秋田県",
+   "documents": 2070
+  },
+  {
+   "code": "06",
+   "name": "山形県",
+   "documents": 2406
+  },
+  {
+   "code": "07",
+   "name": "福島県",
+   "documents": 5003
+  },
+  {
+   "code": "08",
+   "name": "茨城県",
+   "documents": 4650
+  },
+  {
+   "code": "09",
+   "name": "栃木県",
+   "documents": 3009
+  },
+  {
+   "code": "10",
+   "name": "群馬県",
+   "documents": 9270
+  },
+  {
+   "code": "11",
+   "name": "埼玉県",
+   "documents": 10269
+  },
+  {
+   "code": "12",
+   "name": "千葉県",
+   "documents": 10041
+  },
+  {
+   "code": "13",
+   "name": "東京都",
+   "documents": 33804
+  },
+  {
+   "code": "14",
+   "name": "神奈川県",
+   "documents": 9475
+  },
+  {
+   "code": "15",
+   "name": "新潟県",
+   "documents": 2130
+  },
+  {
+   "code": "16",
+   "name": "富山県",
+   "documents": 2892
+  },
+  {
+   "code": "17",
+   "name": "石川県",
+   "documents": 5158
+  },
+  {
+   "code": "18",
+   "name": "福井県",
+   "documents": 3000
+  },
+  {
+   "code": "19",
+   "name": "山梨県",
+   "documents": 3469
+  },
+  {
+   "code": "20",
+   "name": "長野県",
+   "documents": 7193
+  },
+  {
+   "code": "21",
+   "name": "岐阜県",
+   "documents": 2699
+  },
+  {
+   "code": "22",
+   "name": "静岡県",
+   "documents": 5663
+  },
+  {
+   "code": "23",
+   "name": "愛知県",
+   "documents": 6317
+  },
+  {
+   "code": "24",
+   "name": "三重県",
+   "documents": 3812
+  },
+  {
+   "code": "25",
+   "name": "滋賀県",
+   "documents": 6898
+  },
+  {
+   "code": "26",
+   "name": "京都府",
+   "documents": 8860
+  },
+  {
+   "code": "27",
+   "name": "大阪府",
+   "documents": 8739
+  },
+  {
+   "code": "28",
+   "name": "兵庫県",
+   "documents": 6680
+  },
+  {
+   "code": "29",
+   "name": "奈良県",
+   "documents": 25335
+  },
+  {
+   "code": "30",
+   "name": "和歌山県",
+   "documents": 2040
+  },
+  {
+   "code": "31",
+   "name": "鳥取県",
+   "documents": 2540
+  },
+  {
+   "code": "32",
+   "name": "島根県",
+   "documents": 2921
+  },
+  {
+   "code": "33",
+   "name": "岡山県",
+   "documents": 3650
+  },
+  {
+   "code": "34",
+   "name": "広島県",
+   "documents": 3752
+  },
+  {
+   "code": "35",
+   "name": "山口県",
+   "documents": 2146
+  },
+  {
+   "code": "36",
+   "name": "徳島県",
+   "documents": 1144
+  },
+  {
+   "code": "37",
+   "name": "香川県",
+   "documents": 1988
+  },
+  {
+   "code": "38",
+   "name": "愛媛県",
+   "documents": 2395
+  },
+  {
+   "code": "39",
+   "name": "高知県",
+   "documents": 336
+  },
+  {
+   "code": "40",
+   "name": "福岡県",
+   "documents": 11149
+  },
+  {
+   "code": "41",
+   "name": "佐賀県",
+   "documents": 2090
+  },
+  {
+   "code": "42",
+   "name": "長崎県",
+   "documents": 1629
+  },
+  {
+   "code": "43",
+   "name": "熊本県",
+   "documents": 3055
+  },
+  {
+   "code": "44",
+   "name": "大分県",
+   "documents": 2308
+  },
+  {
+   "code": "45",
+   "name": "宮崎県",
+   "documents": 2315
+  },
+  {
+   "code": "46",
+   "name": "鹿児島県",
+   "documents": 3700
+  },
+  {
+   "code": "47",
+   "name": "沖縄県",
+   "documents": 17998
+  }
+ ],
+ "municipality_count": 1603,
+ "top_municipalities": [
+  {
+   "code": "47000",
+   "documents": 16267
+  },
+  {
+   "code": "40130",
+   "documents": 2174
+  },
+  {
+   "code": "25000",
+   "documents": 2106
+  },
+  {
+   "code": "24000",
+   "documents": 1748
+  },
+  {
+   "code": "03000",
+   "documents": 1648
+  },
+  {
+   "code": "12000",
+   "documents": 1610
+  },
+  {
+   "code": "32000",
+   "documents": 1585
+  },
+  {
+   "code": "28000",
+   "documents": 1569
+  },
+  {
+   "code": "11000",
+   "documents": 1506
+  },
+  {
+   "code": "29000",
+   "documents": 1474
+  },
+  {
+   "code": "27000",
+   "documents": 1385
+  },
+  {
+   "code": "05000",
+   "documents": 1250
+  },
+  {
+   "code": "22000",
+   "documents": 1227
+  },
+  {
+   "code": "28202",
+   "documents": 1184
+  },
+  {
+   "code": "01000",
+   "documents": 1044
+  },
+  {
+   "code": "37000",
+   "documents": 1038
+  },
+  {
+   "code": "45000",
+   "documents": 1029
+  },
+  {
+   "code": "10202",
+   "documents": 1024
+  },
+  {
+   "code": "11100",
+   "documents": 994
+  },
+  {
+   "code": "40000",
+   "documents": 926
+  }
+ ]
+}

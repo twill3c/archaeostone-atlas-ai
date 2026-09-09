@@ -25,6 +25,22 @@ export default function HomePage() {
       </section>
 
       <section className="home__cards">
+        <Link href="/map" className="card">
+          <h2>地図</h2>
+          <p>地理院の底図に地質図を重ね、典拠つきの原産地を置く。</p>
+        </Link>
+        <Link href="/geology" className="card">
+          <h2>地質の偏り</h2>
+          <p>原産地と対照群を順列検定で比べる。落ちた主張も載せる。</p>
+        </Link>
+        <Link href="/sources" className="card">
+          <h2>原産地</h2>
+          <p>一件ずつ、座標の出所と典拠と足もとの地質を示す。</p>
+        </Link>
+        <Link href="/documents" className="card">
+          <h2>文献の分布</h2>
+          <p>報告書 33 万件の題名を全件走査し、石材の語を数えた。</p>
+        </Link>
         <Link href="/methodology" className="card">
           <h2>方法</h2>
           <p>座標をどう決め、地質をどう付け、何を測らないかを述べる。</p>

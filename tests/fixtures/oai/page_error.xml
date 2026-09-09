@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2026-09-08T21:09:46Z</responseDate>
+  <request verb="ListRecords" resumptionToken="///oai_dc/999999999">https://sitereports.nabunken.go.jp/api/oai/request</request>
+  <error code="badResumptionToken">The value of the resumptionToken argument is invalid or expired.</error>
+</OAI-PMH>

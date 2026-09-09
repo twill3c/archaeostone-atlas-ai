@@ -1,0 +1,2939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2026-09-08T21:06:04Z</responseDate>
+  <request verb="ListRecords" metadataPrefix="oai_dc">https://sitereports.nabunken.go.jp/api/oai/request</request>
+  <ListRecords>
+<record>
+  <header>
+    <identifier>oai:sitereports.nabunken.go.jp/21923-1</identifier>
+    <datestamp>2021-02-28T08:35:10Z</datestamp>
+    <setSpec>29</setSpec>
+    <setSpec>J84604</setSpec>
+  </header>
+  <metadata>
+    <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-1.xsd">
+      <title>残置された石材および引き揚げの事例</title>
+      <creator>高田,祐一</creator>
+      <publisher>独立行政法人国立文化財機構奈良文化財研究所</publisher>
+      <dateofissued>20180331</dateofissued>
+      <language>jpn</language>
+      <jtitle>大坂城石垣石丁場跡小豆島石丁場跡の海中残石分布調査</jtitle>
+      <spage>26</spage>
+      <epage>32</epage>
+      <NIItype>Article</NIItype>
+      <URI>https://sitereports.nabunken.go.jp/21923</URI>
+      <fullTextURL>https://sitereports.nabunken.go.jp/files/attach/30/30283/21923_1_%E5%A4%A7%E5%9D%82%E5%9F%8E%E7%9F%B3%E5%9E%A3%E7%9F%B3%E4%B8%81%E5%A0%B4%E8%B7%A1%E5%B0%8F%E8%B1%86%E5%B3%B6%E7%9F%B3%E4%B8%81%E5%A0%B4%E8%B7%A1%E3%81%AE%E6%B5%B7%E4%B8%AD%E6%AE%8B%E7%9F%B3%E5%88%86%E5%B8%83%E8%AA%BF%E6%9F%BB.pdf</fullTextURL>
+      <NCID>BB25869354</NCID>
+    </junii2>
+  </metadata>
+</record>
+<record>
+  <header>
+    <identifier>oai:sitereports.nabunken.go.jp/22224-1</identifier>
+    <datestamp>2021-02-17T08:35:10Z</datestamp>
+    <setSpec>47</setSpec>
+    <setSpec>47000</setSpec>
+  </header>
+  <metadata>
+    <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-1.xsd">
+      <title>古墓出土資料からみた近世陶磁器の流通</title>
+      <creator>新垣,力</creator>
+      <publisher>沖縄県立埋蔵文化財センター</publisher>
+      <NIItype>Article</NIItype>
+      <URI>https://sitereports.nabunken.go.jp/22224</URI>
+      <fullTextURL>https://sitereports.nabunken.go.jp/files/attach/30/30799/22224_1_%E7%B4%80%E8%A6%81%E6%B2%96%E7%B8%84%E5%9F%8B%E6%96%87%E7%A0%94%E7%A9%B6.pdf</fullTextURL>
+      <jtitle>紀要　沖縄埋文研究</jtitle>
+      <volume>6</volume>
+      <spage>1</spage>
+      <epage>12</epage>
+      <dateofissued>2009-03-31</dateofissued>
+      <NAID>http://ci.nii.ac.jp/naid/40017205954</NAID>
+    </junii2>
+  </metadata>
+</record>
+<record>
+  <header>
+    <identifier>oai:sitereports.nabunken.go.jp/22224-2</identifier>
+    <datestamp>2021-02-17T08:35:10Z</datestamp>
+    <setSpec>47</setSpec>
+    <setSpec>47000</setSpec>
+  </header>
+  <metadata>
+    <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-1.xsd">
+      <title>沖縄県読谷村大当原貝塚出土人骨について　大当原貝塚集団の身体的特徴</title>
+      <creator>小橋川,剛</creator>
+      <creator>片桐,千亜紀</creator>
+      <creator>徳嶺,里江</creator>
+      <creator>本村,麻里衣</creator>
+      <creator>大城,歩</creator>
+      <creator>天願,瑞笑</creator>
+      <creator>菅原,広史</creator>
+      <creator>土肥,直美</creator>
+      <creator>米田,穣</creator>
+      <publisher>沖縄県立埋蔵文化財センター</publisher>
+      <NIItype>Article</NIItype>
+      <URI>https://sitereports.nabunken.go.jp/22224</URI>
+      <fullTextURL>https://sitereports.nabunken.go.jp/files/attach/30/30799/22224_1_%E7%B4%80%E8%A6%81%E6%B2%96%E7%B8%84%E5%9F%8B%E6%96%87%E7%A0%94%E7%A9%B6.pdf</fullTextURL>
+      <jtitle>紀要　沖縄埋文研究</jtitle>
+      <volume>6</volume>
+      <spage>27</spage>
+      <epage>40</epage>
+      <dateofissued>2009-03-31</dateofissued>
+      <NAID>http://ci.nii.ac.jp/naid/40017205956</NAID>
+    </junii2>
+  </metadata>
+</record>
+<record>
+  <header>
+    <identifier>oai:sitereports.nabunken.go.jp/22224-3</identifier>
+    <datestamp>2021-02-17T08:35:10Z</datestamp>
+    <setSpec>47</setSpec>
+    <setSpec>47000</setSpec>
+  </header>
+  <metadata>
+    <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-1.xsd">
+      <title>沖縄県座間味村古座間味原シル地区砂丘地出土人骨について</title>
+      <creator>徳嶺,里江</creator>
+      <creator>片桐,千亜紀</creator>
+      <creator>小橋川,剛</creator>
+      <creator>本村,麻里衣</creator>
+      <creator>大城,歩</creator>
+      <creator>天願,瑞笑</creator>
+      <creator>菅原,広史</creator>
+      <creator>土肥,直美</creator>
+      <creator>米田,穣</creator>
+      <publisher>沖縄県立埋蔵文化財センター</publisher>
+      <NIItype>Article</NIItype>
+      <URI>https://sitereports.nabunken.go.jp/22224</URI>
+      <fullTextURL>https://sitereports.nabunken.go.jp/files/attach/30/30799/22224_1_%E7%B4%80%E8%A6%81%E6%B2%96%E7%B8%84%E5%9F%8B%E6%96%87%E7%A0%94%E7%A9%B6.pdf</fullTextURL>
+      <jtitle>紀要　沖縄埋文研究</jtitle>
+      <volume>6</volume>
+      <spage>41</spage>
+      <epage>52</epage>
+      <dateofissued>2009-03-31</dateofissued>
+      <NAID>http://ci.nii.ac.jp/naid/40017205957</NAID>
+    </junii2>
+  </metadata>
+</record>
+<record>
+  <header>
+    <identifier>oai:sitereports.nabunken.go.jp/22224-4</identifier>
+    <datestamp>2021-02-17T08:35:10Z</datestamp>
+    <setSpec>47</setSpec>
+    <setSpec>47000</setSpec>
+  </header>
+  <metadata>
+    <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-1.xsd">
+      <title>本部町新里遺跡表採の磨製石斧</title>
+      <creator>大堀,皓平</creator>
+      <creator>瑞慶覧,長順</creator>
+      <publisher>沖縄県立埋蔵文化財センター</publisher>
+      <NIItype>Article</NIItype>
+      <URI>https://sitereports.nabunken.go.jp/22224</URI>
+      <fullTextURL>https://sitereports.nabunken.go.jp/files/attach/30/30799/22224_1_%E7%B4%80%E8%A6%81%E6%B2%96%E7%B8%84%E5%9F%8B%E6%96%87%E7%A0%94%E7%A9%B6.pdf</fullTextURL>
+      <jtitle>紀要　沖縄埋文研究</jtitle>
+      <volume>6</volume>
+      <spage>53</spage>
+      <epage>62</epage>
+      <dateofissued>2009-03-31</dateofissued>
+      <NAID>http://ci.nii.ac.jp/naid/40017205958</NAID>
+    </junii2>
+  </metadata>
+</record>
+<record>
+  <header>
+    <identifier>oai:sitereports.nabunken.go.jp/22224-5</identifier>
+    <datestamp>2021-02-17T08:35:10Z</datestamp>
+    <setSpec>47</setSpec>
+    <setSpec>47000</setSpec>
+  </header>
+  <metadata>
+    <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-1.xsd">
+      <title>首里城西のアザナ跡の鍛冶・鋳造工房</title>
+      <creator>上原,静</creator>
+      <publisher>沖縄県立埋蔵文化財センター</publisher>
+      <NIItype>Article</NIItype>
+      <URI>https://sitereports.nabunken.go.jp/22224</URI>
+      <fullTextURL>https://sitereports.nabunken.go.jp/files/attach/30/30799/22224_1_%E7%B4%80%E8%A6%81%E6%B2%96%E7%B8%84%E5%9F%8B%E6%96%87%E7%A0%94%E7%A9%B6.pdf</fullTextURL>
+      <jtitle>紀要　沖縄埋文研究</jtitle>
+      <volume>6</volume>
+      <spage>71</spage>
+      <epage>111</epage>
+      <dateofissued>2009-03-31</dateofissued>
+      <NAID>http://ci.nii.ac.jp/naid/40017205960</NAID>
+    </junii2>
+  </metadata>
+</record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13979</identifier>
+        <datestamp>2024-07-05T17:05:15Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>井図地頭遺跡　井図地中ソネ遺跡 / izuchigashiraiseki　izuchinakasoneiseki</dc:title>
+    <dc:title>いずちがしらいせき　いずちなかそねいせき</dc:title>
+    <dc:title>一般国道9号(東伯中山道路)の改築に伴う埋蔵文化財発掘調査報告書 ; 1</dc:title>
+    <dc:creator>君嶋,俊行</dc:creator>
+    <dc:creator>大野,哲二</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団　鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13979</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18636/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18636/13979_1_%E4%BA%95%E5%9B%B3%E5%9C%B0%E9%A0%AD%E9%81%BA%E8%B7%A1%E4%BA%95%E5%9B%B3%E5%9C%B0%E4%B8%AD%E3%82%BD%E3%83%8D%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18637/13979_2_%E4%BA%95%E5%9B%B3%E5%9C%B0%E9%A0%AD%E9%81%BA%E8%B7%A1%E4%BA%95%E5%9B%B3%E5%9C%B0%E4%B8%AD%E3%82%BD%E3%83%8D%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA63892739</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13979</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>80</dc:identifier>
+    <dc:identifier>2003-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13982</identifier>
+        <datestamp>2024-07-05T17:05:21Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>古市遺跡群 / furuichiisekigun</dc:title>
+    <dc:title>ふるいちいせきぐん</dc:title>
+    <dc:title>一般県道180号道路改良事業に係る埋蔵文化財発掘調査報告書 ; 3</dc:title>
+    <dc:creator>中森,祥</dc:creator>
+    <dc:creator>濱,隆造</dc:creator>
+    <dc:creator>浜田,真人</dc:creator>
+    <dc:creator>川下,忍</dc:creator>
+    <dc:creator>下江,健太</dc:creator>
+    <dc:creator>大川,泰広</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13982</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18641/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18641/13982_1_%E5%8F%A4%E5%B8%82%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18642/13982_2_%E5%8F%A4%E5%B8%82%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18643/13982_3_%E5%8F%A4%E5%B8%82%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18644/13982_4_%E5%8F%A4%E5%B8%82%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18645/13982_5_%E5%8F%A4%E5%B8%82%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier>BA4262390X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13982</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>3</dc:identifier>
+    <dc:identifier>78</dc:identifier>
+    <dc:identifier>2002-03-29</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13594</identifier>
+        <datestamp>2024-07-05T17:03:55Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>坂長宮田ノ上遺跡・坂中第5遺跡・坂長佛谷遺跡・小町越城野原第1遺跡・小町越城野原第2遺跡 / sakachoumiyatanokamiiseki・sakanakadai5iseki・sakachouhotokedaniiseki　komachikoshikinoharadai1iseki　komachikoshikinoharadai2iseki</dc:title>
+    <dc:title>さかちょうみやたのかみいせき・さかなかだい5いせき・さかちょうほとけだにいせき　こまちこしきのはらだい1いせき　こまちこしきのはらだい2いせき</dc:title>
+    <dc:title>県営越敷野地区ふるさと農道緊急整備事業に伴う埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>谷村,憲一</dc:creator>
+    <dc:creator>山田,真一</dc:creator>
+    <dc:creator>山川,茂樹</dc:creator>
+    <dc:creator>鬼頭,紀子</dc:creator>
+    <dc:creator>樋口,友枝</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13594</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17976/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17976/13594_1_%E5%9D%82%E9%95%B7%E5%AE%AE%E7%94%B0%E3%83%8E%E4%B8%8A%E9%81%BA%E8%B7%A1%E3%83%BB%E5%9D%82%E4%B8%AD%E7%AC%AC5%E9%81%BA%E8%B7%A1%E3%83%BB%E5%9D%82%E9%95%B7%E4%BD%9B%E8%B0%B7%E9%81%BA%E8%B7%A1%E3%83%BB%E5%B0%8F%E7%94%BA%E8%B6%8A%E5%9F%8E%E9%87%8E%E5%8E%9F%E7%AC%AC.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17977/13594_2_%E5%9D%82%E9%95%B7%E5%AE%AE%E7%94%B0%E3%83%8E%E4%B8%8A%E9%81%BA%E8%B7%A1%E3%83%BB%E5%9D%82%E4%B8%AD%E7%AC%AC5%E9%81%BA%E8%B7%A1%E3%83%BB%E5%9D%82%E9%95%B7%E4%BD%9B%E8%B0%B7%E9%81%BA%E8%B7%A1%E3%83%BB%E5%B0%8F%E7%94%BA%E8%B6%8A%E5%9F%8E%E9%87%8E%E5%8E%9F%E7%AC%AC.pdf</dc:identifier>
+    <dc:identifier>BA35549669</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13594</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>51</dc:identifier>
+    <dc:identifier>1997-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13961</identifier>
+        <datestamp>2024-07-25T17:02:10Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31329</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>郡家澤田山古墳群　久能寺御建山27・31号墳 / koogesawadayamakofungun　kunoujiotateyama27・31goufun</dc:title>
+    <dc:title>こおげさわだやまこふんぐん　くのうじおたてやま27・31ごうふん</dc:title>
+    <dc:title>宅地造成工事に伴なう埋蔵文化財調査報告書</dc:title>
+    <dc:creator>道谷,冨士夫</dc:creator>
+    <dc:publisher>郡家町教育委員会</dc:publisher>
+    <dc:publisher>郡家町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13961</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18609/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18609/13961_1_%E9%83%A1%E5%AE%B6%E6%BE%A4%E7%94%B0%E5%B1%B1%E5%8F%A4%E5%A2%B3%E7%BE%A4%E4%B9%85%E8%83%BD%E5%AF%BA%E5%BE%A1%E5%BB%BA%E5%B1%B127%E3%83%BB31%E5%8F%B7%E5%A2%B3.pdf</dc:identifier>
+    <dc:identifier>BB03180646</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13961</dc:identifier>
+    <dc:identifier>郡家町文化財報告書</dc:identifier>
+    <dc:identifier>18</dc:identifier>
+    <dc:identifier>1997-03-01</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13701</identifier>
+        <datestamp>2022-03-11T17:00:09Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>高原遺跡発掘調査報告書 / takaraisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>たからいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>一般県道津原穴沢線地方特定道路整備工事に伴う埋蔵文化財発掘調査</dc:title>
+    <dc:creator>岡本,智則</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13701</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18161/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18161/13701_1_%E9%AB%98%E5%8E%9F%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA61141586</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13701</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>113</dc:identifier>
+    <dc:identifier>2002-03-29</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13531</identifier>
+        <datestamp>2024-07-05T17:03:29Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>石脇第3遺跡・石脇8・9号墳・寺戸第1遺跡・寺戸第2遺跡・石脇第1遺跡 / ishiwakidai3iseki・morisuechiku・kurichiku・ishiwaki8・9goufun・teradodai1iseki・teradodai2iseki・ishiwakidai1iseki</dc:title>
+    <dc:title>いしわきだい3いせき・もりすえちく・くりちく・いしわき8・9ごうふん・てらどだい1いせき・てらどだい2いせき・いしわきだい1いせき</dc:title>
+    <dc:title>一般国道9号(青谷・羽合道路)改築工事に伴う発掘調査報告書 ; 1</dc:title>
+    <dc:creator>牧本,哲雄</dc:creator>
+    <dc:creator>原田,雅弘</dc:creator>
+    <dc:creator>八峠,興</dc:creator>
+    <dc:creator>長尾,智明</dc:creator>
+    <dc:creator>岩崎,康子</dc:creator>
+    <dc:creator>井上,達也</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13531</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17847/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17847/13531_1_%E7%9F%B3%E8%84%87%E7%AC%AC3%E9%81%BA%E8%B7%A1%E3%83%BB%E7%9F%B3%E8%84%878%E3%83%BB9%E5%8F%B7%E5%A2%B3%E3%83%BB%E5%AF%BA%E6%88%B8%E7%AC%AC1%E9%81%BA%E8%B7%A1%E3%83%BB%E5%AF%BA%E6%88%B8%E7%AC%AC2%E9%81%BA%E8%B7%A1%E3%83%BB%E7%9F%B3.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17848/13531_2_%E7%9F%B3%E8%84%87%E7%AC%AC3%E9%81%BA%E8%B7%A1%E3%83%BB%E7%9F%B3%E8%84%878%E3%83%BB9%E5%8F%B7%E5%A2%B3%E3%83%BB%E5%AF%BA%E6%88%B8%E7%AC%AC1%E9%81%BA%E8%B7%A1%E3%83%BB%E5%AF%BA%E6%88%B8%E7%AC%AC2%E9%81%BA%E8%B7%A1%E3%83%BB%E7%9F%B3.pdf</dc:identifier>
+    <dc:identifier>BA36957150</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13531</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>54</dc:identifier>
+    <dc:identifier>1998-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13437</identifier>
+        <datestamp>2024-07-19T17:00:34Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31302</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>岩美町内遺跡発掘調査報告書 / iwamichounaiisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>いわみちょうないいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>中島,伸二</dc:creator>
+    <dc:publisher>岩美町教育委員会</dc:publisher>
+    <dc:publisher>岩美町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13437</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17647/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17647/13437_1_%E5%B2%A9%E7%BE%8E%E7%94%BA%E5%86%85%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA55810874</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13437</dc:identifier>
+    <dc:identifier>岩美町文化財調査報告書</dc:identifier>
+    <dc:identifier>5</dc:identifier>
+    <dc:identifier>21</dc:identifier>
+    <dc:identifier>2001-03-26</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13518</identifier>
+        <datestamp>2024-08-07T17:00:17Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31201</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>鳥取市内遺跡発掘調査概要報告書 / tottorishinaiisekihakkutsuchousagaiyouhoukokusho</dc:title>
+    <dc:title>とっとりしないいせきはっくつちょうさがいようほうこくしょ</dc:title>
+    <dc:title>古市遺跡・秋里遺跡・里仁第3横穴群・桂見古墳群・倭文所在遺跡1・本高段木遺跡・山ヶ鼻遺跡・久末・古郡家遺跡</dc:title>
+    <dc:creator>平川,誠</dc:creator>
+    <dc:creator>前田,均</dc:creator>
+    <dc:publisher>鳥取市教育委員会</dc:publisher>
+    <dc:publisher>鳥取市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13518</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17818/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17818/13518_1_%E9%B3%A5%E5%8F%96%E5%B8%82%E5%86%85%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E6%A6%82%E8%A6%81%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA61419161</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13518</dc:identifier>
+    <dc:identifier>平成13(2001)年度</dc:identifier>
+    <dc:identifier>2002-03-23</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14070</identifier>
+        <datestamp>2024-07-19T17:01:02Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31372</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>曲第1遺跡発掘調査報告書 / magaridai1isekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>まがりだい1いせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>曲岡遺跡</dc:title>
+    <dc:creator>樋口,和夫</dc:creator>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14070</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18810/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18810/14070_1_%E6%9B%B2%E7%AC%AC1%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BN13879005</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14070</dc:identifier>
+    <dc:identifier>北条町埋蔵文化財報告書</dc:identifier>
+    <dc:identifier>1</dc:identifier>
+    <dc:identifier>17</dc:identifier>
+    <dc:identifier>1995-03-20</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header status="deleted">
+        <identifier>oai:sitereports.nabunken.go.jp/14304</identifier>
+        <datestamp>2023-06-26T07:25:11Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13411</identifier>
+        <datestamp>2024-07-19T17:00:30Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31372</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>町内遺跡発掘調査報告書 / chounaiisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>ちょうないいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>清水,直樹</dc:creator>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13411</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17599/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17599/13411_1_%E7%94%BA%E5%86%85%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA36472912</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13411</dc:identifier>
+    <dc:identifier>北条町埋蔵文化財報告書</dc:identifier>
+    <dc:identifier>10</dc:identifier>
+    <dc:identifier>30</dc:identifier>
+    <dc:identifier>2001-03-21</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13691</identifier>
+        <datestamp>2024-07-05T17:04:13Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>鶴田墓ノ上遺跡・鶴田大道端遺跡・鶴田中峯山遺跡 / tsurutahakanoueiseki・tsurutaoomichibataiseki・tsurutanakamineyamaiseki</dc:title>
+    <dc:title>つるたはかのうえいせき・つるたおおみちばたいせき・つるたなかみねやまいせき</dc:title>
+    <dc:title>主要地方道溝口伯太線緊急地方道路整備事業に伴う埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>西川,徹</dc:creator>
+    <dc:creator>宮石,雄士</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13691</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18143/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18143/13691_1_%E9%B6%B4%E7%94%B0%E5%A2%93%E3%83%8E%E4%B8%8A%E9%81%BA%E8%B7%A1%E3%83%BB%E9%B6%B4%E7%94%B0%E5%A4%A7%E9%81%93%E7%AB%AF%E9%81%BA%E8%B7%A1%E3%83%BB%E9%B6%B4%E7%94%B0%E4%B8%AD%E5%B3%AF%E5%B1%B1%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18144/13691_2_%E9%B6%B4%E7%94%B0%E5%A2%93%E3%83%8E%E4%B8%8A%E9%81%BA%E8%B7%A1%E3%83%BB%E9%B6%B4%E7%94%B0%E5%A4%A7%E9%81%93%E7%AB%AF%E9%81%BA%E8%B7%A1%E3%83%BB%E9%B6%B4%E7%94%B0%E4%B8%AD%E5%B3%AF%E5%B1%B1%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA35548214</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13691</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>50</dc:identifier>
+    <dc:identifier>1997-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13994</identifier>
+        <datestamp>2022-08-31T17:01:39Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31372</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>曲遺跡群発掘調査報告書 / magariisekigunhakkutsuchousahoukokusho2</dc:title>
+    <dc:title>まがりいせきぐんはっくつちょうさほうこくしょ2</dc:title>
+    <dc:title>曲管峯長谷遺跡　曲233号墳</dc:title>
+    <dc:creator>清水,直樹</dc:creator>
+    <dc:creator>松本,哲</dc:creator>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13994</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18664/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18664/13994_1_%E6%9B%B2%E9%81%BA%E8%B7%A1%E7%BE%A4%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA36473846</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13994</dc:identifier>
+    <dc:identifier>北条町埋蔵文化財報告書</dc:identifier>
+    <dc:identifier>2</dc:identifier>
+    <dc:identifier>22</dc:identifier>
+    <dc:identifier>1997-03-25</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14170</identifier>
+        <datestamp>2022-02-07T17:00:18Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>倉吉市内遺跡分布調査報告書 / kurayoshishinaiisekibumpuchousahoukokusho</dc:title>
+    <dc:title>くらよししないいせきぶんぷちょうさほうこくしょ</dc:title>
+    <dc:creator>根鈴,輝雄</dc:creator>
+    <dc:creator>真田,広幸</dc:creator>
+    <dc:creator>森下,哲哉</dc:creator>
+    <dc:creator>竹宮,亜也子</dc:creator>
+    <dc:creator>加藤,誠司</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14170</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/19/19008/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/19/19008/14170_1_%E5%80%89%E5%90%89%E5%B8%82%E5%86%85%E9%81%BA%E8%B7%A1%E5%88%86%E5%B8%83%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BN0331787X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14170</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>8</dc:identifier>
+    <dc:identifier>80</dc:identifier>
+    <dc:identifier>1995-03-20</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14112</identifier>
+        <datestamp>2024-07-05T17:05:35Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>小浜ワラ畑遺跡・小浜小谷遺跡・池ノ谷第2遺跡  / kobamawarabatakeiseki・kobamakodaniiseki・ikenotanidai2iseki</dc:title>
+    <dc:title>こばまわらばたけいせき・こばまこだにいせき・いけのたにだい2いせき</dc:title>
+    <dc:title>一般国道9号(青谷・羽合道路)改築工事に伴う発掘調査報告書 ; 2</dc:title>
+    <dc:creator>牧本,哲雄</dc:creator>
+    <dc:creator>八峠,興</dc:creator>
+    <dc:creator>岩崎,康子</dc:creator>
+    <dc:creator>井上,達也</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14112</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18891/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18891/14112_1_%E5%B0%8F%E6%B5%9C%E3%83%AF%E3%83%A9%E7%95%91%E9%81%BA%E8%B7%A1%E3%83%BB%E5%B0%8F%E6%B5%9C%E5%B0%8F%E8%B0%B7%E9%81%BA%E8%B7%A1%E3%83%BB%E6%B1%A0%E3%83%8E%E8%B0%B7%E7%AC%AC2%E9%81%BA%E8%B7%A1%C2%A0.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18892/14112_2_%E5%B0%8F%E6%B5%9C%E3%83%AF%E3%83%A9%E7%95%91%E9%81%BA%E8%B7%A1%E3%83%BB%E5%B0%8F%E6%B5%9C%E5%B0%8F%E8%B0%B7%E9%81%BA%E8%B7%A1%E3%83%BB%E6%B1%A0%E3%83%8E%E8%B0%B7%E7%AC%AC2%E9%81%BA%E8%B7%A1%C2%A0.pdf</dc:identifier>
+    <dc:identifier>BA36961919</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14112</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>55</dc:identifier>
+    <dc:identifier>1998-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13608</identifier>
+        <datestamp>2024-07-18T17:05:51Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>陰田第6遺跡 / indadai6iseki</dc:title>
+    <dc:title>いんだだい6いせき</dc:title>
+    <dc:creator>佐伯,純也</dc:creator>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13608</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18000/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18000/13608_1_%E9%99%B0%E7%94%B0%E7%AC%AC6%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA62919283</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13608</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財調査報告書</dc:identifier>
+    <dc:identifier>2</dc:identifier>
+    <dc:identifier>38</dc:identifier>
+    <dc:identifier>2002-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13413</identifier>
+        <datestamp>2024-07-05T17:03:02Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>青谷上寺地遺跡 / aoyakamijichiiseki</dc:title>
+    <dc:title>あおやかみじちいせき</dc:title>
+    <dc:title>一般県道青谷停車場井手線地方特定道路整備事業に係る埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>湯村,功</dc:creator>
+    <dc:creator>高尾,浩司</dc:creator>
+    <dc:creator>野田,真弓</dc:creator>
+    <dc:creator>北浦,弘人</dc:creator>
+    <dc:creator>井上,貴央</dc:creator>
+    <dc:creator>村上,隆</dc:creator>
+    <dc:creator>大澤,正己</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団　鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13413</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17602/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17602/13413_1_%E9%9D%92%E8%B0%B7%E4%B8%8A%E5%AF%BA%E5%9C%B0%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17603/13413_2_%E9%9D%92%E8%B0%B7%E4%B8%8A%E5%AF%BA%E5%9C%B0%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17604/13413_3_%E9%9D%92%E8%B0%B7%E4%B8%8A%E5%AF%BA%E5%9C%B0%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17605/13413_4_%E9%9D%92%E8%B0%B7%E4%B8%8A%E5%AF%BA%E5%9C%B0%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA48235630</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13413</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>4</dc:identifier>
+    <dc:identifier>74</dc:identifier>
+    <dc:identifier>2002-03-29</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13582</identifier>
+        <datestamp>2021-06-18T09:06:05Z</datestamp>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>今在家下井ノ上遺跡 / imazaikeshimoinoueiseki</dc:title>
+    <dc:title>いまざいけしもいのうえいせき</dc:title>
+    <dc:creator>高橋,浩樹</dc:creator>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13582</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17958/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17958/13582_1_%E4%BB%8A%E5%9C%A8%E5%AE%B6%E4%B8%8B%E4%BA%95%E3%83%8E%E4%B8%8A%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA6197448X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13582</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財発掘調査報告書</dc:identifier>
+    <dc:identifier>40</dc:identifier>
+    <dc:identifier>2002-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13998</identifier>
+        <datestamp>2024-07-19T17:00:59Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31372</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>曲遺跡群発掘調査報告書 / magariisekigunhakkutsuchousahoukokusho</dc:title>
+    <dc:title>まがりいせきぐんはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>曲小山ヶ谷遺跡　曲宮ノ前遺跡　曲55号墳・曲234号墳・曲235号墳</dc:title>
+    <dc:creator>樋口,和夫</dc:creator>
+    <dc:creator>影山,和雅</dc:creator>
+    <dc:creator>松本,哲</dc:creator>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13998</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18669/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18669/13998_1_%E6%9B%B2%E9%81%BA%E8%B7%A1%E7%BE%A4%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA36473846</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13998</dc:identifier>
+    <dc:identifier>北条町埋蔵文化財報告書</dc:identifier>
+    <dc:identifier>1</dc:identifier>
+    <dc:identifier>20</dc:identifier>
+    <dc:identifier>1996-03-25</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13759</identifier>
+        <datestamp>2021-06-18T09:06:05Z</datestamp>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>福成早里遺跡 / fukunarihayasatoiseki</dc:title>
+    <dc:title>ふくなりはやさといせき</dc:title>
+    <dc:title>一般県道福成戸上米子線地方特定道路整備工事に伴う埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>北浦,弘人</dc:creator>
+    <dc:creator>鬼頭,紀子</dc:creator>
+    <dc:creator>岡野,雅則</dc:creator>
+    <dc:creator>杉田,千津子</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13759</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18255/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18255/13759_1_%E7%A6%8F%E6%88%90%E6%97%A9%E9%87%8C%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18256/13759_2_%E7%A6%8F%E6%88%90%E6%97%A9%E9%87%8C%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA36959575</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13759</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>57</dc:identifier>
+    <dc:identifier>1998-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13361</identifier>
+        <datestamp>2024-07-25T17:01:31Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>沢ベリ遺跡第3次発掘調査報告書 / sawaberiisekidai3jihakkutsuchousahoukokusho</dc:title>
+    <dc:title>さわべりいせきだい3じはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>主要地方道倉吉由良線緊急地方道路整備工事に係る埋蔵文化財発掘調査</dc:title>
+    <dc:creator>岡平,拓也</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13361</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17518/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17518/13361_1_%E6%B2%A2%E3%83%99%E3%83%AA%E9%81%BA%E8%B7%A1%E7%AC%AC3%E6%AC%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA57301292</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13361</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>110</dc:identifier>
+    <dc:identifier>2001-03-23</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13714</identifier>
+        <datestamp>2024-07-25T17:01:57Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31201-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>倭文所在城跡・倭文古墳群 / shitorishozaijouseki・shitorikofungun</dc:title>
+    <dc:title>しとりしょざいじょうせき・しとりこふんぐん</dc:title>
+    <dc:title>姫鳥線整備促進関連事業に係る倭文所在城跡、倭文2~9号墳の発掘調査</dc:title>
+    <dc:creator>山田,真宏</dc:creator>
+    <dc:publisher>財団法人鳥取市文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取市文化財団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13714</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18178/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18178/13714_1_%E5%80%AD%E6%96%87%E6%89%80%E5%9C%A8%E5%9F%8E%E8%B7%A1%E3%83%BB%E5%80%AD%E6%96%87%E5%8F%A4%E5%A2%B3%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18179/13714_2_%E5%80%AD%E6%96%87%E6%89%80%E5%9C%A8%E5%9F%8E%E8%B7%A1%E3%83%BB%E5%80%AD%E6%96%87%E5%8F%A4%E5%A2%B3%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18180/13714_3_%E5%80%AD%E6%96%87%E6%89%80%E5%9C%A8%E5%9F%8E%E8%B7%A1%E3%83%BB%E5%80%AD%E6%96%87%E5%8F%A4%E5%A2%B3%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier>BA71237568</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13714</dc:identifier>
+    <dc:identifier>2004-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13474</identifier>
+        <datestamp>2021-06-18T09:06:05Z</datestamp>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>陰田広畑遺跡調査概報 / indahirobatakeiseki</dc:title>
+    <dc:title>いんだひろばたけいせき</dc:title>
+    <dc:title>一般国道180号道路改良工事に伴う埋蔵文化財発掘調査概報</dc:title>
+    <dc:creator>深田,洋史</dc:creator>
+    <dc:publisher>財団法人米子市教育文化事業団埋蔵文化財調査室</dc:publisher>
+    <dc:publisher>財団法人米子市教育文化事業団埋蔵文化財調査室</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13474</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17723/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17723/13474_1_%E9%99%B0%E7%94%B0%E5%BA%83%E7%95%91%E9%81%BA%E8%B7%A1%E8%AA%BF%E6%9F%BB%E6%A6%82%E5%A0%B1.pdf</dc:identifier>
+    <dc:identifier>BN15758034</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13474</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財発掘調査報告書</dc:identifier>
+    <dc:identifier>18</dc:identifier>
+    <dc:identifier>1996-03-29</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13414</identifier>
+        <datestamp>2022-08-10T17:02:41Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31329</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>下モ山古墳群発掘調査報告書 / shimoyamakofungunhakkutsuchousahoukokusho</dc:title>
+    <dc:title>しもやまこふんぐんはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>中野,知照</dc:creator>
+    <dc:publisher>郡家町教育委員会</dc:publisher>
+    <dc:publisher>郡家町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13414</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17606/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17606/13414_1_%E4%B8%8B%E3%83%A2%E5%B1%B1%E5%8F%A4%E5%A2%B3%E7%BE%A4%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BN13919176</dc:identifier>
+    <dc:identifier>BB03183950</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13414</dc:identifier>
+    <dc:identifier>郡家町文化財調査報告書</dc:identifier>
+    <dc:identifier>21</dc:identifier>
+    <dc:identifier>1998-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14006</identifier>
+        <datestamp>2024-07-18T17:06:33Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>陰田第6遺跡・陰田宮の谷遺跡3区・4区 / indadai6iseki・indamiyanotaniiseki3ku・4ku</dc:title>
+    <dc:title>いんだだい6いせき・いんだみやのたにいせき3く・4く</dc:title>
+    <dc:title>一般国道180号道路改良工事に伴う埋蔵文化財発掘調査概報</dc:title>
+    <dc:creator>濱田,竜彦</dc:creator>
+    <dc:creator>松林,隆裕</dc:creator>
+    <dc:creator>深田,洋史</dc:creator>
+    <dc:creator>吉田,学</dc:creator>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14006</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18697/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18697/14006_1_%E9%99%B0%E7%94%B0%E7%AC%AC6%E9%81%BA%E8%B7%A1%E3%83%BB%E9%99%B0%E7%94%B0%E5%AE%AE%E3%81%AE%E8%B0%B7%E9%81%BA%E8%B7%A13%E5%8C%BA%E3%83%BB4%E5%8C%BA.pdf</dc:identifier>
+    <dc:identifier>BA35616493</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14006</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財調査報告書</dc:identifier>
+    <dc:identifier>23</dc:identifier>
+    <dc:identifier>1997-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13566</identifier>
+        <datestamp>2024-07-05T17:03:50Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>百塚第7遺跡 (8区) / hyakutsukadai7iseki (8ku)</dc:title>
+    <dc:title>ひゃくつかだい7いせき (8く)</dc:title>
+    <dc:title>一般国道9号米子道路工事に伴う埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>仲田,信一</dc:creator>
+    <dc:creator>家塚,英詞</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13566</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17927/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17927/13566_1_%E7%99%BE%E5%A1%9A%E7%AC%AC7%E9%81%BA%E8%B7%A18%E5%8C%BA.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17928/13566_2_%E7%99%BE%E5%A1%9A%E7%AC%AC7%E9%81%BA%E8%B7%A18%E5%8C%BA.pdf</dc:identifier>
+    <dc:identifier>BN14370626</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13566</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>8</dc:identifier>
+    <dc:identifier>38</dc:identifier>
+    <dc:identifier>1995-03-01</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13457</identifier>
+        <datestamp>2024-07-19T17:00:39Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31329</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>山ノ上通山遺跡発掘調査報告書 / yamanouetooriyamaisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>やまのうえとおりやまいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>中野,知照</dc:creator>
+    <dc:publisher>郡家町教育委員会</dc:publisher>
+    <dc:publisher>郡家町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13457</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17694/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17694/13457_1_%E5%B1%B1%E3%83%8E%E4%B8%8A%E9%80%9A%E5%B1%B1%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17695/13457_2_%E5%B1%B1%E3%83%8E%E4%B8%8A%E9%80%9A%E5%B1%B1%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17696/13457_3_%E5%B1%B1%E3%83%8E%E4%B8%8A%E9%80%9A%E5%B1%B1%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BB03183280</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13457</dc:identifier>
+    <dc:identifier>郡家町文化財報告書</dc:identifier>
+    <dc:identifier>19</dc:identifier>
+    <dc:identifier>1997-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13354</identifier>
+        <datestamp>2024-07-05T17:02:45Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>西桂見遺跡・倉見古墳群 / nishikatsuramiiseki・kuramikofungun</dc:title>
+    <dc:title>にしかつらみいせき・くらみこふんぐん</dc:title>
+    <dc:title>鷲谷口地区・鷲谷奥地区・堤谷地区 / 主要地方道鳥取鹿野倉吉線道路整備事業に伴う埋蔵文化財発掘調査報告書 ; 2</dc:title>
+    <dc:creator>牧本,哲雄</dc:creator>
+    <dc:creator>小谷,修一</dc:creator>
+    <dc:creator>高垣,陽子</dc:creator>
+    <dc:publisher>鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センタ</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13354</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17506/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17506/13354_1_%E8%A5%BF%E6%A1%82%E8%A6%8B%E9%81%BA%E8%B7%A1%E3%83%BB%E5%80%89%E8%A6%8B%E5%8F%A4%E5%A2%B3%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17507/13354_2_%E8%A5%BF%E6%A1%82%E8%A6%8B%E9%81%BA%E8%B7%A1%E3%83%BB%E5%80%89%E8%A6%8B%E5%8F%A4%E5%A2%B3%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier>BA32007750</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13354</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>2</dc:identifier>
+    <dc:identifier>46</dc:identifier>
+    <dc:identifier>1996-03-01</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14156</identifier>
+        <datestamp>2022-03-16T17:00:24Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>史跡　大原廃寺発掘調査報告書 / shiseki　ooharahaijihakkutsuchousahoukokusho</dc:title>
+    <dc:title>しせき　おおはらはいじはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>眞田,廣幸</dc:creator>
+    <dc:creator>森下,哲哉</dc:creator>
+    <dc:creator>根鈴,智津子</dc:creator>
+    <dc:creator>加藤,誠司</dc:creator>
+    <dc:creator>岡本,智則</dc:creator>
+    <dc:creator>岡平,拓也</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14156</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18983/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18983/14156_1_%E5%8F%B2%E8%B7%A1%E5%A4%A7%E5%8E%9F%E5%BB%83%E5%AF%BA%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA45418248</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14156</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>100</dc:identifier>
+    <dc:identifier>1999-03-19</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13430</identifier>
+        <datestamp>2026-07-28T17:01:24Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31201</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>蔵見古墳群発掘調査報告書 / kuramikofungunhakkutsuchousahoukokusho</dc:title>
+    <dc:title>くらみこふんぐんはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>蔵見2・3号墳</dc:title>
+    <dc:creator>谷岡,陽一</dc:creator>
+    <dc:creator>中原,斉</dc:creator>
+    <dc:publisher>福部村教育委員会</dc:publisher>
+    <dc:publisher>福部村教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13430</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17636/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17636/13430_1_%E8%94%B5%E8%A6%8B%E5%8F%A4%E5%A2%B3%E7%BE%A4%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA38129433</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13430</dc:identifier>
+    <dc:identifier>福部村埋蔵文化財調査報告書</dc:identifier>
+    <dc:identifier>11</dc:identifier>
+    <dc:identifier>1997-03-19</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13955</identifier>
+        <datestamp>2024-07-05T17:05:01Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>天萬土井前遺跡 / temmandoimaeiseki</dc:title>
+    <dc:title>てんまんどいまえいせき</dc:title>
+    <dc:title>会見団地宅地造成事業に係る埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>湯村,功</dc:creator>
+    <dc:creator>高尾,浩司</dc:creator>
+    <dc:creator>横山,繁一</dc:creator>
+    <dc:creator>山川,千絵</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13955</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18598/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18598/13955_1_%E5%A4%A9%E8%90%AC%E5%9C%9F%E4%BA%95%E5%89%8D%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA35501866</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13955</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>53</dc:identifier>
+    <dc:identifier>1997-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13973</identifier>
+        <datestamp>2024-07-25T17:02:10Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31302</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>浦富6号墳 / uradome6goufun</dc:title>
+    <dc:title>うらどめ6ごうふん</dc:title>
+    <dc:title>浦富真砂土採取事業に伴う埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>中島,伸二</dc:creator>
+    <dc:creator>水石,明夫</dc:creator>
+    <dc:publisher>岩美町教育委員会</dc:publisher>
+    <dc:publisher>岩美町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13973</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18629/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18629/13973_1_%E6%B5%A6%E5%AF%8C6%E5%8F%B7%E5%A2%B3.pdf</dc:identifier>
+    <dc:identifier>BA55810604</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13973</dc:identifier>
+    <dc:identifier>岩美町文化財調査報告書</dc:identifier>
+    <dc:identifier>23</dc:identifier>
+    <dc:identifier>2001-03-26</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13408</identifier>
+        <datestamp>2024-07-09T17:01:26Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31201</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>青谷町内遺跡発掘調査報告書 / aoyachounaiisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>あおやちょうないいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>善田古墳群、露谷漆ヶ坪出土地、青谷上寺地遺跡、大口古墳群、鳴滝宮坂遺跡、養郷村内出土地及び山根上式田出土地、試掘調査報告書</dc:title>
+    <dc:creator>森,佳樹</dc:creator>
+    <dc:creator>加川,崇</dc:creator>
+    <dc:publisher>青谷町教育委員会</dc:publisher>
+    <dc:publisher>青谷町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13408</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17594/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17594/13408_1_%E9%9D%92%E8%B0%B7%E7%94%BA%E5%86%85%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA69991551</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13408</dc:identifier>
+    <dc:identifier>青谷町埋蔵文化財報告書</dc:identifier>
+    <dc:identifier>10</dc:identifier>
+    <dc:identifier>19</dc:identifier>
+    <dc:identifier>2001-03-19</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14032</identifier>
+        <datestamp>2024-07-18T17:06:34Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>石州府第2遺跡発掘調査報告書 / sekishodai2isekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>せきしょだい2いせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>市道石州府岸本線改良工事に伴う埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>高橋,浩樹</dc:creator>
+    <dc:creator>平木,裕子</dc:creator>
+    <dc:creator>下高,瑞哉</dc:creator>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14032</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18746/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18746/14032_1_%E7%9F%B3%E5%B7%9E%E5%BA%9C%E7%AC%AC2%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA35634837</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14032</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財調査報告書</dc:identifier>
+    <dc:identifier>2</dc:identifier>
+    <dc:identifier>22</dc:identifier>
+    <dc:identifier>1997-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13944</identifier>
+        <datestamp>2021-06-18T09:06:05Z</datestamp>
+        <setSpec>31201-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>古郡家遺跡 / kokoogeiseki</dc:title>
+    <dc:title>ここおげいせき</dc:title>
+    <dc:title>一般県道国安桂木線緊急地方道路工事に伴う埋蔵文化財発掘調査</dc:title>
+    <dc:creator>谷口,恭子</dc:creator>
+    <dc:publisher>財団法人鳥取市文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取市文化財団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13944</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18572/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18572/13944_1_%E5%8F%A4%E9%83%A1%E5%AE%B6%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA71076684</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13944</dc:identifier>
+    <dc:identifier>2004-07-30</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13753</identifier>
+        <datestamp>2021-09-13T09:46:57Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>目久美遺跡 / megumiiseki</dc:title>
+    <dc:title>めぐみいせき</dc:title>
+    <dc:title>都市計画道路車尾目久美町線道路改良工事に伴う埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>濱田,竜彦</dc:creator>
+    <dc:creator>平木,裕子</dc:creator>
+    <dc:creator>佐伯,純也</dc:creator>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13753</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18246/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18246/13753_1_%E7%9B%AE%E4%B9%85%E7%BE%8E%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA69127523</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13753</dc:identifier>
+    <dc:identifier>財団法人米子市教育文化事業団発掘調査報告書</dc:identifier>
+    <dc:identifier>5.6</dc:identifier>
+    <dc:identifier>25</dc:identifier>
+    <dc:identifier>1998-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14036</identifier>
+        <datestamp>2024-07-18T17:06:34Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>目久美遺跡 / megumiiseki</dc:title>
+    <dc:title>めぐみいせき</dc:title>
+    <dc:creator>佐伯,純也</dc:creator>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14036</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18750/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18750/14036_1_%E7%9B%AE%E4%B9%85%E7%BE%8E%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BN1098261X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14036</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財調査報告書</dc:identifier>
+    <dc:identifier>7</dc:identifier>
+    <dc:identifier>31</dc:identifier>
+    <dc:identifier>1999-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13972</identifier>
+        <datestamp>2024-07-05T17:05:08Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>小町石橋ノ上遺跡・朝金第2遺跡・田住桶川遺跡・田住第8遺跡 / komachiishibashinokamiiseki・asaganedai2iseki・tasumiokegawaiseki・tasumidai8iseki</dc:title>
+    <dc:title>こまちいしばしのかみいせき・あさがねだい2いせき・たすみおけがわいせき・たすみだい8いせき</dc:title>
+    <dc:title>県営西伯地区広域農道整備事業に伴う埋蔵文化財発掘調査報告書 ; 2</dc:title>
+    <dc:creator>北浦,弘人</dc:creator>
+    <dc:creator>中森,祥</dc:creator>
+    <dc:creator>上田,浩一</dc:creator>
+    <dc:creator>山崎,裕子</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13972</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18625/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18625/13972_1_%E5%B0%8F%E7%94%BA%E7%9F%B3%E6%A9%8B%E3%83%8E%E4%B8%8A%E9%81%BA%E8%B7%A1%E3%83%BB%E6%9C%9D%E9%87%91%E7%AC%AC2%E9%81%BA%E8%B7%A1%E3%83%BB%E7%94%B0%E4%BD%8F%E6%A1%B6%E5%B7%9D%E9%81%BA%E8%B7%A1%E3%83%BB%E7%94%B0%E4%BD%8F%E7%AC%AC8%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18626/13972_2_%E5%B0%8F%E7%94%BA%E7%9F%B3%E6%A9%8B%E3%83%8E%E4%B8%8A%E9%81%BA%E8%B7%A1%E3%83%BB%E6%9C%9D%E9%87%91%E7%AC%AC2%E9%81%BA%E8%B7%A1%E3%83%BB%E7%94%B0%E4%BD%8F%E6%A1%B6%E5%B7%9D%E9%81%BA%E8%B7%A1%E3%83%BB%E7%94%B0%E4%BD%8F%E7%AC%AC8%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18627/13972_3_%E5%B0%8F%E7%94%BA%E7%9F%B3%E6%A9%8B%E3%83%8E%E4%B8%8A%E9%81%BA%E8%B7%A1%E3%83%BB%E6%9C%9D%E9%87%91%E7%AC%AC2%E9%81%BA%E8%B7%A1%E3%83%BB%E7%94%B0%E4%BD%8F%E6%A1%B6%E5%B7%9D%E9%81%BA%E8%B7%A1%E3%83%BB%E7%94%B0%E4%BD%8F%E7%AC%AC8%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18628/13972_4_%E5%B0%8F%E7%94%BA%E7%9F%B3%E6%A9%8B%E3%83%8E%E4%B8%8A%E9%81%BA%E8%B7%A1%E3%83%BB%E6%9C%9D%E9%87%91%E7%AC%AC2%E9%81%BA%E8%B7%A1%E3%83%BB%E7%94%B0%E4%BD%8F%E6%A1%B6%E5%B7%9D%E9%81%BA%E8%B7%A1%E3%83%BB%E7%94%B0%E4%BD%8F%E7%AC%AC8%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA35498648</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13972</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>52</dc:identifier>
+    <dc:identifier>1997-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13779</identifier>
+        <datestamp>2024-07-19T17:00:55Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31372</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>町内遺跡発掘調査報告書 / chounaiisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>ちょうないいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>清水,直樹</dc:creator>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13779</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18290/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18290/13779_1_%E7%94%BA%E5%86%85%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA36472912</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13779</dc:identifier>
+    <dc:identifier>北条町埋蔵文化財報告書</dc:identifier>
+    <dc:identifier>9</dc:identifier>
+    <dc:identifier>29</dc:identifier>
+    <dc:identifier>2000-03-21</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13410</identifier>
+        <datestamp>2024-07-05T17:02:54Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>小浜千速遺跡　石脇第3遺跡森末地区2区･3区 / kobamasenzokuiseki　ishiwakidai3isekimorisuechiku2ku3ku</dc:title>
+    <dc:title>こばませんぞくいせき　いしわきだい3いせきもりすえちく2く3く</dc:title>
+    <dc:title>一般国道9号(青谷･羽合道路)改築工事に伴う埋蔵文化財発掘調査報告書 ; 4</dc:title>
+    <dc:creator>西川,徹</dc:creator>
+    <dc:creator>手島,尚樹</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13410</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17598/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17598/13410_1_%E5%B0%8F%E6%B5%9C%E5%8D%83%E9%80%9F%E9%81%BA%E8%B7%A1%E7%9F%B3%E8%84%87%E7%AC%AC3%E9%81%BA%E8%B7%A1%E6%A3%AE%E6%9C%AB%E5%9C%B0%E5%8C%BA2%E5%8C%BA%EF%BD%A53%E5%8C%BA.pdf</dc:identifier>
+    <dc:identifier>BA4857181X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13410</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>65</dc:identifier>
+    <dc:identifier>2000-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13383</identifier>
+        <datestamp>2024-07-19T17:00:29Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31372</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>町内遺跡発掘調査報告書 / chounaiisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>ちょうないいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>清水,直樹</dc:creator>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13383</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17554/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17554/13383_1_%E7%94%BA%E5%86%85%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA36472912</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13383</dc:identifier>
+    <dc:identifier>北条町埋蔵文化財報告書</dc:identifier>
+    <dc:identifier>8</dc:identifier>
+    <dc:identifier>28</dc:identifier>
+    <dc:identifier>1999-03-19</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13811</identifier>
+        <datestamp>2024-07-19T17:00:55Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31302</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>岩美町内遺跡発掘調査報告書 / iwamichounaiisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>いわみちょうないいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>大谷地区・岩井地区</dc:title>
+    <dc:creator>中島,伸二</dc:creator>
+    <dc:publisher>岩美町教育委員会</dc:publisher>
+    <dc:publisher>岩美町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13811</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18341/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18341/13811_1_%E5%B2%A9%E7%BE%8E%E7%94%BA%E5%86%85%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA55810874</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13811</dc:identifier>
+    <dc:identifier>岩美町文化財調査報告書</dc:identifier>
+    <dc:identifier>6</dc:identifier>
+    <dc:identifier>25</dc:identifier>
+    <dc:identifier>2002-03-22</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13382</identifier>
+        <datestamp>2024-07-19T17:00:29Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31372</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>町内遺跡発掘調査報告書 / chounaiisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>ちょうないいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>福庭,克展</dc:creator>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13382</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17553/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17553/13382_1_%E7%94%BA%E5%86%85%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA36472912</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13382</dc:identifier>
+    <dc:identifier>北条町埋蔵文化財報告書</dc:identifier>
+    <dc:identifier>12</dc:identifier>
+    <dc:identifier>32</dc:identifier>
+    <dc:identifier>2003-03</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13545</identifier>
+        <datestamp>2024-07-05T17:03:44Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>御内谷遺跡群 / miuchidaniisekigun</dc:title>
+    <dc:title>みうちだにいせきぐん</dc:title>
+    <dc:title>一般県道福頼市山伯耆大山(Ｔ)線地方特定道路整備工事に伴う埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>西川,徹</dc:creator>
+    <dc:creator>高尾,浩司</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13545</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17879/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17879/13545_1_%E5%BE%A1%E5%86%85%E8%B0%B7%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17880/13545_2_%E5%BE%A1%E5%86%85%E8%B0%B7%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier>BB02317461</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13545</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>58</dc:identifier>
+    <dc:identifier>1998-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13635</identifier>
+        <datestamp>2022-03-14T17:00:16Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>史跡大御堂廃寺跡発掘調査報告書 / shisekioomidouhaijiatohakkutsuxchousahoukokusho</dc:title>
+    <dc:title>しせきおおみどうはいじあとはっくつｘちょうさほうこくしょ</dc:title>
+    <dc:creator>眞田,廣幸</dc:creator>
+    <dc:creator>森下,哲哉</dc:creator>
+    <dc:creator>根鈴,智津子</dc:creator>
+    <dc:creator>加藤,誠司</dc:creator>
+    <dc:creator>岡本,智則</dc:creator>
+    <dc:creator>岡平,拓也</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13635</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18047/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18047/13635_1_%E5%8F%B2%E8%B7%A1%E5%A4%A7%E5%BE%A1%E5%A0%82%E5%BB%83%E5%AF%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA56993554</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13635</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>107</dc:identifier>
+    <dc:identifier>2001-03-19</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13364</identifier>
+        <datestamp>2022-03-14T17:00:12Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>若林遺跡発掘調査報告書 / wakabayashiisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>わかばやしいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>岡本,智則</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13364</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17521/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17521/13364_1_%E8%8B%A5%E6%9E%97%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA49671354</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13364</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>103</dc:identifier>
+    <dc:identifier>2000-03-24</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13940</identifier>
+        <datestamp>2021-06-18T09:06:05Z</datestamp>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>名和乙ヶ谷遺跡 / nawaotogataniiseki</dc:title>
+    <dc:title>なわおとがたにいせき</dc:title>
+    <dc:title>一般国道9号（名和淀江道路）の改築に伴う埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>中森,祥</dc:creator>
+    <dc:creator>淺田,康行</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団　鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13940</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18567/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18567/13940_1_%E5%90%8D%E5%92%8C%E4%B9%99%E3%83%B6%E8%B0%B7%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18568/13940_2_%E5%90%8D%E5%92%8C%E4%B9%99%E3%83%B6%E8%B0%B7%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA63900451</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13940</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>5</dc:identifier>
+    <dc:identifier>83</dc:identifier>
+    <dc:identifier>2003-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14047</identifier>
+        <datestamp>2024-07-05T17:05:30Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>南谷大山遺跡2　南谷29号墳 / minamidaniooyamaiseki2　minamidani29goufun</dc:title>
+    <dc:title>みなみだにおおやまいせき2　みなみだに29ごうふん</dc:title>
+    <dc:title>一般国道9号(羽合道路)改築工事に伴う埋蔵文化財発掘調査報告書 ; 5</dc:title>
+    <dc:creator>牧本,哲雄</dc:creator>
+    <dc:creator>岸本,浩忠</dc:creator>
+    <dc:creator>山根,雅美</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団　鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14047</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18765/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18765/14047_1_%E5%8D%97%E8%B0%B7%E5%A4%A7%E5%B1%B1%E9%81%BA%E8%B7%A12%E5%8D%97%E8%B0%B729%E5%8F%B7%E5%A2%B3.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18766/14047_2_%E5%8D%97%E8%B0%B7%E5%A4%A7%E5%B1%B1%E9%81%BA%E8%B7%A12%E5%8D%97%E8%B0%B729%E5%8F%B7%E5%A2%B3.pdf</dc:identifier>
+    <dc:identifier>BN11930258</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14047</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>36</dc:identifier>
+    <dc:identifier>1994-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14048</identifier>
+        <datestamp>2024-07-19T17:01:01Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31372</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>島遺跡発掘調査報告書 / shimaisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>しまいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>清水,直樹</dc:creator>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14048</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18767/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18767/14048_1_%E5%B3%B6%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BN13856156</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14048</dc:identifier>
+    <dc:identifier>北条町埋蔵文化財報告書</dc:identifier>
+    <dc:identifier>2</dc:identifier>
+    <dc:identifier>25</dc:identifier>
+    <dc:identifier>1998-03-25</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13381</identifier>
+        <datestamp>2024-07-05T17:02:52Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>尾高御建山遺跡2･尾高古墳群2･尾高1号横穴墓 / odakaotateyamaiseki2・odakakofungun2・odaka1gououketsubo</dc:title>
+    <dc:title>おだかおたてやまいせき2･おだかこふんぐん2･おだか1ごうおうけつぼ</dc:title>
+    <dc:title>一般国道9号米子道路埋蔵文化財発掘調査報告書 ; 9</dc:title>
+    <dc:creator>山田,真一</dc:creator>
+    <dc:creator>鬼頭,紀子</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13381</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17552/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17552/13381_1_%E5%B0%BE%E9%AB%98%E5%BE%A1%E5%BB%BA%E5%B1%B1%E9%81%BA%E8%B7%A12%EF%BD%A5%E5%B0%BE%E9%AB%98%E5%8F%A4%E5%A2%B3%E7%BE%A42%EF%BD%A5%E5%B0%BE%E9%AB%981%E5%8F%B7%E6%A8%AA%E7%A9%B4%E5%A2%93.pdf</dc:identifier>
+    <dc:identifier>BN14371367</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13381</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>39</dc:identifier>
+    <dc:identifier>1995-03-01</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14064</identifier>
+        <datestamp>2024-07-18T17:06:36Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>米子城跡8遺跡 / yonagojouseki8iseki</dc:title>
+    <dc:title>よなごじょうせき8いせき</dc:title>
+    <dc:creator>高橋,浩樹</dc:creator>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14064</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18801/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18801/14064_1_%E7%B1%B3%E5%AD%90%E5%9F%8E%E8%B7%A18%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BN15776320</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14064</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財調査報告書</dc:identifier>
+    <dc:identifier>16</dc:identifier>
+    <dc:identifier>1996-03-29</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13636</identifier>
+        <datestamp>2021-09-27T17:00:09Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>倉吉市内遺跡分布調査報告書 / kurayoshishinaiisekibumpuchousahoukokousho</dc:title>
+    <dc:title>くらよししないいせきぶんぷちょうさほうここうしょ</dc:title>
+    <dc:creator>根鈴,輝雄</dc:creator>
+    <dc:creator>眞田,廣幸</dc:creator>
+    <dc:creator>森下,哲哉</dc:creator>
+    <dc:creator>根鈴,智津子</dc:creator>
+    <dc:creator>加藤,誠司</dc:creator>
+    <dc:creator>岡本,智則</dc:creator>
+    <dc:creator>岡平,拓也</dc:creator>
+    <dc:creator>竹宮,亜也子</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13636</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18048/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18048/13636_1_%E5%80%89%E5%90%89%E5%B8%82%E5%86%85%E9%81%BA%E8%B7%A1%E5%88%86%E5%B8%83%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BN0331787X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13636</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>9</dc:identifier>
+    <dc:identifier>87</dc:identifier>
+    <dc:identifier>1997-03-19</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14065</identifier>
+        <datestamp>2021-09-13T09:46:57Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>史跡妻木晩田遺跡第4次発掘調査報告書 / shisekimukibandaisekidai4jihakkutsuchousahoukokusho</dc:title>
+    <dc:title>しせきむきばんだいせきだい4じはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>洞ノ原地区西側丘陵の発掘調査</dc:title>
+    <dc:creator>濱田,竜彦</dc:creator>
+    <dc:publisher>鳥取県教育委員会</dc:publisher>
+    <dc:publisher>鳥取県教育委員会文化課妻木晩田遺跡整備室現地事務所</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14065</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18802/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18802/14065_1_%E5%8F%B2%E8%B7%A1%E5%A6%BB%E6%9C%A8%E6%99%A9%E7%94%B0%E9%81%BA%E8%B7%A1%E7%AC%AC4%E6%AC%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA63847734</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14065</dc:identifier>
+    <dc:identifier>史跡妻木晩田遺跡発掘調査報告書</dc:identifier>
+    <dc:identifier>1</dc:identifier>
+    <dc:identifier>2003-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14295</identifier>
+        <datestamp>2024-07-25T17:02:40Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>クズマ遺跡第2次発掘調査報告書 / kuzumaisekidai2jihakkutsuchousahoukokusho</dc:title>
+    <dc:title>くずまいせきだい2じはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>岡平,拓也</dc:creator>
+    <dc:creator>加藤,誠司</dc:creator>
+    <dc:creator>岡本,智則</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14295</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/19/19276/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/19/19276/14295_1_%E3%82%AF%E3%82%BA%E3%83%9E%E9%81%BA%E8%B7%A1%E7%AC%AC2%E6%AC%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA49671591</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14295</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>104</dc:identifier>
+    <dc:identifier>2000-03-21</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13334</identifier>
+        <datestamp>2024-07-19T17:00:25Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31372</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>町内遺跡発掘調査報告書 / chounaiisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>ちょうないいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>管峯長谷遺跡 / 苅山遺跡 / 北尾23号墳</dc:title>
+    <dc:creator>樋口,和夫</dc:creator>
+    <dc:creator>中原,由香里</dc:creator>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13334</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17483/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17483/13334_1_%E7%94%BA%E5%86%85%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA36472912</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13334</dc:identifier>
+    <dc:identifier>北条町埋蔵文化財報告書</dc:identifier>
+    <dc:identifier>5</dc:identifier>
+    <dc:identifier>19</dc:identifier>
+    <dc:identifier>1996-03-19</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13641</identifier>
+        <datestamp>2022-03-18T17:00:11Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>中峰古墳群発掘調査報告書 / nakaminekofungunhakkutsuchousahoukokusho</dc:title>
+    <dc:title>なかみねこふんぐんはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>岡本,智則</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13641</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18062/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18062/13641_1_%E4%B8%AD%E5%B3%B0%E5%8F%A4%E5%A2%B3%E7%BE%A4%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA40484755</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13641</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>94</dc:identifier>
+    <dc:identifier>1998-03-19</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13380</identifier>
+        <datestamp>2025-04-24T17:00:31Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>円谷城跡発掘調査報告書 / endanijouatohakkutsuchousahoukokusho</dc:title>
+    <dc:title>えんだにじょうあとはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>岡本,智則</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13380</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17551/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17551/13380_1_%E5%86%86%E8%B0%B7%E5%9F%8E%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA35382960</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13380</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>91</dc:identifier>
+    <dc:identifier>1997-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14068</identifier>
+        <datestamp>2021-12-13T17:00:13Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>二タ子塚遺跡発掘調査報告書 / futagodukaisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>ふたごづかいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>加藤,誠司</dc:creator>
+    <dc:creator>高取,英雄</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14068</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18806/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18806/14068_1_%E4%BA%8C%E3%82%BF%E5%AD%90%E5%A1%9A%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BN13145872</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14068</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>82</dc:identifier>
+    <dc:identifier>1995-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13880</identifier>
+        <datestamp>2022-12-31T17:00:40Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>倉吉市内遺跡分布調査報告書 / kurayoshishinaiisekibumpuchousahoukokusho</dc:title>
+    <dc:title>くらよししないいせきぶんぷちょうさほうこくしょ</dc:title>
+    <dc:creator>森下,哲哉</dc:creator>
+    <dc:creator>根鈴,智津子</dc:creator>
+    <dc:creator>加藤,誠司</dc:creator>
+    <dc:creator>岡本,智則</dc:creator>
+    <dc:creator>岡平,拓也</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13880</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18461/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18461/13880_1_%E5%80%89%E5%90%89%E5%B8%82%E5%86%85%E9%81%BA%E8%B7%A1%E5%88%86%E5%B8%83%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BN0331787X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13880</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>10</dc:identifier>
+    <dc:identifier>97</dc:identifier>
+    <dc:identifier>1999-03-19</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13532</identifier>
+        <datestamp>2024-07-18T17:05:49Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>吉谷銭神遺跡 / yoshitanizenigamiiseki</dc:title>
+    <dc:title>よしたにぜにがみいせき</dc:title>
+    <dc:creator>佐伯,純也</dc:creator>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13532</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17849/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17849/13532_1_%E5%90%89%E8%B0%B7%E9%8A%AD%E7%A5%9E%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA52423656</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13532</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財調査報告書</dc:identifier>
+    <dc:identifier>1</dc:identifier>
+    <dc:identifier>37</dc:identifier>
+    <dc:identifier>2001-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13571</identifier>
+        <datestamp>2024-07-05T17:03:52Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>高福大将軍遺跡 / takafukudaishouguniseki</dc:title>
+    <dc:title>たかふくだいしょうぐんいせき</dc:title>
+    <dc:title>中国横断自動車道姫路鳥取線(智頭~鳥取間)整備事業にかかる埋蔵文化財発掘調査報告書 ; 3</dc:title>
+    <dc:creator>鬼頭,紀子</dc:creator>
+    <dc:creator>森本,倫弘</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団　鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13571</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17941/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17941/13571_1_%E9%AB%98%E7%A6%8F%E5%A4%A7%E5%B0%86%E8%BB%8D%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA6122774X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13571</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>76</dc:identifier>
+    <dc:identifier>2002-03-29</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14092</identifier>
+        <datestamp>2021-06-18T09:06:05Z</datestamp>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>越敷山遺跡群荻名第3遺跡 / koshikisanisekigunoginadai3iseki</dc:title>
+    <dc:title>こしきさんいせきぐんおぎなだい3いせき</dc:title>
+    <dc:title>一級町道諸木鶴田線道路改良事業に係る埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>家塚,英詞</dc:creator>
+    <dc:creator>柴田,親臣</dc:creator>
+    <dc:creator>塚田,文子</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14092</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18846/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18846/14092_1_%E8%B6%8A%E6%95%B7%E5%B1%B1%E9%81%BA%E8%B7%A1%E7%BE%A4%E8%8D%BB%E5%90%8D%E7%AC%AC3%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA49008226</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14092</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>63</dc:identifier>
+    <dc:identifier>2000-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14300</identifier>
+        <datestamp>2026-08-05T17:02:16Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>大平ラ遺跡・八幡山遺跡発掘調査報告書 / oohiraiseki・hachimanyamaisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>おおひらいせき・はちまんやまいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>一般国道313号(北条倉吉道路)道路改良工事に伴う埋蔵文化財発掘調査</dc:title>
+    <dc:creator>岡本,智則</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14300</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/19/19281/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/19/19281/14300_1_%E5%A4%A7%E5%B9%B3%E3%83%A9%E9%81%BA%E8%B7%A1%E3%83%BB%E5%85%AB%E5%B9%A1%E5%B1%B1%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA5730185X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14300</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>112</dc:identifier>
+    <dc:identifier>2001-03-23</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14254</identifier>
+        <datestamp>2024-03-19T17:00:15Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31201</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>史跡鳥取城跡附太閤ヶ平天球丸保存整備事業報告書 / shisekitottorijouatotsuketaritaiheiganarutenkyuumaruhozonseibijigyouhoukokusho</dc:title>
+    <dc:title>しせきとっとりじょうあとつけたりたいへいがなるてんきゅうまるほぞんせいびじぎょうほうこくしょ</dc:title>
+    <dc:creator>平川,誠</dc:creator>
+    <dc:creator>前田,均</dc:creator>
+    <dc:publisher>鳥取市教育委員会</dc:publisher>
+    <dc:publisher>鳥取市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14254</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/19/19171/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/19/19171/14254_1_%E5%8F%B2%E8%B7%A1%E9%B3%A5%E5%8F%96%E5%9F%8E%E8%B7%A1%E9%99%84%E5%A4%AA%E9%96%A4%E3%83%B6%E5%B9%B3%E5%A4%A9%E7%90%83%E4%B8%B8%E4%BF%9D%E5%AD%98%E6%95%B4%E5%82%99%E4%BA%8B%E6%A5%AD%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA39536341</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14254</dc:identifier>
+    <dc:identifier>1997-03-20</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13913</identifier>
+        <datestamp>2024-07-18T17:06:19Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>米子城跡9遺跡 / yonagojouseki9iseki</dc:title>
+    <dc:title>よなごじょうせき9いせき</dc:title>
+    <dc:creator>高橋,浩樹</dc:creator>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13913</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18523/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18523/13913_1_%E7%B1%B3%E5%AD%90%E5%9F%8E%E8%B7%A19%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA35615810</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13913</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財調査報告書</dc:identifier>
+    <dc:identifier>20</dc:identifier>
+    <dc:identifier>1997-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13912</identifier>
+        <datestamp>2024-07-05T17:04:49Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>青谷上寺地遺跡3 / aoyakamijichiiseki</dc:title>
+    <dc:title>あおやかみじちいせき</dc:title>
+    <dc:title>一般国道9号改築工事(青谷･羽合道路)に伴う埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>北浦,弘人</dc:creator>
+    <dc:creator>鬼頭,紀子</dc:creator>
+    <dc:creator>湯村,功</dc:creator>
+    <dc:creator>高尾,浩司</dc:creator>
+    <dc:creator>井上,貴央</dc:creator>
+    <dc:creator>古川,郁夫</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13912</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18520/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18520/13912_1_%E9%9D%92%E8%B0%B7%E4%B8%8A%E5%AF%BA%E5%9C%B0%E9%81%BA%E8%B7%A13.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18521/13912_2_%E9%9D%92%E8%B0%B7%E4%B8%8A%E5%AF%BA%E5%9C%B0%E9%81%BA%E8%B7%A13.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18522/13912_3_%E9%9D%92%E8%B0%B7%E4%B8%8A%E5%AF%BA%E5%9C%B0%E9%81%BA%E8%B7%A13.pdf</dc:identifier>
+    <dc:identifier>BA48234445</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13912</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>3</dc:identifier>
+    <dc:identifier>72</dc:identifier>
+    <dc:identifier>2001-03-30</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13950</identifier>
+        <datestamp>2022-04-20T17:11:24Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>陰田遺跡群 / indaisekigun</dc:title>
+    <dc:title>いんだいせきぐん</dc:title>
+    <dc:title>一般国道9号米子道路工事に伴う埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>北浦,弘人</dc:creator>
+    <dc:creator>熊谷,朗</dc:creator>
+    <dc:creator>山川,茂樹</dc:creator>
+    <dc:creator>山田,真一</dc:creator>
+    <dc:creator>仲田,信一</dc:creator>
+    <dc:creator>樋口,友枝</dc:creator>
+    <dc:creator>山崎,裕子</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13950</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18583/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18583/13950_1_%E9%99%B0%E7%94%B0%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18584/13950_2_%E9%99%B0%E7%94%B0%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18585/13950_3_%E9%99%B0%E7%94%B0%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18586/13950_4_%E9%99%B0%E7%94%B0%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18587/13950_5_%E9%99%B0%E7%94%B0%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18588/13950_6_%E9%99%B0%E7%94%B0%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18589/13950_7_%E9%99%B0%E7%94%B0%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18590/13950_8_%E9%99%B0%E7%94%B0%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier>BA3369213X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13950</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>10</dc:identifier>
+    <dc:identifier>47</dc:identifier>
+    <dc:identifier>1996-03-29</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13522</identifier>
+        <datestamp>2024-07-18T17:05:48Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>米子城跡　 / yonagojouseki</dc:title>
+    <dc:title>よなごじょうせき</dc:title>
+    <dc:creator>高橋,浩樹</dc:creator>
+    <dc:publisher>米子市教育文化事業団文化財調査報告書</dc:publisher>
+    <dc:publisher>米子市教育文化事業団文化財調査報告書</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13522</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17823/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17823/13522_1_%E7%B1%B3%E5%AD%90%E5%9F%8E%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA43423928</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13522</dc:identifier>
+    <dc:identifier>財団法人米子市教育文化事業団発掘調査報告書</dc:identifier>
+    <dc:identifier>第25次調査</dc:identifier>
+    <dc:identifier>30</dc:identifier>
+    <dc:identifier>1999-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13728</identifier>
+        <datestamp>2022-02-07T17:00:16Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>古神宮古墓発掘調査報告書 / koshinguukobo</dc:title>
+    <dc:title>こしんぐうこぼ</dc:title>
+    <dc:creator>加藤,誠司</dc:creator>
+    <dc:creator>岡本,智則</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13728</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18196/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18196/13728_1_%E5%8F%A4%E7%A5%9E%E5%AE%AE%E5%8F%A4%E5%A2%93%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BN13145737</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13728</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>81</dc:identifier>
+    <dc:identifier>1995-03-20</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13372</identifier>
+        <datestamp>2024-07-05T17:02:50Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>古市遺跡群 / furuichiisekigun</dc:title>
+    <dc:title>ふるいちいせきぐん</dc:title>
+    <dc:title>一般国道180号道路改良事業に係る埋蔵文化財発掘調査報告書 ; 1</dc:title>
+    <dc:creator>中森,祥</dc:creator>
+    <dc:creator>濱田,竜彦</dc:creator>
+    <dc:creator>家塚,英詞</dc:creator>
+    <dc:creator>濱,隆造</dc:creator>
+    <dc:creator>吉田,学</dc:creator>
+    <dc:creator>内田,浩文</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13372</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17534/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17534/13372_1_%E5%8F%A4%E5%B8%82%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17535/13372_2_%E5%8F%A4%E5%B8%82%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17536/13372_3_%E5%8F%A4%E5%B8%82%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier>BA4262390X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13372</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>1</dc:identifier>
+    <dc:identifier>59</dc:identifier>
+    <dc:identifier>1999-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14221</identifier>
+        <datestamp>2024-07-05T17:05:55Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>鶴田東山遺跡　鶴田合清水遺跡 / tsurutahigashiyamaiseki　tsurutagoushimizuiseki</dc:title>
+    <dc:title>つるたひがしやまいせき　つるたごうしみずいせき</dc:title>
+    <dc:title>県立フラワーパーク建設に係る埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>西川,徹</dc:creator>
+    <dc:creator>松林,隆裕</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14221</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/19/19113/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/19/19113/14221_1_%E9%B6%B4%E7%94%B0%E6%9D%B1%E5%B1%B1%E9%81%BA%E8%B7%A1%E9%B6%B4%E7%94%B0%E5%90%88%E6%B8%85%E6%B0%B4%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BN15741188</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14221</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>40</dc:identifier>
+    <dc:identifier>1995-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13682</identifier>
+        <datestamp>2024-07-19T17:00:50Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31302</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>岩美町内遺跡発掘調査報告書 / iwamichounaiisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>いわみちょうないいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>小畑古墳群</dc:title>
+    <dc:creator>中島,伸二</dc:creator>
+    <dc:publisher>岩美町教育委員会</dc:publisher>
+    <dc:publisher>岩美町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13682</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18124/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18124/13682_1_%E5%B2%A9%E7%BE%8E%E7%94%BA%E5%86%85%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA65976680</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13682</dc:identifier>
+    <dc:identifier>岩美町文化財調査報告書</dc:identifier>
+    <dc:identifier>4</dc:identifier>
+    <dc:identifier>19</dc:identifier>
+    <dc:identifier>1999-03-18</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14285</identifier>
+        <datestamp>2021-06-18T09:06:05Z</datestamp>
+        <setSpec>31372</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>瀬戸岩子山遺跡発掘調査報告書 / setoiwakoyamaisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>せといわこやまいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>瀬戸35号・36号墳の調査</dc:title>
+    <dc:creator>永田,洋子</dc:creator>
+    <dc:creator>河本,いづみ</dc:creator>
+    <dc:publisher>大栄町教育委員会</dc:publisher>
+    <dc:publisher>大栄町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14285</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/19/19262/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/19/19262/14285_1_%E7%80%AC%E6%88%B8%E5%B2%A9%E5%AD%90%E5%B1%B1%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA4336947X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14285</dc:identifier>
+    <dc:identifier>大栄町埋蔵文化財調査報告書</dc:identifier>
+    <dc:identifier>34</dc:identifier>
+    <dc:identifier>1998-03-01</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14133</identifier>
+        <datestamp>2024-07-19T17:01:03Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31372</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>土下古墳群発掘調査報告書 / hashitakofungunhakkutsuchousahoukokusho</dc:title>
+    <dc:title>はしたこふんぐんはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>土下240号墳</dc:title>
+    <dc:creator>樋口,和夫</dc:creator>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14133</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18930/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18930/14133_1_%E5%9C%9F%E4%B8%8B%E5%8F%A4%E5%A2%B3%E7%BE%A4%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BN1212552X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14133</dc:identifier>
+    <dc:identifier>北条町埋蔵文化財報告書</dc:identifier>
+    <dc:identifier>5</dc:identifier>
+    <dc:identifier>26</dc:identifier>
+    <dc:identifier>1998-01-30</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14140</identifier>
+        <datestamp>2022-03-10T17:00:21Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>高鼻遺跡発掘調査報告書 / takahanaisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>たかはないせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>森下,哲哉</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14140</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18947/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18947/14140_1_%E9%AB%98%E9%BC%BB%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA61146524</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14140</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>117</dc:identifier>
+    <dc:identifier>2002-03-20</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14151</identifier>
+        <datestamp>2024-07-05T17:05:41Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>泉中峰・泉前田遺跡 / izuminakamine・izumimaetaiseki</dc:title>
+    <dc:title>いずみなかみね・いずみまえたいせき</dc:title>
+    <dc:title>一般国道9号米子道路埋蔵文化財発掘調査報告書 ; 5</dc:title>
+    <dc:creator>西川,徹</dc:creator>
+    <dc:creator>山川,茂樹</dc:creator>
+    <dc:creator>志田,睦</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14151</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18978/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18978/14151_1_%E6%B3%89%E4%B8%AD%E5%B3%B0%E3%83%BB%E6%B3%89%E5%89%8D%E7%94%B0%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BN11929849</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14151</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>35</dc:identifier>
+    <dc:identifier>1994-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14161</identifier>
+        <datestamp>2022-03-18T17:00:13Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>後ロ山遺跡発掘調査報告書 / ushiroyamaisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>うしろやまいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>加藤,誠司</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14161</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18990/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18990/14161_1_%E5%BE%8C%E3%83%AD%E5%B1%B1%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA40484391</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14161</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>93</dc:identifier>
+    <dc:identifier>1998-03-20</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13574</identifier>
+        <datestamp>2021-09-13T09:46:57Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>島古墳群　米里三ノ嵜遺跡　北尾釜谷遺跡 (北尾古墳群) / shimakofungun　yonesatosannosakiiseki　kitaokamataniiseki　kitaokofungun</dc:title>
+    <dc:title>しまこふんぐん　よねさとさんのさきいせき　きたおかまたにいせき　きたおこふんぐん</dc:title>
+    <dc:title>一般国道313号道路改良事業に係る埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>八峠,興</dc:creator>
+    <dc:creator>岡野,雅則</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13574</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17944/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17944/13574_1_%E5%B3%B6%E5%8F%A4%E5%A2%B3%E7%BE%A4%E7%B1%B3%E9%87%8C%E4%B8%89%E3%83%8E%E5%B5%9C%E9%81%BA%E8%B7%A1%E5%8C%97%E5%B0%BE%E9%87%9C%E8%B0%B7%E9%81%BA%E8%B7%A1%E5%8C%97%E5%B0%BE%E5%8F%A4%E5%A2%B3%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17945/13574_2_%E5%B3%B6%E5%8F%A4%E5%A2%B3%E7%BE%A4%E7%B1%B3%E9%87%8C%E4%B8%89%E3%83%8E%E5%B5%9C%E9%81%BA%E8%B7%A1%E5%8C%97%E5%B0%BE%E9%87%9C%E8%B0%B7%E9%81%BA%E8%B7%A1%E5%8C%97%E5%B0%BE%E5%8F%A4%E5%A2%B3%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier>BA49005272</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13574</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>64</dc:identifier>
+    <dc:identifier>2000-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header status="deleted">
+        <identifier>oai:sitereports.nabunken.go.jp/13885</identifier>
+        <datestamp>2023-06-26T06:47:39Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13386</identifier>
+        <datestamp>2024-07-18T17:05:37Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>米子城跡 / yonagojouseki</dc:title>
+    <dc:title>よなごじょうせき</dc:title>
+    <dc:creator>高橋,浩樹</dc:creator>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13386</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17557/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17557/13386_1_%E7%B1%B3%E5%AD%90%E5%9F%8E%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA43423928</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13386</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財発掘調査報告書</dc:identifier>
+    <dc:identifier>第27次調査</dc:identifier>
+    <dc:identifier>34</dc:identifier>
+    <dc:identifier>2000-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13889</identifier>
+        <datestamp>2024-07-18T17:06:18Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>錦町第1遺跡 / nishikimachidai1iseki</dc:title>
+    <dc:title>にしきまちだい1いせき</dc:title>
+    <dc:creator>平木,裕子</dc:creator>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13889</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18483/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18483/13889_1_%E9%8C%A6%E7%94%BA%E7%AC%AC1%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BN15757712</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13889</dc:identifier>
+    <dc:identifier>財団法人米子市教育文化事業団文化財発掘調査報告書</dc:identifier>
+    <dc:identifier>17</dc:identifier>
+    <dc:identifier>1996-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13934</identifier>
+        <datestamp>2024-07-18T17:06:20Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>青木稲場遺跡・福市遺跡(大成地区) / aokiinabaiseki・fukuichiiseki(oonarichiku)</dc:title>
+    <dc:title>あおきいなばいせき・ふくいちいせき(おおなりちく)</dc:title>
+    <dc:creator>平木,裕子</dc:creator>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13934</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18560/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18560/13934_1_%E9%9D%92%E6%9C%A8%E7%A8%B2%E5%A0%B4%E9%81%BA%E8%B7%A1%E3%83%BB%E7%A6%8F%E5%B8%82%E9%81%BA%E8%B7%A1%E5%A4%A7%E6%88%90%E5%9C%B0%E5%8C%BA.pdf</dc:identifier>
+    <dc:identifier>BA49546738</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13934</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財発掘調査報告書</dc:identifier>
+    <dc:identifier>35</dc:identifier>
+    <dc:identifier>2000-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14172</identifier>
+        <datestamp>2021-06-18T09:06:05Z</datestamp>
+        <setSpec>31201-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>円護寺古墳群 / engojikofungun</dc:title>
+    <dc:title>えんごじこふんぐん</dc:title>
+    <dc:title>市道円護寺覚寺線整備事業に係る円護寺5・6・7・8・40・41・42号墳発掘調査報告書</dc:title>
+    <dc:creator>前田,均</dc:creator>
+    <dc:creator>神谷,伊鈴</dc:creator>
+    <dc:publisher>財団法人鳥取市文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取市文化財団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14172</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/19/19010/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/19/19010/14172_1_%E5%86%86%E8%AD%B7%E5%AF%BA%E5%8F%A4%E5%A2%B3%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/19/19011/14172_2_%E5%86%86%E8%AD%B7%E5%AF%BA%E5%8F%A4%E5%A2%B3%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/19/19012/14172_3_%E5%86%86%E8%AD%B7%E5%AF%BA%E5%8F%A4%E5%A2%B3%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/19/19013/14172_4_%E5%86%86%E8%AD%B7%E5%AF%BA%E5%8F%A4%E5%A2%B3%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier>BA59671871</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14172</dc:identifier>
+    <dc:identifier>2002-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14173</identifier>
+        <datestamp>2021-06-18T09:06:05Z</datestamp>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>陰田宮の谷遺跡4区・5区 / indamiyanotaniiseki4ku5ku</dc:title>
+    <dc:title>いんだみやのたにいせき4く5く</dc:title>
+    <dc:creator>佐伯,純也</dc:creator>
+    <dc:publisher>財団法人米子市教育文化事業団</dc:publisher>
+    <dc:publisher>財団法人米子市教育文化事業団埋蔵文化財調査室</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14173</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/19/19014/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/19/19014/14173_1_%E9%99%B0%E7%94%B0%E5%AE%AE%E3%81%AE%E8%B0%B7%E9%81%BA%E8%B7%A14%E5%8C%BA%E3%83%BB5%E5%8C%BA.pdf</dc:identifier>
+    <dc:identifier>BA4953989X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14173</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財発掘調査報告書</dc:identifier>
+    <dc:identifier>33</dc:identifier>
+    <dc:identifier>2000-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13867</identifier>
+        <datestamp>2024-07-19T17:00:57Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31372</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>町内遺跡発掘調査報告書 / chounaiisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>ちょうないいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>清水,直樹</dc:creator>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:publisher>北条町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13867</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18442/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18442/13867_1_%E7%94%BA%E5%86%85%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA36472912</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13867</dc:identifier>
+    <dc:identifier>北条町埋蔵文化財報告書</dc:identifier>
+    <dc:identifier>7</dc:identifier>
+    <dc:identifier>24</dc:identifier>
+    <dc:identifier>1998-03-16</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header status="deleted">
+        <identifier>oai:sitereports.nabunken.go.jp/14060</identifier>
+        <datestamp>2023-06-26T06:58:48Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13886</identifier>
+        <datestamp>2024-07-18T17:06:17Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>新山山田遺跡 陰田広畑遺跡 / niiyamayamadaiseki　indahirohataiseki</dc:title>
+    <dc:title>にいやまやまだいせき　いんだひろはたいせき</dc:title>
+    <dc:title>調査概報</dc:title>
+    <dc:creator>高橋,浩樹</dc:creator>
+    <dc:creator>小泉,千絵</dc:creator>
+    <dc:creator>深田,洋史</dc:creator>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13886</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18476/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18476/13886_1_%E6%96%B0%E5%B1%B1%E5%B1%B1%E7%94%B0%E9%81%BA%E8%B7%A1%E9%99%B0%E7%94%B0%E5%BA%83%E7%95%91%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BN14754220</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13886</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財報告書</dc:identifier>
+    <dc:identifier>14</dc:identifier>
+    <dc:identifier>1995-03-01</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13681</identifier>
+        <datestamp>2024-07-18T17:05:52Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>長砂第3遺跡 / nagasunadai3iseki</dc:title>
+    <dc:title>ながすなだい3いせき</dc:title>
+    <dc:creator>平木,裕子</dc:creator>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13681</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18123/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18123/13681_1_%E9%95%B7%E7%A0%82%E7%AC%AC3%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA43423870</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13681</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財発掘調査報告書</dc:identifier>
+    <dc:identifier>29</dc:identifier>
+    <dc:identifier>1999-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13633</identifier>
+        <datestamp>2024-07-05T17:04:08Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>青谷上寺地遺跡 / aoyakamijichiiseki</dc:title>
+    <dc:title>あおやかみじちいせき</dc:title>
+    <dc:title>一般国道9号(青谷･羽合道路）改築工事に伴う埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>北浦,弘人</dc:creator>
+    <dc:creator>鬼頭,紀子</dc:creator>
+    <dc:creator>森本,倫弘</dc:creator>
+    <dc:creator>野口,真吾</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13633</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18044/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18044/13633_1_%E9%9D%92%E8%B0%B7%E4%B8%8A%E5%AF%BA%E5%9C%B0%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18045/13633_2_%E9%9D%92%E8%B0%B7%E4%B8%8A%E5%AF%BA%E5%9C%B0%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA48234445</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13633</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>2</dc:identifier>
+    <dc:identifier>68</dc:identifier>
+    <dc:identifier>2000-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13500</identifier>
+        <datestamp>2024-07-19T17:00:47Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31302</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>高野坂31号墳 / takanzaka31goufun</dc:title>
+    <dc:title>たかんざか31ごうふん</dc:title>
+    <dc:title>県営広域農道整備事業に伴う埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>中野,知照</dc:creator>
+    <dc:creator>松本,美佐子</dc:creator>
+    <dc:publisher>岩美町教育委員会</dc:publisher>
+    <dc:publisher>岩美町教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13500</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17776/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17776/13500_1_%E9%AB%98%E9%87%8E%E5%9D%8231%E5%8F%B7%E5%A2%B3.pdf</dc:identifier>
+    <dc:identifier>BA55810976</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13500</dc:identifier>
+    <dc:identifier>岩美町文化財調査報告書</dc:identifier>
+    <dc:identifier>20</dc:identifier>
+    <dc:identifier>2001-02-20</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13363</identifier>
+        <datestamp>2024-07-19T17:00:28Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>福田寺遺跡発掘調査報告書 / fukudajiisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>ふくだじいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>森下,哲哉</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13363</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17520/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17520/13363_1_%E7%A6%8F%E7%94%B0%E5%AF%BA%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA4048291X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13363</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>3次調査</dc:identifier>
+    <dc:identifier>105</dc:identifier>
+    <dc:identifier>2000-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13879</identifier>
+        <datestamp>2024-07-18T17:06:16Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31202-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>米子城跡　 / yonagojouseki</dc:title>
+    <dc:title>よなごじょうせき</dc:title>
+    <dc:creator>佐伯,純也</dc:creator>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:publisher>米子市教育文化事業団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13879</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18460/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18460/13879_1_%E7%B1%B3%E5%AD%90%E5%9F%8E%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA43423928</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13879</dc:identifier>
+    <dc:identifier>米子市教育文化事業団文化財調査報告書</dc:identifier>
+    <dc:identifier>第33次・36次調査</dc:identifier>
+    <dc:identifier>39</dc:identifier>
+    <dc:identifier>2002-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13964</identifier>
+        <datestamp>2024-07-05T17:05:04Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>橋本遺跡群 / hashimotoisekigun</dc:title>
+    <dc:title>はしもといせきぐん</dc:title>
+    <dc:title>一般県道米子岸本線緊急地方道路整備工事(改良)に係る埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>下江,健太</dc:creator>
+    <dc:creator>伊藤,創</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団　鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13964</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18613/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18613/13964_1_%E6%A9%8B%E6%9C%AC%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18614/13964_2_%E6%A9%8B%E6%9C%AC%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18615/13964_3_%E6%A9%8B%E6%9C%AC%E9%81%BA%E8%B7%A1%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier>BA63907417</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13964</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>85</dc:identifier>
+    <dc:identifier>2003-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14191</identifier>
+        <datestamp>2024-07-25T17:02:20Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>観音堂1号墳発掘調査報告書 / kannondou1goufunhakkutsuchousahoukokusho</dc:title>
+    <dc:title>かんのんどう1ごうふんはっくつちょうさほうこくしょ</dc:title>
+    <dc:title>一般県道上大立大栄線地方特定道路整備工事に伴う埋蔵文化財発掘調査</dc:title>
+    <dc:creator>森下,哲哉</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14191</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/19/19042/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/19/19042/14191_1_%E8%A6%B3%E9%9F%B3%E5%A0%821%E5%8F%B7%E5%A2%B3%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA5730061X</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14191</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>109</dc:identifier>
+    <dc:identifier>2000-10-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header status="deleted">
+        <identifier>oai:sitereports.nabunken.go.jp/13493</identifier>
+        <datestamp>2023-06-26T06:56:44Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13877</identifier>
+        <datestamp>2024-07-25T17:02:05Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31201-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>下味野古墳群 / shimoajinokofungun</dc:title>
+    <dc:title>しもあじのこふんぐん</dc:title>
+    <dc:title>姫鳥線整備促進関連事業に係る下味野40~44号墳の発掘調査報告書</dc:title>
+    <dc:creator>藤本,隆之</dc:creator>
+    <dc:creator>杉谷,美恵子</dc:creator>
+    <dc:publisher>財団法人鳥取市文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取市文化財団</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13877</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18458/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18458/13877_1_%E4%B8%8B%E5%91%B3%E9%87%8E%E5%8F%A4%E5%A2%B3%E7%BE%A4.pdf</dc:identifier>
+    <dc:identifier>BA61883023</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13877</dc:identifier>
+    <dc:identifier>1</dc:identifier>
+    <dc:identifier>2002-03-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13490</identifier>
+        <datestamp>2024-07-05T17:03:16Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31000-a</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>佐貫上台遺跡 / sanukiuwadaiiseki</dc:title>
+    <dc:title>さぬきうわだいいせき</dc:title>
+    <dc:title>中国横断自動車道姫路鳥取線(智頭~鳥取間)整備事業にかかる埋蔵文化財発掘調査報告書</dc:title>
+    <dc:creator>鬼頭,紀子</dc:creator>
+    <dc:publisher>財団法人鳥取県教育文化財団</dc:publisher>
+    <dc:publisher>財団法人鳥取県教育文化財団鳥取県埋蔵文化財センター</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13490</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/17/17756/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/17/17756/13490_1_%E4%BD%90%E8%B2%AB%E4%B8%8A%E5%8F%B0%E9%81%BA%E8%B7%A1.pdf</dc:identifier>
+    <dc:identifier>BA52789931</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13490</dc:identifier>
+    <dc:identifier>鳥取県教育文化財団調査報告書</dc:identifier>
+    <dc:identifier>69</dc:identifier>
+    <dc:identifier>2000-10-31</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13983</identifier>
+        <datestamp>2021-12-13T17:00:11Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>不入岡遺跡群発掘調査概報 / funiokaisekigunhakkutsuchousagaihou</dc:title>
+    <dc:title>ふにおかいせきぐんはっくつちょうさがいほう</dc:title>
+    <dc:title>不入岡遺跡・沢ベリ遺跡2次調査</dc:title>
+    <dc:creator>竹宮,亜也子</dc:creator>
+    <dc:creator>竹中,孝浩</dc:creator>
+    <dc:creator>岡本,智則</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13983</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18646/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18646/13983_1_%E4%B8%8D%E5%85%A5%E5%B2%A1%E9%81%BA%E8%B7%A1%E7%BE%A4%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E6%A6%82%E5%A0%B1.pdf</dc:identifier>
+    <dc:identifier>BN13147448</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13983</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>83</dc:identifier>
+    <dc:identifier>1995-03-20</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/14192</identifier>
+        <datestamp>2021-10-06T17:00:11Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>下張坪遺跡発掘調査報告書 / shimoharitsuboisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>しもはりつぼいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>森下,哲哉</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/14192</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/19/19043/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/19/19043/14192_1_%E4%B8%8B%E5%BC%B5%E5%9D%AA%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA35380025</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.14192</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>88</dc:identifier>
+    <dc:identifier>1997-03-19</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:sitereports.nabunken.go.jp/13674</identifier>
+        <datestamp>2021-09-06T17:46:29Z</datestamp>
+        <setSpec>31</setSpec>
+        <setSpec>31203</setSpec>
+      </header>
+<metadata>
+  <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:title>下西野遺跡発掘調査報告書 / shimonishinoisekihakkutsuchousahoukokusho</dc:title>
+    <dc:title>しもにしのいせきはっくつちょうさほうこくしょ</dc:title>
+    <dc:creator>加藤,誠司</dc:creator>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:publisher>倉吉市教育委員会</dc:publisher>
+    <dc:type>Research Paper</dc:type>
+    <dc:identifier>https://sitereports.nabunken.go.jp/13674</dc:identifier>
+    <dcterms:hasPart rdf:value="thumbnail">https://sitereports.nabunken.go.jp/files/attach/18/18114/thumnail.png</dcterms:hasPart>
+    <dc:identifier rdf:value="fulltexturl">https://sitereports.nabunken.go.jp/files/attach/18/18114/13674_1_%E4%B8%8B%E8%A5%BF%E9%87%8E%E9%81%BA%E8%B7%A1%E7%99%BA%E6%8E%98%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf</dc:identifier>
+    <dc:identifier>BA35380681</dc:identifier>
+    <dc:identifier>info:doi/10.24484/sitereports.13674</dc:identifier>
+    <dc:identifier>倉吉市文化財調査報告書</dc:identifier>
+    <dc:identifier>90</dc:identifier>
+    <dc:identifier>1997-03-19</dc:identifier>
+  </oai_dc:dc>
+</metadata>
+    </record>
+    <resumptionToken completeListSize="312794" cursor="0">///oai_dc/100</resumptionToken>
+  </ListRecords>
+</OAI-PMH>

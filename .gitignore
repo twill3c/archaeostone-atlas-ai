@@ -8,8 +8,9 @@ __pycache__/
 tsconfig.tsbuildinfo
 .DS_Store
 
-# 再配布不可の源(SPEC §2.1 / §6.2)。取得器で手元に作る。
-data/raw/itoigawa/
-data/raw/meiji/
-# 収穫した OAI の生応答(巨大・再取得可能)
-data/raw/nabunken/
+# data/raw/ は**取得のキャッシュ**である。全部が再取得可能なので同梱しない。
+#   * 糸魚川・明治大 … 再配布不可(SPEC §2.1 / §6.2)。取得器で手元に作る
+#   * Nabunken     … 収穫した OAI の生応答 430MB
+#   * GSJ          … 陸マスクのタイル 99 枚と凡例 1.5MB(再配布可だが再取得できる)
+# 派生物(data/curated/)は同梱する —— 統計の再現に要り、作るのに時間がかかる。
+data/raw/
