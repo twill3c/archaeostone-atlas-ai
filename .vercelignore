@@ -1,0 +1,53 @@
+# Vercel へ送らないもの(T-402〜T-405)。
+#
+# **パターンは先頭 `/` で固定する。** 無印のパターンは .gitignore と同じく**どの階層にも当たる**ので、
+# `data/` と書くと画面が読む `public/data/` まで消える(folksound-atlas で実際に踏まれた)。
+# 例外は、どの階層にあっても要らないと分かっている生成物だけ(__pycache__ / *.pyc / .pytest_cache)。
+#
+# 実測 2026-09-14: 全体 24,861 ファイル・1,397.7 MB のうち、送るべきものは 41 ファイル・0.49 MB。
+# data/ 560 MB(OAI 収穫物・GSJ タイル・再配布不可の糸魚川の生ファイル)を送ると、
+# 権利の面でも容量の面でも事故になる。
+#
+# Vercel のビルドに要るのは app/ components/ lib/ public/ scripts/ と直下の設定だけ。
+
+# 生データ・中間物・収穫物(再配布不可のものを含む)
+/data/
+/docs/
+
+# Python 側(ビルドに要らない)
+/.venv/
+/archaeostone/
+/pipeline/
+/config/
+/pyproject.toml
+
+# 検査・記録
+/tests/
+/tests-js/
+/harness/
+/logs/
+/schema/
+/.scaffold/
+/.wt/
+/.github/
+/vitest.config.ts
+
+# 生成物・依存(Vercel が自分で作る)
+/node_modules/
+/.next/
+/out/
+/tsconfig.tsbuildinfo
+
+# 秘密情報とリンク(vercel link は .env.local を作るが .vercelignore には足さない)
+/.env*
+/.vercel/
+
+# 文書
+/SPEC.md
+/TEST_SPEC.md
+/AGENTS.md
+
+# どの階層でも要らない生成物
+__pycache__/
+*.pyc
+.pytest_cache/

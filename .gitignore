@@ -14,3 +14,6 @@ tsconfig.tsbuildinfo
 #   * GSJ          … 陸マスクのタイル 99 枚と凡例 1.5MB(再配布可だが再取得できる)
 # 派生物(data/curated/)は同梱する —— 統計の再現に要り、作るのに時間がかかる。
 data/raw/
+
+# ビルドの刻印は prebuild が作る生成物(scripts/build_stamp.mjs)
+public/build-stamp.json

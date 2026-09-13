@@ -12,6 +12,7 @@ import { createServer } from "node:http";
 import { readFile, stat } from "node:fs/promises";
 import { extname, join, normalize } from "node:path";
 import { chromium } from "playwright";
+import { computeStamp } from "../scripts/build_stamp.mjs";
 
 const ROOT = new URL("../out/", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1");
 
@@ -57,18 +58,44 @@ const server = createServer(async (req, res) => {
   }
 });
 
-await stat(join(ROOT, "index.html")).catch(() => {
-  console.error("out/ が無い。先に `npm run build` を実行すること");
-  process.exit(2);
-});
+// 本番検品: SMOKE_BASE_URL を与えると out/ を配らず、その URL を検品する。
+const REMOTE = process.env.SMOKE_BASE_URL?.replace(/\/+$/, "") ?? null;
 
-await new Promise((r) => server.listen(0, r));
-const base = `http://127.0.0.1:${server.address().port}`;
+let base;
+if (REMOTE) {
+  base = REMOTE;
+} else {
+  await stat(join(ROOT, "index.html")).catch(() => {
+    console.error("out/ が無い。先に `npm run build` を実行すること");
+    process.exit(2);
+  });
+  await new Promise((r) => server.listen(0, r));
+  base = `http://127.0.0.1:${server.address().port}`;
+}
 
 const failures = [];
 const check = (ok, msg) => {
   if (!ok) failures.push(msg);
 };
+
+// ── 刻印: 配られているものが手元と同じか(T-415 / HC-148) ──
+//
+// 以下の検品は「健やかか」しか答えない。古い本番も健やかなので、
+// **刻印が手元の木から計算した値と違えば、それだけで不合格にする。**
+const expectedStamp = computeStamp().stamp;
+{
+  let served = null;
+  try {
+    const res = await fetch(`${base}/build-stamp.json`, { cache: "no-store" });
+    if (res.ok) served = (await res.json()).stamp ?? null;
+  } catch {
+    served = null;
+  }
+  check(
+    served === expectedStamp,
+    `刻印が一致しない: 配信 ${served} / 手元 ${expectedStamp}(古い配布を検品している疑い)`,
+  );
+}
 
 // 外部タイル(地理院・GSJ)は検品では取らない。ネットワークに依存させると
 // 「取得に失敗した画面を検品して緑になる」型の偽の正常を作る。
@@ -313,7 +340,7 @@ try {
   }
 } finally {
   await browser.close();
-  server.close();
+  if (!REMOTE) server.close();
 }
 
 if (failures.length) {
@@ -322,5 +349,5 @@ if (failures.length) {
   process.exit(1);
 }
 console.log(
-  `検品 OK — ${PAGES.length} 頁 x ${WIDTHS.length} 幅 + 地図の標・落ちた主張・権利表示・陽性対照`,
+  `検品 OK — ${base} 刻印 ${expectedStamp} / ${PAGES.length} 頁 x ${WIDTHS.length} 幅 + 地図の標・落ちた主張・権利表示・陽性対照`,
 );

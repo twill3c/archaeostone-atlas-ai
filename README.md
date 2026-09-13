@@ -4,6 +4,8 @@
 研究・教育向けアトラス。あわせてヒスイの出土集成と全国の発掘調査報告書の分布を、
 **根拠の階段(Evidence Ladder)ごとに分けて**同じ地図に載せる。
 
+本番: https://archaeostone-atlas-ai.vercel.app (静的配信・関数 0 個)
+
 ```
 ArchaeoStone Atlas AI は研究・教育・探索支援ツールです。
 AI によるモデル推定は学術的な確定判定ではありません。
@@ -50,7 +52,10 @@ python -m pipeline.export_licenses
 # Web 側
 npm install
 npm run typecheck
-npm run build
+npm run build        # prebuild がビルドの刻印 public/build-stamp.json を作る
+npm test             # 刻印とクラスタリングの検査
+npm run smoke        # out/ を実ブラウザで検品(9 頁 x 4 幅・刻印の一致を含む)
+npm run smoke:prod   # 同じ検品を本番へ。刻印が手元と違えば不合格(古い配布を検品しない)
 npm run dev
 ```
 

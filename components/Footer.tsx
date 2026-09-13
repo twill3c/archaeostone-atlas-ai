@@ -1,5 +1,9 @@
-const GITHUB_URL = "https://github.com/tetsuro-sakata/archaeostone-atlas-ai";
-const APP_MENU_URL = "https://app-menu-tau.vercel.app/";
+/**
+ * 公開前の実測(2026-09-14)で、この二つがどちらも押しても届かない先を指していた
+ * (GitHub は存在しないアカウント・App Menu は 404 の別名)。T-400/T-401 が固定する。
+ */
+const GITHUB_URL = "https://github.com/twill3c/archaeostone-atlas-ai";
+const APP_MENU_URL = "https://app-menu-amber.vercel.app/";
 
 /**
  * フリート共通フッタ(koho-lens 準拠)。

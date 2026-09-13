@@ -5,16 +5,18 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/build_stamp.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "smoke": "node harness/smoke.mjs"
+    "smoke": "node harness/smoke.mjs",
+    "smoke:prod": "node -e \"process.env.SMOKE_BASE_URL='https://archaeostone-atlas-ai.vercel.app';import('./harness/smoke.mjs')\""
   },
   "dependencies": {
     "maplibre-gl": "5.6.1",
-    "next": "15.5.2",
+    "next": "15.5.25",
     "react": "19.1.1",
     "react-dom": "19.1.1"
   },
