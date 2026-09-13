@@ -17,3 +17,7 @@ data/raw/
 
 # ビルドの刻印は prebuild が作る生成物(scripts/build_stamp.mjs)
 public/build-stamp.json
+
+# vercel link が作る。.env.local には VERCEL_OIDC_TOKEN が入る
+.vercel/
+.env*
