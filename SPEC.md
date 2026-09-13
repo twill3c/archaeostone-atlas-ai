@@ -666,3 +666,19 @@ G-10 の数は、探索・出荷器・再現性確認の**三度とも**同じ�
 - 刻印 `4c2b1cdeef8ff227`(作業ツリー・削った木とも)
 - **陽性対照**(T-416): `out/build-stamp.json` を偽の値に差し替えると、検品は
   「刻印が一致しない」の 1 件だけで exit 1 に落ちた
+
+### 13.4 本番
+
+| 項目 | 実測(2026-09-14) |
+|---|---|
+| 本番 | https://archaeostone-atlas-ai.vercel.app(素の名前が付いた) |
+| デプロイ | `dpl_7EPM6VPe2rDBLEs2VMNy563LHomj`・CLI・READY |
+| リポジトリ | https://github.com/twill3c/archaeostone-atlas-ai (public・追跡 111 ファイル 1.6 MB・CI 緑) |
+| 本番への実ブラウザ検品 | 9 頁 x 4 幅 + 地図の標・落ちた主張・権利表示・陽性対照 すべて緑 |
+| 本番の刻印 | `4c2b1cdeef8ff227`(手元と一致) |
+| フッタの href(本番 HTML から抜いて取得) | GitHub 200・App Menu 200 |
+| 送っていないことの確認 | `/.env.local` `/SPEC.md` `/tests/…` `/data/raw/` いずれも 404 |
+
+公開前に、リポジトリへ入る 111 ファイルに再配布不可の源が無いことを確かめた。
+`tests/fixtures/` は地理院の地名検索・GSJ の応答・奈文研 OAI の 3 種だけで、
+ヒスイの検査は列名と記法の見本(遺跡名・所在地を含まない)しか持たない。
