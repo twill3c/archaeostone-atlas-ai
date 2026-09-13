@@ -27,6 +27,7 @@ from archaeostone.jade import (
     read_sheet,
     sheet_header,
 )
+from pipeline.paths import display_path
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUTPUT = REPO_ROOT / "public" / "data" / "jade_aggregate.json"
@@ -238,7 +239,7 @@ def main() -> None:
 
     coverage = payload["coverage"]
     checks = payload["internal_checks"]
-    print(f"{args.out.relative_to(REPO_ROOT)} を書き出した")
+    print(f"{display_path(args.out)} を書き出した")
     print(
         f"  {coverage['sheets']} シート / {coverage['rows']} 行 / "
         f"点数のある行 {coverage['rows_with_count']} / 記録された点数の和 "

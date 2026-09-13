@@ -25,6 +25,7 @@ const NAV = [
   { href: "/geology", label: "地質の偏り" },
   { href: "/jade", label: "ヒスイ集計" },
   { href: "/documents", label: "文献の分布" },
+  { href: "/ai-lab", label: "AI ラボ" },
   { href: "/methodology", label: "方法" },
   { href: "/licenses", label: "出典と権利" },
 ];

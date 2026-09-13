@@ -23,6 +23,7 @@ from archaeostone.source_areas import (
     resolve_all,
 )
 from archaeostone.sources import load_registry, publishable_violations
+from pipeline.paths import display_path
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUTPUT = REPO_ROOT / "public" / "data" / "source_areas.json"
@@ -121,7 +122,7 @@ def main() -> None:
     )
     counts = payload["counts"]
     print(
-        f"{args.out.relative_to(REPO_ROOT)} を書き出した — 原産地 {counts['total']} 件"
+        f"{display_path(args.out)} を書き出した — 原産地 {counts['total']} 件"
         f"(解決 {counts['resolved']} / 要確認 {counts['needs_review']} / "
         f"地質あり {counts['with_geology']} / 面積精度 {counts['coordinate_precision_area']})"
     )

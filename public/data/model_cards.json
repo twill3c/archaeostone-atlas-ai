@@ -1,0 +1,178 @@
+{
+ "generated_by": "pipeline.build_model_cards",
+ "cards": [
+  {
+   "model_id": "provenance-likeness-logistic",
+   "task": "足もとの地質(二値特徴 14 個)から、その地点が黒曜石原産地らしいかを推定する",
+   "status": "experimental",
+   "trained": true,
+   "ui_enabled": true,
+   "framework": "scikit-learn LogisticRegression(class_weight=balanced)",
+   "features": [
+    "group_火成岩",
+    "group_堆積岩",
+    "group_付加体",
+    "group_変成岩",
+    "group_その他",
+    "era_第四紀",
+    "era_新第三紀",
+    "era_古第三紀",
+    "era_白亜紀",
+    "era_それ以前",
+    "felsic",
+    "volcanic",
+    "plutonic",
+    "unconsolidated"
+   ],
+   "training_data": [
+    "public/data/source_areas.json(正例: 地質が取れた原産地)",
+    "data/curated/control_points.json(負例: 面積の重みで抽出した陸地点)"
+   ],
+   "split": "1.5 度格子の一群抜き交差検証(原産地と対照点を同じ格子で束ねる)",
+   "summary": "ロジスティック回帰の平衡正解率は 0.8646、訓練側で選んだ単一規則は 0.8406。差 +0.0239 は事前に宣言した 0.05 に届かず、G-10 は不成立。学習した組み合わせは、単一規則を宣言した幅では超えなかった",
+   "metrics": {
+    "n_positive": 13,
+    "n_negative": 397,
+    "n_groups": 40,
+    "majority": {
+     "balanced_accuracy": 0.5,
+     "tp": 0,
+     "fn": 13,
+     "fp": 0,
+     "tn": 397
+    },
+    "rule": {
+     "balanced_accuracy": 0.8406316605309049,
+     "tp": 12,
+     "fn": 1,
+     "fp": 96,
+     "tn": 301,
+     "selected_rule_counts": {
+      "volcanic": 40
+     }
+    },
+    "logistic": {
+     "balanced_accuracy": 0.8645611315636506,
+     "tp": 12,
+     "fn": 1,
+     "fp": 77,
+     "tn": 320,
+     "pooled_auc": 0.855260608409223,
+     "permutation": {
+      "n": 200,
+      "mean": 0.4942922883162178,
+      "max": 0.7600271265258671,
+      "p": 0.004975124378109453,
+      "seed": 20260914
+     }
+    }
+   },
+   "g10": {
+    "verdict": "不成立",
+    "difference": 0.023929471032745675,
+    "margin": 0.05,
+    "distinguishable": true,
+    "permutation_p": 0.004975124378109453,
+    "resolution_per_positive": 0.038461538461538464,
+    "rule": "SPEC §12.3: ロジスティック回帰の平衡正解率が、訓練側で選んだ単一規則を 0.05 以上上回るときだけ成立。置換 p 値が 0.05 以上なら「この特徴では原産地を見分けられない」と別に書く"
+   },
+   "limitations": [
+    "この分類器は H-01〜H-03 の確認にはならない。同じデータ・同じ計器から作った特徴で当てているため",
+    "結果は研究仮説であり、確定的な原産地判定ではない",
+    "正例は 13 件しかない。平衡正解率は正例 1 件で約 0.038 動く",
+    "原産地辞書は網羅ではない。明治大 COLS は国内に 80 数カ所の原産地があると述べるが、辞書は 14 件",
+    "20 万分の 1 の図郭は黒曜石の岩体より粗く、個々の岩相の label は黒曜石そのものの岩相ではない",
+    "空間で分けたが、1.5 度格子より広い範囲の相関は取り除けていない"
+   ]
+  },
+  {
+   "model_id": "obsidian-provenance-xrf",
+   "task": "蛍光X線の元素組成から黒曜石の原産地を推定する(構想書 §13)",
+   "status": "no_go",
+   "trained": false,
+   "ui_enabled": false,
+   "framework": null,
+   "summary": "構想書 §34 の Go 基準 8 項目のうち満たすものは 0 項目。No-Go の引き金のうち「測定装置差の補正なし」と「権利状態不明」が立つ。構想書 §13.8 の出口に従い、UI を無効にしてモデルカードだけを出す",
+   "go_criteria": [
+    {
+     "name": "実データ",
+     "met": false,
+     "evidence": "元素の測定値(Rb・Sr・Y・Zr・Mn・Fe・K 等)を 1 件も入手していない。明治大 COLS の分析リストに載るのは遺跡ごとの判定結果(原産地名と点数)で、測定値ではない"
+    },
+    {
+     "name": "再利用条件確認済み",
+     "met": false,
+     "evidence": "唯一の候補である明治大 COLS の資料には明示ライセンスが無い(SRC-MEIJI-COLS の redistribution は false・2026-09-08 に確認)"
+    },
+    {
+     "name": "5原産地群以上",
+     "met": false,
+     "evidence": "原産地の名称は辞書に 14 件あるが、学習ラベルつきの測定値としては 0 件。群の数を数える対象が無い"
+    },
+    {
+     "name": "各主要クラスに十分なサンプル",
+     "met": false,
+     "evidence": "学習に使える元素の測定値を 1 件も持っていないので、この基準は満たせない"
+    },
+    {
+     "name": "Group split評価",
+     "met": false,
+     "evidence": "学習に使える元素の測定値を 1 件も持っていないので、この基準は満たせない"
+    },
+    {
+     "name": "macro-F1公開",
+     "met": false,
+     "evidence": "学習に使える元素の測定値を 1 件も持っていないので、この基準は満たせない"
+    },
+    {
+     "name": "calibration公開",
+     "met": false,
+     "evidence": "学習に使える元素の測定値を 1 件も持っていないので、この基準は満たせない"
+    },
+    {
+     "name": "OOD拒否を実装",
+     "met": false,
+     "evidence": "学習に使える元素の測定値を 1 件も持っていないので、この基準は満たせない"
+    }
+   ],
+   "no_go_triggers": [
+    {
+     "name": "ラベルが文献ごとに不整合",
+     "triggered": null,
+     "evidence": "ラベルつきの測定値を持たないので、整合を調べられない(判定不能)"
+    },
+    {
+     "name": "測定装置差の補正なし",
+     "triggered": true,
+     "instruments_seen": [
+      "JSX3100Ⅱ",
+      "SEA2110",
+      "SEA2110L",
+      "DELTA"
+     ],
+     "evidence": "明治大 COLS の分析リスト(2020・2025 年版)の機器欄に 4 種の分析機器が記されている。同センター自身が「測定値が個別の分析機器に依存するという問題を抱えている」と書いており(map01.html)、機器間の補正値は公開されていない"
+    },
+    {
+     "name": "学習/テストに同一原石由来サンプルが混入",
+     "triggered": null,
+     "evidence": "サンプルを持たないので調べられない(判定不能)"
+    },
+    {
+     "name": "合成データ中心",
+     "triggered": false,
+     "evidence": "合成データで精度を補わない(構想書 §13.8)。合成データは作っていない"
+    },
+    {
+     "name": "権利状態不明",
+     "triggered": true,
+     "evidence": "明治大 COLS の分析リストに明示ライセンスが無い。構想書 §3.7.2 自身が「自動的にオープンデータ扱いしない」と定めている"
+    }
+   ],
+   "method_reference": "明治大 COLS の判別図は Rb 分率・Sr 分率・Mn×100/Fe・Log(Fe/K) の 4 指標による(望月・池谷 1994)。本アトラスはこの方法を再実装していない",
+   "limitations": [
+    "このカードはモデルの性能を示すものではない。モデルは存在しない",
+    "判定の根拠は 2026-09-08 時点で入手できた公開資料に限られ、他の資料が無いことを意味しない"
+   ]
+  }
+ ]
+}

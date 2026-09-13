@@ -9,6 +9,11 @@ dependencies = [
   "lxml>=5.0",
   "xlrd>=2.0",
   "PyYAML>=6.0",
+  # L1: 地質タイルの復号(pipeline.build_control_points)
+  "Pillow>=11.0",
+  # L3: 原産地らしさの分類器と評価(archaeostone.likeness / tests)
+  "numpy>=2.0",
+  "scikit-learn>=1.6",
 ]
 
 [project.optional-dependencies]

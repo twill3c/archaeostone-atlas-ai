@@ -54,11 +54,33 @@ npm run build
 npm run dev
 ```
 
+公開データの一連(再配布可の源のみ):
+
+```bash
+python -m pipeline.acquisition.nabunken       # OAI-PMH 全件収穫(約 3,100 ページ・時間がかかる)
+python -m pipeline.build_source_areas         # 黒曜石原産地(座標は地理院の地名検索から)
+python -m pipeline.build_control_points       # 対照群(面積の重みで抽出した陸地点)
+python -m pipeline.build_geology_stats        # 地質の偏りの検定
+python -m pipeline.build_documents            # 文献の分布
+python -m pipeline.build_model_cards          # AI ラボ(G-10 の判定と XRF の No-Go)
+```
+
 再配布できない源は手元で取得する(リポジトリには入っていない)。
 
 ```bash
-python -m pipeline.acquire --source itoigawa
+python -m pipeline.acquisition.itoigawa
+python -m pipeline.build_jade_aggregate       # 集計だけを書き出す
 ```
+
+## AI ラボについて
+
+分類器(地質から「原産地らしさ」を当てる)は、**学習した組み合わせが訓練側で選んだ
+単一規則を超えるか**だけを問う。判定規則は SPEC §12 に**モデルを走らせる前に**書いた。
+同じデータ・同じ計器から作った特徴なので、分類器が当たることは地質の偏り(H-01〜H-03)の
+確認にはならない。
+
+蛍光X線による原産地推定は、構想書 §34 の Go 基準を項目ごとに判定して **No-Go** とし、
+モデルカードだけを出している。
 
 ## 構成
 

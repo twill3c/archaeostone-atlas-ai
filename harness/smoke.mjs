@@ -24,6 +24,7 @@ const PAGES = [
   "/geology/",
   "/jade/",
   "/documents/",
+  "/ai-lab/",
   "/methodology/",
   "/licenses/",
 ];
@@ -251,6 +252,23 @@ try {
     check(text.includes("成立しなかった主張"), "落ちた主張の節が無い");
     check(text.includes("不成立"), "不成立の判定が画面に出ていない");
     check(/p = 0\.0/.test(text), "p 値が画面に出ていない");
+    await page.close();
+  }
+
+  // ── AI ラボ: 判定と No-Go が隠れずに出ていること ────
+  //
+  // モデル推定は「成立しなかった」「作らなかった」を出すことが主眼なので、
+  // 判定の札と No-Go の表が画面にあることを固定する。
+  {
+    const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+    await page.route(EXTERNAL_TILE, (route) => route.abort());
+    await page.goto(base + "/ai-lab/", { waitUntil: "load" });
+    const text = await page.locator("main").innerText();
+    check(text.includes("G-10"), "AI ラボに G-10 の判定が無い");
+    check(/成立|不成立/.test(text), "AI ラボに判定の結果が出ていない");
+    check(text.includes("確認にはならない"), "分類器が H の確認にならないことが書かれていない");
+    check(text.includes("No-Go"), "蛍光X線の No-Go が出ていない");
+    check(text.includes("判定不能"), "判定不能の引き金が隠れている");
     await page.close();
   }
 

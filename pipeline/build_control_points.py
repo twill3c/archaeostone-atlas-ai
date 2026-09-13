@@ -37,6 +37,7 @@ from archaeostone.geology_tiles import (
     tile_xy,
 )
 from archaeostone.gsj import GsjOutcome, fetch_point
+from pipeline.paths import display_path
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
 TILE_CACHE = REPO_ROOT / "data" / "raw" / "gsj" / "tiles"
@@ -189,7 +190,7 @@ def main() -> None:
     check = payload["two_path_check"]
     rate = check["agreement_rate"]
     print(
-        f"\n{OUTPUT.relative_to(REPO_ROOT)} を書き出した — 対照点 "
+        f"\n{display_path(OUTPUT)} を書き出した — 対照点 "
         f"{len(payload['control_points'])} 個 / 結末 {payload['outcomes']}"
     )
     print(

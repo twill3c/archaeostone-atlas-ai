@@ -172,16 +172,20 @@ export default function MethodologyPage() {
         <p>公開ファイルはすべて、次の一連から作られる。</p>
         <pre className="scroll-x">
           <code>{`python -m pipeline.export_licenses
-python -m pipeline.acquire --source gsj
-python -m pipeline.acquire --source nabunken
-python -m pipeline.export`}</code>
+python -m pipeline.acquisition.nabunken
+python -m pipeline.build_source_areas
+python -m pipeline.build_control_points
+python -m pipeline.build_geology_stats
+python -m pipeline.build_documents
+python -m pipeline.build_model_cards`}</code>
         </pre>
         <p>
           再配布できない源(糸魚川市のヒスイ集成表)は、リポジトリに含まれていない。
           手元で取得すると、集計に加えて個票の検査も走る。
         </p>
         <pre className="scroll-x">
-          <code>python -m pipeline.acquire --source itoigawa</code>
+          <code>{`python -m pipeline.acquisition.itoigawa
+python -m pipeline.build_jade_aggregate`}</code>
         </pre>
       </section>
     </div>

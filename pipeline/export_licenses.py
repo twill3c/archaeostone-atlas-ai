@@ -15,6 +15,7 @@ import json
 import pathlib
 
 from archaeostone.sources import load_registry
+from pipeline.paths import display_path
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUTPUT = REPO_ROOT / "public" / "data" / "licenses.json"
@@ -63,7 +64,7 @@ def main() -> None:
     )
     counts = payload["counts"]
     print(
-        f"{OUTPUT.relative_to(REPO_ROOT)} を書き出した — "
+        f"{display_path(OUTPUT)} を書き出した — "
         f"源 {counts['total']} 件(再配布可 {counts['redistributable']} / "
         f"不可 {counts['not_redistributable']})"
     )

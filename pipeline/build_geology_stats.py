@@ -20,6 +20,7 @@ import pathlib
 from typing import Any
 
 from archaeostone.geology_stats import PermutationResult, category_counts, permutation_test
+from pipeline.paths import display_path
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
 SOURCE_AREAS = REPO_ROOT / "public" / "data" / "source_areas.json"
@@ -216,7 +217,7 @@ def main() -> None:
         json.dumps(payload, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
     )
 
-    print(f"{args.out.relative_to(REPO_ROOT)} を書き出した\n")
+    print(f"{display_path(args.out)} を書き出した\n")
     for claim in payload["claims"]:
         print(f"[{claim['claim_id']}] {claim['verdict']} — {claim['statement']}")
         for name, variant in claim["variants"].items():

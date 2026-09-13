@@ -45,6 +45,10 @@ export default function HomePage() {
           <h2>文献の分布</h2>
           <p>報告書 33 万件の題名を全件走査し、石材の語を数えた。</p>
         </Link>
+        <Link href="/ai-lab" className="card">
+          <h2>AI ラボ</h2>
+          <p>学習モデルは単一規則を超えたか。事前に宣言した規則で判定する。</p>
+        </Link>
         <Link href="/methodology" className="card">
           <h2>方法</h2>
           <p>座標をどう決め、地質をどう付け、何を測らないかを述べる。</p>

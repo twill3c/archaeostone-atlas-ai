@@ -19,6 +19,7 @@ import pathlib
 import time
 import urllib.error
 import urllib.request
+from pipeline.paths import display_path
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent.parent
 OUT_DIR = REPO_ROOT / "data" / "raw" / "itoigawa"
@@ -127,7 +128,7 @@ def main() -> None:
     manifest_path.write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    print(f"\n{manifest_path.relative_to(REPO_ROOT)} を書いた")
+    print(f"\n{display_path(manifest_path)} を書いた")
     print("次: python -m pipeline.build_jade_aggregate")
 
 

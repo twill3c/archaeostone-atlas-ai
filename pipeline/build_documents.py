@@ -16,6 +16,7 @@ import pathlib
 
 from archaeostone.dictionaries import load_materials
 from archaeostone.oai import RecordShape, SetSpecKind, classify_set_spec, parse_page
+from pipeline.paths import display_path
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
 RAW_DIR = REPO_ROOT / "data" / "raw" / "nabunken"
@@ -165,7 +166,7 @@ def main() -> None:
     )
 
     corpus = payload["corpus"]
-    print(f"\n{args.out.relative_to(REPO_ROOT)} を書き出した")
+    print(f"\n{display_path(args.out)} を書き出した")
     print(f"  レコード {corpus['records']:,} 件 / 形 {corpus['record_shapes']}")
     print(f"  setSpec の種別 {corpus['set_spec_kinds']}")
     print(f"  都道府県 {len(payload['by_prefecture'])} / 市区町村 {payload['municipality_count']}")
