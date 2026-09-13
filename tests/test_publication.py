@@ -101,6 +101,55 @@ def test_t401_footer_github_is_the_real_repo_or_hidden() -> None:
     assert "tetsuro-sakata" not in text
 
 
+ARTIFACT_URL = re.compile(r"^https://claude\.ai/code/artifact/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
+GLOBALS_CSS = ROOT / "app" / "globals.css"
+
+
+def _const(text: str, name: str) -> str | None:
+    match = re.search(rf"const {name}[^=]*=\s*(null|\"([^\"]*)\")", text)
+    assert match, f"{name} の定義が見つからない"
+    return match.group(2)
+
+
+def test_t406_footer_follows_the_fleet_standard() -> None:
+    """T-406: フリート共通フッタの 5 項目(fleet-footer-standard)。
+
+    L4 まで ``MIT License © 2026 坂田哲朗`` が ``<span>`` で、**リンクですらなかった**
+    (tenkyo-lab / onkan-dojo と同じ欠陥)。歩き方・設計図は null で項目ごと隠れていた。
+    """
+    text = FOOTER.read_text(encoding="utf-8")
+    assert f'href="{GITHUB_REPO}/blob/main/LICENSE"' in text or "LICENSE_URL" in text
+    if "LICENSE_URL" in text:
+        assert _const(text, "LICENSE_URL") == f"{GITHUB_REPO}/blob/main/LICENSE"
+    # © はリンク文言の外(MIT License のリンクを閉じた後)に置く
+    link_close = text.index("MIT License")
+    copyright_at = text.index("© 2026 坂田哲朗")
+    assert copyright_at > link_close
+    assert "MIT License © 2026" not in text, "© がリンク文言と同じ要素に入っている"
+    for name in ("GUIDE_URL", "BLUEPRINT_URL"):
+        value = _const(text, name)
+        assert value is not None and ARTIFACT_URL.match(value), f"{name} が解説アーティファクトを指していない: {value}"
+    # 並び: MIT License → GitHub → 歩き方 → 設計図 → App Menu
+    order = [text.index(s) for s in ("MIT License", ">\n        GitHub", "の歩き方", "の設計図", "App Menu\n")]
+    assert order == sorted(order), f"項目の並びが規約と違う: {order}"
+    # 区切りの「・」は文字で 4 個置く(::before で描くと innerText に出ない)
+    body = text[text.index("return ("):]
+    assert body.count("・") == 4
+
+
+def test_t407_footer_is_fixed_and_page_has_room_for_it() -> None:
+    """T-407: フッタは下部固定で、本文の末尾が隠れないよう body に逃げがある。
+
+    実高と逃げの比較は幅ごとに実ブラウザで測る(harness/smoke.mjs)。ここでは宣言だけを見る。
+    """
+    css = GLOBALS_CSS.read_text(encoding="utf-8")
+    start = css.index("/* fleet: fixed footer */")
+    block = css[start : css.index("/* /fleet: fixed footer */")]
+    assert "position: fixed" in block and "bottom: 0" in block
+    assert "padding-bottom: var(--fleet-footer-escape)" in block
+    assert re.search(r"background:\s*var\(--bg-panel\)", block), "固定フッタの地が透けると本文と重なって読めない"
+
+
 # ── .vercelignore ───────────────────────────────────────
 
 

@@ -175,6 +175,37 @@ try {
       });
       for (const c of clipped.slice(0, 4)) check(false, `${path} @${width}: ${c}`);
 
+      // フリート共通フッタ(T-406/T-407)。**要素名ではなく中身で選ぶ**(App Menu を含む footer)。
+      // 固定フッタは狭い幅で折り返して高くなり、逃げが足りないと本文の末尾を隠す ——
+      // 横溢れの検査はそれを捕まえないので、幅ごとに実高と逃げを比べる。
+      const fleet = await page.evaluate(() => {
+        const f = [...document.querySelectorAll("footer")].find((el) =>
+          el.innerText.includes("App Menu"),
+        );
+        if (!f) return null;
+        const text = f.innerText;
+        return {
+          position: getComputedStyle(f).position,
+          height: f.getBoundingClientRect().height,
+          escape: parseFloat(getComputedStyle(document.body).paddingBottom),
+          order: ["MIT License", "© 2026 坂田哲朗", "GitHub", "石材アトラスの歩き方", "石材アトラスの設計図", "App Menu"].map(
+            (s) => text.indexOf(s),
+          ),
+          separators: (text.match(/・/g) ?? []).length,
+        };
+      });
+      check(fleet !== null, `${path} @${width}: フリート共通フッタが無い`);
+      if (fleet) {
+        check(fleet.position === "fixed", `${path} @${width}: フッタが下部固定でない(${fleet.position})`);
+        check(
+          fleet.height <= fleet.escape,
+          `${path} @${width}: フッタの実高 ${fleet.height.toFixed(0)}px が逃げ ${fleet.escape.toFixed(0)}px を超え、本文の末尾を隠す`,
+        );
+        const sorted = fleet.order.every((v, i, a) => v >= 0 && (i === 0 || v > a[i - 1]));
+        check(sorted, `${path} @${width}: フッタの項目の並びが規約と違う ${JSON.stringify(fleet.order)}`);
+        check(fleet.separators === 4, `${path} @${width}: 区切りが ${fleet.separators} 個(規約は 4 個)`);
+      }
+
       check(errors.length === 0, `${path} @${width}: JS エラー ${errors[0] ?? ""}`);
       await page.close();
     }

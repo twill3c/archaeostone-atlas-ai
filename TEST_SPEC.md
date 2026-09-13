@@ -276,6 +276,9 @@
 | T-403 | ビルドに要る 10 ファイル(`public/data` を含む)を除外しない | G-13 | — | — |
 | T-404 | 生データ(再配布不可を含む)・依存・生成物・秘密情報・リンク 8 種を除外する | G-13 / G-01 | 実測 2026-09-14(全体 1,397.7 MB) | — |
 | T-405 | **陽性対照**: 無印の `data/` は `public/data` まで消し、`/data/` は消さない | G-13 | folksound-atlas | ✅ |
+| T-406 | フッタが規約の 5 項目: LICENSE へのリンク・© は文言の外・GitHub・歩き方と設計図が解説アーティファクト・App Menu の並び、区切り「・」4 個 | N-05 | L5 実測 2026-09-14(ライセンス項目が `<span>`・解説 2 本が null) | — |
+| T-407 | フッタは下部固定で、地の色と body の逃げを持つ | N-05 | fleet-footer-standard | — |
+| T-408 | 実ブラウザで全 9 頁 × 4 幅: フッタが `fixed`・実高 ≦ 逃げ・項目の並び・区切り 4 個(`harness/smoke.mjs`・中身で選ぶ) | N-05 / G-14 | hanshoku-atlas(390px で実高 89px) | — |
 
 ### ビルドの刻印 `tests-js/build_stamp.test.ts` と `harness/smoke.mjs`
 
