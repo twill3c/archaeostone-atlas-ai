@@ -1,0 +1,78 @@
+# 県別ヒスイ集計の札を地図に置く位置(F-06)。
+#
+# **札の位置は県庁舎であって、出土地点ではない。** 集成表の個票(遺跡名・所在市町村)は
+# 再配布できないので、県より細かい位置は持たない(SPEC §2.1 / §6.3)。
+#
+# 位置は原産地と同じ規則で国土地理院の地名検索から引く。実測(2026-09-14)では
+# 「青森県庁」の上位 1 件は県そのもの「青森県」で、県庁舎は 2 番目に出る。
+# 名称が一意に指すので title_is_exact(完全一致がちょうど 1 件)で確定させる。
+#
+# sheet は集成表のシート名(jade_aggregate.json の per_sheet.sheet)と一字一句同じにする。
+
+prefectures:
+  JADE-PREF-01:
+    name_ja: 北海道
+    sheet: 北海道
+    query: 北海道庁
+    title_must_contain: 北海道庁舎
+    title_is_exact: true
+    expect_pref_code: "01"
+  JADE-PREF-02:
+    name_ja: 青森県
+    sheet: 青森県
+    query: 青森県庁
+    title_must_contain: 青森県庁舎
+    title_is_exact: true
+    expect_pref_code: "02"
+  JADE-PREF-03:
+    name_ja: 岩手県
+    sheet: 岩手県
+    query: 岩手県庁
+    title_must_contain: 岩手県庁舎
+    title_is_exact: true
+    expect_pref_code: "03"
+  JADE-PREF-07:
+    name_ja: 福島県
+    sheet: 福島県
+    query: 福島県庁
+    title_must_contain: 福島県庁舎
+    title_is_exact: true
+    expect_pref_code: "07"
+  JADE-PREF-08:
+    name_ja: 茨城県
+    sheet: 茨城県
+    query: 茨城県庁
+    title_must_contain: 茨城県庁舎
+    title_is_exact: true
+    expect_pref_code: "08"
+  JADE-PREF-11:
+    name_ja: 埼玉県
+    sheet: 埼玉県
+    query: 埼玉県庁
+    title_must_contain: 埼玉県庁舎
+    title_is_exact: true
+    expect_pref_code: "11"
+  JADE-PREF-12:
+    name_ja: 千葉県
+    sheet: 千葉県
+    query: 千葉県庁
+    title_must_contain: 千葉県庁舎
+    title_is_exact: true
+    expect_pref_code: "12"
+  JADE-PREF-13:
+    name_ja: 東京都
+    sheet: 東京都
+    query: 東京都庁
+    title_must_contain: 東京都庁舎
+    title_is_exact: true
+    expect_pref_code: "13"
+  JADE-PREF-15:
+    name_ja: 新潟県
+    sheet: 新潟県（上・中越）
+    query: 新潟県庁
+    title_must_contain: 新潟県庁舎
+    title_is_exact: true
+    expect_pref_code: "15"
+    scope_note: >-
+      集成表の新潟県シートは上越・中越のみを収める。札を置いた県庁舎(新潟市)は下越にあり、
+      この県の集計がそこに集まっているという意味ではない。

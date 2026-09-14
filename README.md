@@ -67,6 +67,8 @@ python -m pipeline.build_source_areas         # 黒曜石原産地(座標は地�
 python -m pipeline.build_control_points       # 対照群(面積の重みで抽出した陸地点)
 python -m pipeline.build_geology_stats        # 地質の偏りの検定
 python -m pipeline.build_documents            # 文献の分布
+python -m pipeline.build_area_documents       # 原産地のある市町村の報告書(Stone Passport)
+python -m pipeline.build_jade_prefectures     # 県別ヒスイ集計の札の位置(県庁舎・出土地点ではない)
 python -m pipeline.build_model_cards          # AI ラボ(G-10 の判定と XRF の No-Go)
 ```
 

@@ -13,6 +13,11 @@ import { readFile, stat } from "node:fs/promises";
 import { extname, join, normalize } from "node:path";
 import { chromium } from "playwright";
 import { computeStamp } from "../scripts/build_stamp.mjs";
+import { gzipSync } from "node:zlib";
+
+// N-01 の上限(gzip)。
+const INITIAL_LOAD_LIMIT = 3 * 1024 * 1024;
+const loads = [];
 
 const ROOT = new URL("../out/", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1");
 
@@ -295,6 +300,50 @@ try {
     check(passport.includes("座標の出所"), "Stone Passport に座標の出所が無い");
     check(passport.includes("番目"), "Stone Passport に候補番号が無い");
     check(passport.includes("規則"), "Stone Passport に選んだ規則が無い");
+    // F-07: 当該市町村の文献。市町村が決まらない原産地でも欄は出る(理由を書く)。
+    check(passport.includes("当該市町村の文献"), "Stone Passport に当該市町村の文献が無い");
+    check(
+      /報告書|陸上と判定しない/.test(passport),
+      "当該市町村の文献の欄に件数も理由も出ていない",
+    );
+
+    // F-06: 県別ヒスイ集計の層。既定では出さず、切り替えると 9 県の札と表が出る。
+    check((await page.locator(".map-chip--jade").count()) === 0, "ヒスイ集計の札が既定で出ている");
+    await page.locator("#layer-jade").check();
+    await page.waitForSelector(".map-chip--jade", { timeout: 8000 });
+    const chips = await page.locator(".map-chip--jade").count();
+    check(chips === 9, `ヒスイ集計の札が ${chips} 個(集成表は 9 県)`);
+    const controls = await page.locator(".atlas-map__controls").innerText();
+    check(controls.includes("出土地点ではない"), "札の位置が出土地点ではないことが書かれていない");
+    check(controls.includes("不明"), "点数の記録が無い県を「不明」と書いていない");
+    await page.close();
+  }
+
+  // ── N-01: 初期ロード(gzip 換算)────────────────────────
+  //
+  // 同じ配信元から読まれたものを全部集め、本文を gzip して足す。外部タイルは数えない
+  // (遮ってある)。**0 件を「軽い」と読まない** —— 何も数えていなければ落とす(HC-080)。
+  for (const path of PAGES) {
+    const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+    await page.route(EXTERNAL_TILE, (route) => route.abort());
+    const bodies = [];
+    page.on("response", (response) => {
+      if (response.url().startsWith(base) && response.status() < 400) {
+        bodies.push(response.body().catch(() => Buffer.alloc(0)));
+      }
+    });
+    await page.goto(base + path, { waitUntil: "networkidle" });
+    const buffers = await Promise.all(bodies);
+    const gzipBytes = buffers.reduce((sum, buffer) => sum + gzipSync(buffer).length, 0);
+    loads.push({ path, resources: buffers.length, gzipBytes });
+    check(
+      buffers.length >= 3 && gzipBytes > 10_000,
+      `${path}: 初期ロードを数えられていない(${buffers.length} 件)`,
+    );
+    check(
+      gzipBytes < INITIAL_LOAD_LIMIT,
+      `${path}: 初期ロード ${gzipBytes} B が上限 3 MB を超えた(N-01)`,
+    );
     await page.close();
   }
 
@@ -379,6 +428,10 @@ if (failures.length) {
   for (const f of failures) console.error("  - " + f);
   process.exit(1);
 }
+console.log("初期ロード(同じ配信元・gzip 換算):");
+for (const load of loads) {
+  console.log(`  ${load.path.padEnd(14)} ${String(load.resources).padStart(3)} 件 ${(load.gzipBytes / 1024).toFixed(1).padStart(8)} KB`);
+}
 console.log(
-  `検品 OK — ${base} 刻印 ${expectedStamp} / ${PAGES.length} 頁 x ${WIDTHS.length} 幅 + 地図の標・落ちた主張・権利表示・陽性対照`,
+  `検品 OK — ${base} 刻印 ${expectedStamp} / ${PAGES.length} 頁 x ${WIDTHS.length} 幅 + 地図の標・ヒスイ集計・当該市町村の文献・落ちた主張・権利表示・初期ロード・陽性対照`,
 );

@@ -1,0 +1,195 @@
+{
+ "generated_by": "pipeline.build_jade_prefectures",
+ "note": "県庁舎の位置。出土地点ではない(集成表の個票は再配布できないので、県より細かい位置を持たない)",
+ "prefectures": [
+  {
+   "id": "JADE-PREF-01",
+   "source_id": "SRC-GSI",
+   "name_ja": "北海道",
+   "sheet": "北海道",
+   "prefecture_code": "01",
+   "latitude": 43.064325,
+   "longitude": 141.346878,
+   "position_meaning": "県庁舎の位置。出土地点ではない(集成表の個票は再配布できないので、県より細かい位置を持たない)",
+   "position_provenance": {
+    "method": "gsi_address_search",
+    "query": "北海道庁",
+    "candidate_count": 4,
+    "candidate_index": 1,
+    "candidate_title": "北海道庁舎",
+    "rule": "title が '北海道庁舎' と完全一致し、その一致が候補中ちょうど 1 件であること",
+    "rule_kind": "exact_and_unique",
+    "outcome": "resolved"
+   },
+   "scope_note": null
+  },
+  {
+   "id": "JADE-PREF-02",
+   "source_id": "SRC-GSI",
+   "name_ja": "青森県",
+   "sheet": "青森県",
+   "prefecture_code": "02",
+   "latitude": 40.824589,
+   "longitude": 140.740548,
+   "position_meaning": "県庁舎の位置。出土地点ではない(集成表の個票は再配布できないので、県より細かい位置を持たない)",
+   "position_provenance": {
+    "method": "gsi_address_search",
+    "query": "青森県庁",
+    "candidate_count": 3,
+    "candidate_index": 1,
+    "candidate_title": "青森県庁舎",
+    "rule": "title が '青森県庁舎' と完全一致し、その一致が候補中ちょうど 1 件であること",
+    "rule_kind": "exact_and_unique",
+    "outcome": "resolved"
+   },
+   "scope_note": null
+  },
+  {
+   "id": "JADE-PREF-03",
+   "source_id": "SRC-GSI",
+   "name_ja": "岩手県",
+   "sheet": "岩手県",
+   "prefecture_code": "03",
+   "latitude": 39.703526,
+   "longitude": 141.152696,
+   "position_meaning": "県庁舎の位置。出土地点ではない(集成表の個票は再配布できないので、県より細かい位置を持たない)",
+   "position_provenance": {
+    "method": "gsi_address_search",
+    "query": "岩手県庁",
+    "candidate_count": 3,
+    "candidate_index": 1,
+    "candidate_title": "岩手県庁舎",
+    "rule": "title が '岩手県庁舎' と完全一致し、その一致が候補中ちょうど 1 件であること",
+    "rule_kind": "exact_and_unique",
+    "outcome": "resolved"
+   },
+   "scope_note": null
+  },
+  {
+   "id": "JADE-PREF-07",
+   "source_id": "SRC-GSI",
+   "name_ja": "福島県",
+   "sheet": "福島県",
+   "prefecture_code": "07",
+   "latitude": 37.750029,
+   "longitude": 140.467771,
+   "position_meaning": "県庁舎の位置。出土地点ではない(集成表の個票は再配布できないので、県より細かい位置を持たない)",
+   "position_provenance": {
+    "method": "gsi_address_search",
+    "query": "福島県庁",
+    "candidate_count": 3,
+    "candidate_index": 1,
+    "candidate_title": "福島県庁舎",
+    "rule": "title が '福島県庁舎' と完全一致し、その一致が候補中ちょうど 1 件であること",
+    "rule_kind": "exact_and_unique",
+    "outcome": "resolved"
+   },
+   "scope_note": null
+  },
+  {
+   "id": "JADE-PREF-08",
+   "source_id": "SRC-GSI",
+   "name_ja": "茨城県",
+   "sheet": "茨城県",
+   "prefecture_code": "08",
+   "latitude": 36.341737,
+   "longitude": 140.446824,
+   "position_meaning": "県庁舎の位置。出土地点ではない(集成表の個票は再配布できないので、県より細かい位置を持たない)",
+   "position_provenance": {
+    "method": "gsi_address_search",
+    "query": "茨城県庁",
+    "candidate_count": 3,
+    "candidate_index": 1,
+    "candidate_title": "茨城県庁舎",
+    "rule": "title が '茨城県庁舎' と完全一致し、その一致が候補中ちょうど 1 件であること",
+    "rule_kind": "exact_and_unique",
+    "outcome": "resolved"
+   },
+   "scope_note": null
+  },
+  {
+   "id": "JADE-PREF-11",
+   "source_id": "SRC-GSI",
+   "name_ja": "埼玉県",
+   "sheet": "埼玉県",
+   "prefecture_code": "11",
+   "latitude": 35.857033,
+   "longitude": 139.649012,
+   "position_meaning": "県庁舎の位置。出土地点ではない(集成表の個票は再配布できないので、県より細かい位置を持たない)",
+   "position_provenance": {
+    "method": "gsi_address_search",
+    "query": "埼玉県庁",
+    "candidate_count": 3,
+    "candidate_index": 1,
+    "candidate_title": "埼玉県庁舎",
+    "rule": "title が '埼玉県庁舎' と完全一致し、その一致が候補中ちょうど 1 件であること",
+    "rule_kind": "exact_and_unique",
+    "outcome": "resolved"
+   },
+   "scope_note": null
+  },
+  {
+   "id": "JADE-PREF-12",
+   "source_id": "SRC-GSI",
+   "name_ja": "千葉県",
+   "sheet": "千葉県",
+   "prefecture_code": "12",
+   "latitude": 35.60456,
+   "longitude": 140.123154,
+   "position_meaning": "県庁舎の位置。出土地点ではない(集成表の個票は再配布できないので、県より細かい位置を持たない)",
+   "position_provenance": {
+    "method": "gsi_address_search",
+    "query": "千葉県庁",
+    "candidate_count": 3,
+    "candidate_index": 1,
+    "candidate_title": "千葉県庁舎",
+    "rule": "title が '千葉県庁舎' と完全一致し、その一致が候補中ちょうど 1 件であること",
+    "rule_kind": "exact_and_unique",
+    "outcome": "resolved"
+   },
+   "scope_note": null
+  },
+  {
+   "id": "JADE-PREF-13",
+   "source_id": "SRC-GSI",
+   "name_ja": "東京都",
+   "sheet": "東京都",
+   "prefecture_code": "13",
+   "latitude": 35.689501,
+   "longitude": 139.691722,
+   "position_meaning": "県庁舎の位置。出土地点ではない(集成表の個票は再配布できないので、県より細かい位置を持たない)",
+   "position_provenance": {
+    "method": "gsi_address_search",
+    "query": "東京都庁",
+    "candidate_count": 3,
+    "candidate_index": 1,
+    "candidate_title": "東京都庁舎",
+    "rule": "title が '東京都庁舎' と完全一致し、その一致が候補中ちょうど 1 件であること",
+    "rule_kind": "exact_and_unique",
+    "outcome": "resolved"
+   },
+   "scope_note": null
+  },
+  {
+   "id": "JADE-PREF-15",
+   "source_id": "SRC-GSI",
+   "name_ja": "新潟県",
+   "sheet": "新潟県（上・中越）",
+   "prefecture_code": "15",
+   "latitude": 37.902451,
+   "longitude": 139.023245,
+   "position_meaning": "県庁舎の位置。出土地点ではない(集成表の個票は再配布できないので、県より細かい位置を持たない)",
+   "position_provenance": {
+    "method": "gsi_address_search",
+    "query": "新潟県庁",
+    "candidate_count": 3,
+    "candidate_index": 1,
+    "candidate_title": "新潟県庁舎",
+    "rule": "title が '新潟県庁舎' と完全一致し、その一致が候補中ちょうど 1 件であること",
+    "rule_kind": "exact_and_unique",
+    "outcome": "resolved"
+   },
+   "scope_note": "集成表の新潟県シートは上越・中越のみを収める。札を置いた県庁舎(新潟市)は下越にあり、 この県の集計がそこに集まっているという意味ではない。"
+  }
+ ]
+}

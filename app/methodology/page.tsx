@@ -177,6 +177,8 @@ python -m pipeline.build_source_areas
 python -m pipeline.build_control_points
 python -m pipeline.build_geology_stats
 python -m pipeline.build_documents
+python -m pipeline.build_area_documents
+python -m pipeline.build_jade_prefectures
 python -m pipeline.build_model_cards`}</code>
         </pre>
         <p>

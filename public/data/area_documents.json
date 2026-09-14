@@ -1,0 +1,515 @@
+{
+ "generated_by": "pipeline.build_area_documents",
+ "source_id": "SRC-NABUNKEN",
+ "scope": "原産地の座標がある市町村のコードを setSpec に持つ、全国遺跡報告総覧の報告書。**石材が出土した遺跡の数ではない。** 題名の例は題名に黒曜石の語を含むものだけを載せる",
+ "terms": [
+  "黒曜石",
+  "黒耀石",
+  "黒曜岩"
+ ],
+ "municipality_names": "国土地理院 市区町村表(muni.js)",
+ "counts": {
+  "areas": 14,
+  "with_municipality": 13,
+  "without_municipality": 1,
+  "pages_scanned": 3128
+ },
+ "areas": [
+  {
+   "id": "OBS-HOSHIGATO",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 36.128485,
+    "longitude": 138.140434,
+    "muniCd": "20361"
+   },
+   "municipality": {
+    "code": "20361",
+    "name": "下諏訪町",
+    "prefecture": "長野県",
+    "parent_city_code": null,
+    "matched_codes": [
+     "20361"
+    ]
+   },
+   "municipality_reason": null,
+   "documents": 22,
+   "documents_by_code": {
+    "20361": 22
+   },
+   "obsidian_title_count": 5,
+   "obsidian_titles": [
+    {
+     "title": "黒曜石原産地遺跡分布調査報告書 / kokuyousekigensanchiisekibumpuchousahoukokusho",
+     "url": "https://sitereports.nabunken.go.jp/8506"
+    },
+    {
+     "title": "長野県下諏訪町黒耀石原産地遺跡分布調査報告書 / naganokenshimosuwamachikokuyousekigensanchiisekibumpuchousahoukokusho",
+     "url": "https://sitereports.nabunken.go.jp/59895"
+    },
+    {
+     "title": "星ヶ塔黒曜石原産地遺跡 / hoshigatoukokuyousekigensanchiiseki",
+     "url": "https://sitereports.nabunken.go.jp/60044"
+    },
+    {
+     "title": "黒曜石原産地遺跡分布調査報告書 / kokuyouseki gensanchi iseki bumpu chousa houkokusho",
+     "url": "https://sitereports.nabunken.go.jp/88101"
+    },
+    {
+     "title": "黒曜石原産地の鉱山化について",
+     "url": "https://sitereports.nabunken.go.jp/article/597"
+    }
+   ]
+  },
+  {
+   "id": "OBS-HOSHIKUSO",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 36.152628,
+    "longitude": 138.20991,
+    "muniCd": "20350"
+   },
+   "municipality": {
+    "code": "20350",
+    "name": "長和町",
+    "prefecture": "長野県",
+    "parent_city_code": null,
+    "matched_codes": [
+     "20350"
+    ]
+   },
+   "municipality_reason": null,
+   "documents": 49,
+   "documents_by_code": {
+    "20350": 49
+   },
+   "obsidian_title_count": 15,
+   "obsidian_titles": [
+    {
+     "title": "鷹山遺跡群 / takayamaisekigun",
+     "url": "https://sitereports.nabunken.go.jp/7624"
+    },
+    {
+     "title": "鷹山遺跡群 / takayamaisekigun",
+     "url": "https://sitereports.nabunken.go.jp/7337"
+    },
+    {
+     "title": "長野県黒耀石原産地遺跡分布調査報告書 / naganokenkokuyousekigensanchiisekibumpuchousahoukokusho",
+     "url": "https://sitereports.nabunken.go.jp/8243"
+    },
+    {
+     "title": "鷹山遺跡群 / takayamaisekigun",
+     "url": "https://sitereports.nabunken.go.jp/7428"
+    },
+    {
+     "title": "鷹山遺跡群 / takayamaisekigun",
+     "url": "https://sitereports.nabunken.go.jp/59876"
+    },
+    {
+     "title": "長野県黒耀石原産地遺跡分布調査報告書 / naganokenkokuyousekigensanchiisekibumpuchousahoukokusho",
+     "url": "https://sitereports.nabunken.go.jp/59883"
+    },
+    {
+     "title": "鷹山遺跡群 / takayamaisekigun",
+     "url": "https://sitereports.nabunken.go.jp/60043"
+    },
+    {
+     "title": "和田村の黒耀石をめぐる課題 / wadamura no kokuyouseki o meguru kadai",
+     "url": "https://sitereports.nabunken.go.jp/88163"
+    },
+    {
+     "title": "男女倉付近の黒耀石と上部更新統",
+     "url": "https://sitereports.nabunken.go.jp/article/615"
+    },
+    {
+     "title": "男女倉遺跡出土の黒耀石製遺物の石材産地分析",
+     "url": "https://sitereports.nabunken.go.jp/article/616"
+    },
+    {
+     "title": "黒耀石製遺物の過少地域と黒耀石原産地 北陸の事例を中心に",
+     "url": "https://sitereports.nabunken.go.jp/article/618"
+    },
+    {
+     "title": "黒耀石の近距離・遠距離移動の接点",
+     "url": "https://sitereports.nabunken.go.jp/article/619"
+    }
+   ]
+  },
+  {
+   "id": "OBS-HIMESHIMA",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 33.73194,
+    "longitude": 131.642758,
+    "muniCd": null
+   },
+   "municipality": null,
+   "municipality_reason": "国土地理院の逆ジオコーダがこの地点を陸上と判定しない(応答が空)。市町村を推測で埋めない",
+   "documents": null,
+   "documents_by_code": null,
+   "obsidian_title_count": null,
+   "obsidian_titles": []
+  },
+  {
+   "id": "OBS-ONBASE",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 34.186981,
+    "longitude": 139.076481,
+    "muniCd": "13364"
+   },
+   "municipality": {
+    "code": "13364",
+    "name": "神津島村",
+    "prefecture": "東京都",
+    "parent_city_code": null,
+    "matched_codes": [
+     "13364"
+    ]
+   },
+   "municipality_reason": null,
+   "documents": 1,
+   "documents_by_code": {
+    "13364": 1
+   },
+   "obsidian_title_count": 0,
+   "obsidian_titles": []
+  },
+  {
+   "id": "OBS-SANUKAZAKI",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 34.204619,
+    "longitude": 139.175231,
+    "muniCd": "13364"
+   },
+   "municipality": {
+    "code": "13364",
+    "name": "神津島村",
+    "prefecture": "東京都",
+    "parent_city_code": null,
+    "matched_codes": [
+     "13364"
+    ]
+   },
+   "municipality_reason": null,
+   "documents": 1,
+   "documents_by_code": {
+    "13364": 1
+   },
+   "obsidian_title_count": 0,
+   "obsidian_titles": []
+  },
+  {
+   "id": "OBS-HATAJUKU",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 35.205265,
+    "longitude": 139.056259,
+    "muniCd": "14382"
+   },
+   "municipality": {
+    "code": "14382",
+    "name": "箱根町",
+    "prefecture": "神奈川県",
+    "parent_city_code": null,
+    "matched_codes": [
+     "14382"
+    ]
+   },
+   "municipality_reason": null,
+   "documents": 15,
+   "documents_by_code": {
+    "14382": 15
+   },
+   "obsidian_title_count": 0,
+   "obsidian_titles": []
+  },
+  {
+   "id": "OBS-WADATOGE",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 36.145062,
+    "longitude": 138.14385,
+    "muniCd": "20361"
+   },
+   "municipality": {
+    "code": "20361",
+    "name": "下諏訪町",
+    "prefecture": "長野県",
+    "parent_city_code": null,
+    "matched_codes": [
+     "20361"
+    ]
+   },
+   "municipality_reason": null,
+   "documents": 22,
+   "documents_by_code": {
+    "20361": 22
+   },
+   "obsidian_title_count": 5,
+   "obsidian_titles": [
+    {
+     "title": "黒曜石原産地遺跡分布調査報告書 / kokuyousekigensanchiisekibumpuchousahoukokusho",
+     "url": "https://sitereports.nabunken.go.jp/8506"
+    },
+    {
+     "title": "長野県下諏訪町黒耀石原産地遺跡分布調査報告書 / naganokenshimosuwamachikokuyousekigensanchiisekibumpuchousahoukokusho",
+     "url": "https://sitereports.nabunken.go.jp/59895"
+    },
+    {
+     "title": "星ヶ塔黒曜石原産地遺跡 / hoshigatoukokuyousekigensanchiiseki",
+     "url": "https://sitereports.nabunken.go.jp/60044"
+    },
+    {
+     "title": "黒曜石原産地遺跡分布調査報告書 / kokuyouseki gensanchi iseki bumpu chousa houkokusho",
+     "url": "https://sitereports.nabunken.go.jp/88101"
+    },
+    {
+     "title": "黒曜石原産地の鉱山化について",
+     "url": "https://sitereports.nabunken.go.jp/article/597"
+    }
+   ]
+  },
+  {
+   "id": "OBS-HIGASHIMOCHIYA",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 36.15115,
+    "longitude": 138.146042,
+    "muniCd": "20350"
+   },
+   "municipality": {
+    "code": "20350",
+    "name": "長和町",
+    "prefecture": "長野県",
+    "parent_city_code": null,
+    "matched_codes": [
+     "20350"
+    ]
+   },
+   "municipality_reason": null,
+   "documents": 49,
+   "documents_by_code": {
+    "20350": 49
+   },
+   "obsidian_title_count": 15,
+   "obsidian_titles": [
+    {
+     "title": "鷹山遺跡群 / takayamaisekigun",
+     "url": "https://sitereports.nabunken.go.jp/7624"
+    },
+    {
+     "title": "鷹山遺跡群 / takayamaisekigun",
+     "url": "https://sitereports.nabunken.go.jp/7337"
+    },
+    {
+     "title": "長野県黒耀石原産地遺跡分布調査報告書 / naganokenkokuyousekigensanchiisekibumpuchousahoukokusho",
+     "url": "https://sitereports.nabunken.go.jp/8243"
+    },
+    {
+     "title": "鷹山遺跡群 / takayamaisekigun",
+     "url": "https://sitereports.nabunken.go.jp/7428"
+    },
+    {
+     "title": "鷹山遺跡群 / takayamaisekigun",
+     "url": "https://sitereports.nabunken.go.jp/59876"
+    },
+    {
+     "title": "長野県黒耀石原産地遺跡分布調査報告書 / naganokenkokuyousekigensanchiisekibumpuchousahoukokusho",
+     "url": "https://sitereports.nabunken.go.jp/59883"
+    },
+    {
+     "title": "鷹山遺跡群 / takayamaisekigun",
+     "url": "https://sitereports.nabunken.go.jp/60043"
+    },
+    {
+     "title": "和田村の黒耀石をめぐる課題 / wadamura no kokuyouseki o meguru kadai",
+     "url": "https://sitereports.nabunken.go.jp/88163"
+    },
+    {
+     "title": "男女倉付近の黒耀石と上部更新統",
+     "url": "https://sitereports.nabunken.go.jp/article/615"
+    },
+    {
+     "title": "男女倉遺跡出土の黒耀石製遺物の石材産地分析",
+     "url": "https://sitereports.nabunken.go.jp/article/616"
+    },
+    {
+     "title": "黒耀石製遺物の過少地域と黒耀石原産地 北陸の事例を中心に",
+     "url": "https://sitereports.nabunken.go.jp/article/618"
+    },
+    {
+     "title": "黒耀石の近距離・遠距離移動の接点",
+     "url": "https://sitereports.nabunken.go.jp/article/619"
+    }
+   ]
+  },
+  {
+   "id": "OBS-TSUMETAYAMA",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 36.043742,
+    "longitude": 138.329947,
+    "muniCd": "20214"
+   },
+   "municipality": {
+    "code": "20214",
+    "name": "茅野市",
+    "prefecture": "長野県",
+    "parent_city_code": null,
+    "matched_codes": [
+     "20214"
+    ]
+   },
+   "municipality_reason": null,
+   "documents": 164,
+   "documents_by_code": {
+    "20214": 164
+   },
+   "obsidian_title_count": 0,
+   "obsidian_titles": []
+  },
+  {
+   "id": "OBS-AMAYUZAWA",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 36.965833,
+    "longitude": 139.828324,
+    "muniCd": "09213"
+   },
+   "municipality": {
+    "code": "09213",
+    "name": "那須塩原市",
+    "prefecture": "栃木県",
+    "parent_city_code": null,
+    "matched_codes": [
+     "09213"
+    ]
+   },
+   "municipality_reason": null,
+   "documents": 3,
+   "documents_by_code": {
+    "09213": 3
+   },
+   "obsidian_title_count": 0,
+   "obsidian_titles": []
+  },
+  {
+   "id": "OBS-KASHIWATOGE",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 34.964057,
+    "longitude": 139.053689,
+    "muniCd": "22208"
+   },
+   "municipality": {
+    "code": "22208",
+    "name": "伊東市",
+    "prefecture": "静岡県",
+    "parent_city_code": null,
+    "matched_codes": [
+     "22208"
+    ]
+   },
+   "municipality_reason": null,
+   "documents": 22,
+   "documents_by_code": {
+    "22208": 22
+   },
+   "obsidian_title_count": 0,
+   "obsidian_titles": []
+  },
+  {
+   "id": "OBS-OKETO",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 43.697675,
+    "longitude": 143.555231,
+    "muniCd": "01550"
+   },
+   "municipality": {
+    "code": "01550",
+    "name": "置戸町",
+    "prefecture": "北海道",
+    "parent_city_code": null,
+    "matched_codes": [
+     "01550"
+    ]
+   },
+   "municipality_reason": null,
+   "documents": 0,
+   "documents_by_code": {
+    "01550": 0
+   },
+   "obsidian_title_count": 0,
+   "obsidian_titles": []
+  },
+  {
+   "id": "OBS-SHIRATAKI",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 43.880165,
+    "longitude": 143.177521,
+    "muniCd": "01555"
+   },
+   "municipality": {
+    "code": "01555",
+    "name": "遠軽町",
+    "prefecture": "北海道",
+    "parent_city_code": null,
+    "matched_codes": [
+     "01555"
+    ]
+   },
+   "municipality_reason": null,
+   "documents": 20,
+   "documents_by_code": {
+    "01555": 20
+   },
+   "obsidian_title_count": 0,
+   "obsidian_titles": []
+  },
+  {
+   "id": "OBS-AKIU",
+   "source_id": "SRC-NABUNKEN",
+   "municipality_provenance": {
+    "method": "gsi_reverse_geocoder",
+    "latitude": 38.230324,
+    "longitude": 140.696152,
+    "muniCd": "04104"
+   },
+   "municipality": {
+    "code": "04104",
+    "name": "仙台市 太白区",
+    "prefecture": "宮城県",
+    "parent_city_code": "04100",
+    "matched_codes": [
+     "04104",
+     "04100"
+    ]
+   },
+   "municipality_reason": null,
+   "documents": 885,
+   "documents_by_code": {
+    "04104": 0,
+    "04100": 885
+   },
+   "obsidian_title_count": 0,
+   "obsidian_titles": []
+  }
+ ]
+}

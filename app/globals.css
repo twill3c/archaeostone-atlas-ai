@@ -616,6 +616,87 @@ body {
   transform: scale(1.35);
 }
 
+/* 県別ヒスイ集計の札(F-06)。原産地の標と形も色も変える —— 同じ地図の別の層だと
+ * 一目で分かるように。**クリックを受けない**(原産地の標を遮らない)。 */
+.map-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 3px;
+  background: var(--bg-panel);
+  border: 1px solid var(--ev-b);
+  color: var(--ink);
+  font-size: 0.72rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+}
+
+.map-chip__name {
+  color: var(--ink-muted);
+}
+
+.map-chip__value {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  color: var(--ev-b);
+}
+
+.jade-layer {
+  margin-top: 1.1rem;
+}
+
+.jade-layer__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.jade-layer__table th,
+.jade-layer__table td {
+  padding: 0.2rem 0.3rem;
+  border-bottom: 1px solid var(--rule);
+  text-align: left;
+  font-weight: normal;
+}
+
+.jade-layer__table thead th {
+  color: var(--ink-faint);
+  font-size: 0.74rem;
+}
+
+.jade-layer__table td.num {
+  text-align: right;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.visually-muted {
+  opacity: 0.85;
+}
+
+/* Stone Passport の「当該市町村の文献」(F-07) */
+.passport-docs p {
+  margin: 0 0 0.3rem;
+}
+
+.passport-docs .num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.passport-docs__note {
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+}
+
+.passport-docs .passport__citations li {
+  margin-bottom: 0.2rem;
+}
+
 .atlas-map__panel {
   grid-column: 1 / -1;
   position: relative;

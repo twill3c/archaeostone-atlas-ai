@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import maplibregl, { type Map as MapLibreMap } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { geologyColour, type SourceArea } from "@/lib/data/atlas";
+import type { AreaDocuments, JadePrefectureLabel } from "@/lib/data/mapLayers";
 import { clusterBounds, clusterByScreenDistance } from "@/lib/cluster";
 
 /**
@@ -34,13 +35,24 @@ const CLUSTER_THRESHOLD_PX = 22;
 
 interface Props {
   sourceAreas: SourceArea[];
+  jadeLabels: JadePrefectureLabel[];
+  jadePositionNote: string;
+  areaDocuments: Record<string, AreaDocuments>;
+  documentsScope: string;
 }
 
-export default function AtlasMap({ sourceAreas }: Props) {
+export default function AtlasMap({
+  sourceAreas,
+  jadeLabels,
+  jadePositionNote,
+  areaDocuments,
+  documentsScope,
+}: Props) {
   const container = useRef<HTMLDivElement | null>(null);
   const map = useRef<MapLibreMap | null>(null);
   const [geologyVisible, setGeologyVisible] = useState(true);
   const [geologyOpacity, setGeologyOpacity] = useState(0.55);
+  const [jadeVisible, setJadeVisible] = useState(false);
   const [selected, setSelected] = useState<SourceArea | null>(null);
   const [ready, setReady] = useState(false);
 
@@ -176,6 +188,34 @@ export default function AtlasMap({ sourceAreas }: Props) {
     };
   }, [ready, sourceAreas]);
 
+  // 県別ヒスイ集計の札(F-06)。**位置は県庁舎で、出土地点ではない。**
+  // 数は集成表の行数(出土の記録の数)であって点数ではない —— 点数は 4 県で記録が無い。
+  // 札はクリックを受けない(原産地の標を遮らない)。詳しい数は左の表にある。
+  useEffect(() => {
+    if (!ready || !map.current || !jadeVisible) return;
+    const instance = map.current;
+    const markers = jadeLabels.map((label) => {
+      const element = document.createElement("div");
+      element.className = "map-chip map-chip--jade";
+      element.setAttribute("role", "img");
+      element.setAttribute(
+        "aria-label",
+        `${label.sheet} のヒスイ出土の記録 ${label.rows} 件(位置は県庁舎で、出土地点ではない)`,
+      );
+      const name = document.createElement("span");
+      name.className = "map-chip__name";
+      name.textContent = label.name_ja;
+      const value = document.createElement("span");
+      value.className = "map-chip__value";
+      value.textContent = String(label.rows);
+      element.append(name, value);
+      return new maplibregl.Marker({ element, anchor: "bottom" })
+        .setLngLat([label.longitude, label.latitude])
+        .addTo(instance);
+    });
+    return () => markers.forEach((marker) => marker.remove());
+  }, [ready, jadeVisible, jadeLabels]);
+
   useEffect(() => {
     if (!ready || !map.current) return;
     map.current.setLayoutProperty(
@@ -196,6 +236,7 @@ export default function AtlasMap({ sourceAreas }: Props) {
         <h2>レイヤー</h2>
         <label className="control-row">
           <input
+            id="layer-geology"
             type="checkbox"
             checked={geologyVisible}
             onChange={(event) => setGeologyVisible(event.target.checked)}
@@ -208,6 +249,7 @@ export default function AtlasMap({ sourceAreas }: Props) {
             <span className="mono">{Math.round(geologyOpacity * 100)}%</span>
           </span>
           <input
+            id="layer-geology-opacity"
             type="range"
             min={0}
             max={1}
@@ -216,6 +258,15 @@ export default function AtlasMap({ sourceAreas }: Props) {
             disabled={!geologyVisible}
             onChange={(event) => setGeologyOpacity(Number(event.target.value))}
           />
+        </label>
+        <label className="control-row">
+          <input
+            id="layer-jade"
+            type="checkbox"
+            checked={jadeVisible}
+            onChange={(event) => setJadeVisible(event.target.checked)}
+          />
+          <span>ヒスイ集計(県別の記録数)</span>
         </label>
 
         <h2>凡例</h2>
@@ -242,6 +293,10 @@ export default function AtlasMap({ sourceAreas }: Props) {
           標の色は<strong>足もとの地質の大分類</strong>である。
           一覧と根拠は「原産地」の頁にある。
         </p>
+
+        {jadeVisible && (
+          <JadeTable labels={jadeLabels} positionNote={jadePositionNote} />
+        )}
       </div>
 
       <div className="atlas-map__canvas" ref={container} />
@@ -256,14 +311,73 @@ export default function AtlasMap({ sourceAreas }: Props) {
           >
             ×
           </button>
-          <StonePassport area={selected} />
+          <StonePassport
+            area={selected}
+            documents={areaDocuments[selected.id] ?? null}
+            documentsScope={documentsScope}
+          />
         </aside>
       )}
     </div>
   );
 }
 
-function StonePassport({ area }: { area: SourceArea }) {
+function JadeTable({
+  labels,
+  positionNote,
+}: {
+  labels: JadePrefectureLabel[];
+  positionNote: string;
+}) {
+  return (
+    <div className="jade-layer">
+      <h2>ヒスイ集計</h2>
+      <p className="legend__note">
+        <strong>札の位置は県庁舎で、出土地点ではない。</strong>
+        数は糸魚川市の集成表の行数(出土の記録の数)。点数の欄が空の県は、点数が
+        <strong>不明</strong>であって 0 点ではない。
+      </p>
+      <table className="jade-layer__table">
+        <thead>
+          <tr>
+            <th scope="col">県</th>
+            <th scope="col">記録</th>
+            <th scope="col">点数</th>
+          </tr>
+        </thead>
+        <tbody>
+          {labels.map((label) => (
+            <tr key={label.id}>
+              <th scope="row">{label.sheet}</th>
+              <td className="num">{label.rows}</td>
+              <td className="num">
+                {label.rows_with_count === 0 ? "不明" : label.recorded_pieces.toLocaleString("ja-JP")}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      {labels
+        .filter((label) => label.scope_note)
+        .map((label) => (
+          <p key={label.id} className="legend__note">
+            {label.scope_note}
+          </p>
+        ))}
+      <p className="legend__note visually-muted">{positionNote}</p>
+    </div>
+  );
+}
+
+function StonePassport({
+  area,
+  documents,
+  documentsScope,
+}: {
+  area: SourceArea;
+  documents: AreaDocuments | null;
+  documentsScope: string;
+}) {
   const provenance = area.coordinate_provenance;
   return (
     <div className="passport">
@@ -327,9 +441,72 @@ function StonePassport({ area }: { area: SourceArea }) {
             ))}
           </ul>
         </dd>
+
+        <dt>当該市町村の文献</dt>
+        <dd>
+          <PassportDocuments documents={documents} scope={documentsScope} />
+        </dd>
       </dl>
 
       {area.note && <p className="passport__note">{area.note}</p>}
+    </div>
+  );
+}
+
+function PassportDocuments({
+  documents,
+  scope,
+}: {
+  documents: AreaDocuments | null;
+  scope: string;
+}) {
+  if (documents === null) {
+    return <span className="passport__absent">この原産地の集計が無い</span>;
+  }
+  const { municipality } = documents;
+  if (municipality === null) {
+    return <span className="passport__absent">{documents.municipality_reason}</span>;
+  }
+
+  const byCityOnly =
+    municipality.parent_city_code !== null &&
+    (documents.documents_by_code?.[municipality.code] ?? 0) === 0;
+
+  return (
+    <div className="passport-docs">
+      <p>
+        {municipality.prefecture} {municipality.name}:{" "}
+        全国遺跡報告総覧の報告書 <strong className="num">{documents.documents?.toLocaleString("ja-JP")}</strong> 件
+      </p>
+      {byCityOnly && (
+        <p className="passport-docs__note">
+          索引は区ではなく市(コード {municipality.parent_city_code})で持っているので、市全体の件数である。
+        </p>
+      )}
+      {documents.obsidian_title_count ? (
+        <>
+          <p>
+            うち題名に黒曜石の語を含むもの{" "}
+            <strong className="num">{documents.obsidian_title_count}</strong> 件
+          </p>
+          <ul className="passport__citations">
+            {documents.obsidian_titles.map((doc, index) => (
+              <li key={`${doc.url ?? doc.title}-${index}`}>
+                {doc.url ? (
+                  <a href={doc.url} target="_blank" rel="noreferrer">
+                    {doc.title}
+                  </a>
+                ) : (
+                  doc.title
+                )}
+              </li>
+            ))}
+          </ul>
+        </>
+      ) : (
+        <p className="passport-docs__note">題名に黒曜石の語を含む報告書は無い。</p>
+      )}
+      <p className="passport-docs__note">{scope}</p>
     </div>
   );
 }
